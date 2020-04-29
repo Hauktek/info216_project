@@ -1,9 +1,0 @@
-@prefix ns1: <https://schema.org/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-<http://example.org/110b23cb3bdf6d0f0fcb3a4bec10c012931bf820> a <http://example.org/NewsArticle> ;
-    ns1:URL "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-lowers-position-in-emergent-biosolutions-inc-nyseebs.html"^^xsd:anyURI ;
-    ns1:datePublished "2020-03-22T16:16:00+02:00"^^xsd:dateTime .
-
-ns1:datePublished ns1:DataType ns1:DateTime .
-
