@@ -19,6 +19,4 @@ class Finder:
         day = self.dateTime.strftime('%d')
         return day
 
-
     
- 

@@ -2,6 +2,7 @@ from rdflib import Graph, Namespace, Literal, URIRef
 from rdflib.namespace import RDF, FOAF, XSD, RDFS
 import json
 from timeFinder import Finder
+from textAnalyzer import Analyzer
 
 g = Graph()
 ex = Namespace('http://example.org/')
@@ -17,6 +18,7 @@ for article in data['posts']:
     subject = article['uuid']
 
     timeFinder = Finder(thread['published'])
+    textAnalyzer = Analyzer(article['text'])
 
     g.add((URIRef(ex + subject), RDF.type, schema.NewsArticle))
 
@@ -26,7 +28,9 @@ for article in data['posts']:
 
     #g.add((URIRef(ex + subject), schema.articleBody, Literal(article['text'], datatype=XSD.string)))
 
-    #g.add((URIRef(ex + subject), schema.wordCount, Literal(, datatype=XSD.integer)))
+    g.add((URIRef(ex + subject), schema.wordCount, Literal(textAnalyzer.findWordCount(), datatype=XSD.integer)))
+    g.add((URIRef(ex + subject), ex.uniqueTypes, Literal(textAnalyzer.findUniqueTypes(), datatype=XSD.integer)))
+    g.add((URIRef(ex + subject), ex.typeTokenRatio, Literal(textAnalyzer.findTypeTokenRatio(), datatype=XSD.float)))
 
     if article['author'] != '':
         g.add((URIRef(ex + subject), schema.author, Literal(article['author'], datatype=XSD.string)))
