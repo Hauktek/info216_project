@@ -1,13 +1,14 @@
 from rdflib import Graph, Namespace, Literal, URIRef
 from rdflib.namespace import RDF, FOAF, XSD, RDFS
 import json
+import pycountry
 from timeFinder import Finder
 from textAnalyzer import Analyzer
 
 g = Graph()
 ex = Namespace('http://example.org/')
 schema = Namespace('https://schema.org/')
-
+dbp = "https://dbpedia.org/resource/"
 
 with open('data/nyhetsartikler.json', encoding="utf8") as json_file:
     data = json.load(json_file)
@@ -39,13 +40,13 @@ for article in data['posts']:
         g.add((URIRef(ex + subject), schema.headline, Literal(thread['title_full'], datatype=XSD.string)))
 
     if thread['country'] != '':
-        g.add((URIRef(ex + subject), schema.countryOfOrigin, URIRef(ex + thread['country'])))
+        country = pycountry.countries.get(alpha_2=thread['country'])
+        g.add((URIRef(ex + subject), schema.countryOfOrigin, URIRef(dbp + country.name.replace(" ", "_"))))
 
     if article['language'] != '':
-        g.add((URIRef(ex + subject), schema.inLanguage, URIRef(ex + article['language'])))
+        g.add((URIRef(ex + subject), schema.inLanguage, URIRef(dbp + article['language'].capitalize())))
 
     g.add((URIRef(ex + subject), schema.datePublished, Literal(thread['published'], datatype=XSD.dateTime)))
-
     g.add((URIRef(ex + subject), ex.yearPublished, Literal(timeFinder.findYear(), datatype=XSD.gYear)))
     g.add((URIRef(ex + subject), ex.monthPublished, Literal(timeFinder.findMonth(), datatype=XSD.gMonth)))
     g.add((URIRef(ex + subject), ex.dayPublished, Literal(timeFinder.findDay(), datatype=XSD.gDay)))
@@ -57,7 +58,7 @@ for article in data['posts']:
     for category in thread['site_categories']:
         g.add((URIRef(ex + subject), ex.category, Literal(thread['site_categories'])))
 
-        g.add((URIRef(ex + subject), ex.sectionTitle, Literal(thread['section_title'])))
+        g.add((URIRef(ex + subject), ex.sectionTitle, Literal(thread['section_title'], datatype=XSD.string)))
 
         #g.add((Literal(thread['site_full']), ex.siteType, Literal(thread['site_type']) ))
 
@@ -76,9 +77,6 @@ for article in data['posts']:
  
 
 print(g.serialize(format="turtle").decode())
-
-
-
 
 g.serialize(destination="example.ttl", format="turtle")
 
