@@ -1,0 +1,2176 @@
+@prefix dbp: <https://dbpedia.org/resource/> .
+@prefix ex: <http://example.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:004aefde22fe7e0b4280e34862f79fe545c5e365 a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Raises Stake in Columbia Property Trust (NYSE:CXP)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "columbia property trust",
+        "first trust advisors lp",
+        "marshall wace llp",
+        "marshall wace north america l.p.",
+        "nyse",
+        "sec",
+        "securities and exchange commission",
+        "sg americas securities llc" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "39.2"^^xsd:float ;
+    ex:uniqueTypes 381 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Raises Stake in Columbia Property Trust (NYSE:CXP)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-raises-stake-in-columbia-property-trust-nysecxp.html"^^xsd:anyURI ;
+    schema:wordCount 972 .
+
+ex:006a6a2490d88c977d4835cf290b477dd69b28c5 a schema:NewsArticle ;
+    rdfs:label "Mitsubishi UFJ Trust & Banking Corp Grows Holdings in Corporate Office Properties Trust (NYSE:OFC)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "corporate office properties trust",
+        "first trust advisors lp",
+        "mitsubishi ufj trust & banking corp",
+        "mitsubishi ufj trust & banking corp grows holdings in corporate office properties trust",
+        "nyse",
+        "ofc",
+        "securities and exchange commission",
+        "state street corp" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "39.57"^^xsd:float ;
+    ex:uniqueTypes 427 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Mitsubishi UFJ Trust & Banking Corp Grows Holdings in Corporate Office Properties Trust (NYSE:OFC)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-grows-holdings-in-corporate-office-properties-trust-nyseofc.html"^^xsd:anyURI ;
+    schema:wordCount 1079 .
+
+ex:00c859d0238db906842958f2a2a4f731831e81a5 a schema:NewsArticle ;
+    rdfs:label "Food for Thought during a Pandemic"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "51.72"^^xsd:float ;
+    ex:uniqueTypes 465 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Jia Ming"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T17:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Food for Thought during a Pandemic"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://jiamingjam.wordpress.com/2020/03/22/food-for-thought-during-a-pandemic/"^^xsd:anyURI ;
+    schema:wordCount 899 .
+
+ex:01b2e7d47de3cf7efcdcee0197533d5c31a2450d a schema:NewsArticle ;
+    rdfs:label "Mitsubishi UFJ Trust & Banking Corp Buys 15,100 Shares of CMS Energy Co. (NYSE:CMS)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "cms",
+        "cms energy",
+        "cms energy co.",
+        "cnb bank",
+        "mitsubishi ufj trust & banking corp",
+        "northrock partners llc",
+        "nyse",
+        "rockefeller capital management l.p.",
+        "sec" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "43.47"^^xsd:float ;
+    ex:uniqueTypes 373 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "Mitsubishi UFJ Trust & Banking Corp Buys 15,100 Shares of CMS Energy Co. (NYSE:CMS)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-buys-15100-shares-of-cms-energy-co-nysecms.html"^^xsd:anyURI ;
+    schema:wordCount 858 .
+
+ex:04778fcfa129411e2cd64beeb5e4c92722e03cf0 a schema:NewsArticle ;
+    rdfs:label "155,557 Shares in Square, Inc. (NYSE:SQ) Purchased by Marshall Wace LLP"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "square" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "acadian asset management llc",
+        "americana partners llc",
+        "harel insurance investments & financial services ltd.",
+        "inc.",
+        "marshall wace llp marshall wace llp",
+        "s.a. mason llc",
+        "securities & exchange commission",
+        "square, inc.",
+        "stonebridge financial planning group llc" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "44.61"^^xsd:float ;
+    ex:uniqueTypes 368 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "155,557 Shares in Square, Inc. (NYSE:SQ) Purchased by Marshall Wace LLP"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/155557-shares-in-square-inc-nysesq-purchased-by-marshall-wace-llp.html"^^xsd:anyURI ;
+    schema:wordCount 825 .
+
+ex:0b742b314d9de8033183d5f0a114d1bf1d3f6768 a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Has $10.11 Million Position in Carnival plc (NYSE:CUK)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "carnival plc",
+        "goldman sachs group inc.",
+        "marshall wace llp",
+        "marshall wace north america l.p.",
+        "nyse",
+        "sec",
+        "securities and exchange commission",
+        "todd asset management llc" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "46.58"^^xsd:float ;
+    ex:uniqueTypes 286 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Has $10.11 Million Position in Carnival plc (NYSE:CUK)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-has-10-11-million-position-in-carnival-plc-nysecuk.html"^^xsd:anyURI ;
+    schema:wordCount 614 .
+
+ex:0ece3ede51ebeda7de08d303b3a3c0ca10188abe a schema:NewsArticle ;
+    rdfs:label "Janata Curfew: Complete voluntary shut down in Telangana"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "hyderabad",
+        "telangana hyderabad",
+        "telangana state" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "janata curfew",
+        "telangana state" ;
+    ex:person "k chandrashekhar rao",
+        "narendra modi" ;
+    ex:sectionTitle "Latest Telangana News, Headlines and Live Updates - Telangana Today"^^xsd:string ;
+    ex:typeTokenRatio "58.64"^^xsd:float ;
+    ex:uniqueTypes 285 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "TelanganaToday"^^xsd:string ;
+    schema:countryOfOrigin dbp:India ;
+    schema:datePublished "2020-03-22T02:00:00+02:00"^^xsd:dateTime ;
+    schema:headline "Janata Curfew: Complete voluntary shut down in Telangana"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://telanganatoday.com/janata-curfew-complete-voluntary-shut-down-in-telangana"^^xsd:anyURI ;
+    schema:wordCount 486 .
+
+ex:110b23cb3bdf6d0f0fcb3a4bec10c012931bf820 a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Lowers Position in Emergent Biosolutions Inc (NYSE:EBS)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "michigan" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "comerica bank",
+        "emergent biosolutions inc",
+        "marshall wace llp",
+        "marshall wace llp lowers position in emergent biosolutions inc",
+        "sec" ;
+    ex:person "zurcher kantonalbank zurich cantonalb" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "44.26"^^xsd:float ;
+    ex:uniqueTypes 370 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:16:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Lowers Position in Emergent Biosolutions Inc (NYSE:EBS)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-lowers-position-in-emergent-biosolutions-inc-nyseebs.html"^^xsd:anyURI ;
+    schema:wordCount 836 .
+
+ex:114763031e4e56c64fc5e11d1ca24e74eb9c11b7 a schema:NewsArticle ;
+    rdfs:label "Massachusetts Financial Services Co. MA Cuts Stock Holdings in DXC Technology Co (NYSE:DXC)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "ma" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "dnb asset management as",
+        "dxc technology",
+        "dxc technology co",
+        "fukoku mutual life insurance co",
+        "ma cuts stock holdings",
+        "massachusetts financial services co",
+        "securities & exchange commission" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "42.82"^^xsd:float ;
+    ex:uniqueTypes 349 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:16:00+02:00"^^xsd:dateTime ;
+    schema:headline "Massachusetts Financial Services Co. MA Cuts Stock Holdings in DXC Technology Co (NYSE:DXC)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/massachusetts-financial-services-co-ma-cuts-stock-holdings-in-dxc-technology-co-nysedxc.html"^^xsd:anyURI ;
+    schema:wordCount 815 .
+
+ex:125dda25b1977f087b911e3242c59c53b9663a6a a schema:NewsArticle ;
+    rdfs:label "A Biased View of Industrial Machinery Digest"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "53.88"^^xsd:float ;
+    ex:uniqueTypes 756 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:datePublished "2020-03-22T02:42:00+02:00"^^xsd:dateTime ;
+    schema:headline "A Biased View of Industrial Machinery Digest"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://emilionyrhd.alltdesign.com/a-biased-view-of-industrial-machinery-digest-15357042"^^xsd:anyURI ;
+    schema:wordCount 1403 .
+
+ex:16b190201721887694bceb04d0b040140e26c851 a schema:NewsArticle ;
+    rdfs:label "5 Simple Techniques For what is dropshipping"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "55.57"^^xsd:float ;
+    ex:uniqueTypes 324 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T11:41:00+02:00"^^xsd:dateTime ;
+    schema:headline "5 Simple Techniques For what is dropshipping"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://shop-online85146.fitnell.com/29712595/5-simple-techniques-for-what-is-dropshipping"^^xsd:anyURI ;
+    schema:wordCount 583 .
+
+ex:19374c77f58843f0fcd87153668471547e2fa208 a schema:NewsArticle ;
+    rdfs:label "Considerations To Know About third party shipping"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "52.1"^^xsd:float ;
+    ex:uniqueTypes 484 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:datePublished "2020-03-22T02:11:00+02:00"^^xsd:dateTime ;
+    schema:headline "Considerations To Know About third party shipping"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://elliotffbay.alltdesign.com/considerations-to-know-about-third-party-shipping-15356888"^^xsd:anyURI ;
+    schema:wordCount 929 .
+
+ex:1fc8a00f8fe97caca933171609e01921133ca94d a schema:NewsArticle ;
+    rdfs:label "Stock: [SAPNRG]: SAPURA ENERGY BHD | I3investor"^^xsd:string ;
+    ex:category "['investing', 'financial_news', 'finance']" ;
+    ex:dayPublished "20"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Stock: [SAPNRG]: SAPURA ENERGY BHD | I3investor"^^xsd:string ;
+    ex:typeTokenRatio "90.0"^^xsd:float ;
+    ex:uniqueTypes 18 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "tkl88"^^xsd:string ;
+    schema:countryOfOrigin dbp:Malaysia ;
+    schema:datePublished "2020-03-20T05:47:00+02:00"^^xsd:dateTime ;
+    schema:headline "Stock: [SAPNRG]: SAPURA ENERGY BHD | I3investor"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://klse.i3investor.com/servlets/forum/800002393.jsp?ftp=2211"^^xsd:anyURI ;
+    schema:wordCount 20 .
+
+ex:224b708000b5f476ede03193879888b5163ac01a a schema:NewsArticle ;
+    rdfs:label "Mitsubishi UFJ Trust & Banking Corp Buys 24,324 Shares of Jefferies Financial Group Inc (NYSE:JEF)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "hawaii" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "bank of hawaii",
+        "comerica bank",
+        "jef",
+        "jefferies financial group",
+        "jefferies financial group inc",
+        "mitsubishi ufj trust & banking corp",
+        "nyse",
+        "securities and exchange commission" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "43.3"^^xsd:float ;
+    ex:uniqueTypes 346 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "Mitsubishi UFJ Trust & Banking Corp Buys 24,324 Shares of Jefferies Financial Group Inc (NYSE:JEF)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-buys-24324-shares-of-jefferies-financial-group-inc-nysejef.html"^^xsd:anyURI ;
+    schema:wordCount 799 .
+
+ex:22a876d6e3b6e18020eea3583ea76f91a3cf9330 a schema:NewsArticle ;
+    rdfs:label "Mitsubishi UFJ Trust & Banking Corp Sells 4,027 Shares of Ameriprise Financial, Inc. (NYSE:AMP)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "ameriprise financial",
+        "ameriprise financial, inc.",
+        "amp",
+        "boston partners",
+        "mitsubishi ufj trust & banking corp",
+        "nyse",
+        "redpoint investment management pty ltd",
+        "securities & exchange commission" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "41.57"^^xsd:float ;
+    ex:uniqueTypes 414 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "Mitsubishi UFJ Trust & Banking Corp Sells 4,027 Shares of Ameriprise Financial, Inc. (NYSE:AMP)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-sells-4027-shares-of-ameriprise-financial-inc-nyseamp.html"^^xsd:anyURI ;
+    schema:wordCount 996 .
+
+ex:2395525da24ea967b372e6dca3d3c385e06199ad a schema:NewsArticle ;
+    rdfs:label "The Ultimate Guide to CBD Gummies"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "35.4"^^xsd:float ;
+    ex:uniqueTypes 772 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T11:27:00+02:00"^^xsd:dateTime ;
+    schema:headline "The Ultimate Guide to CBD Gummies"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://coppermountainhemp9.digiblogbox.com/16006296/the-ultimate-guide-to-cbd-gummies"^^xsd:anyURI ;
+    schema:wordCount 2181 .
+
+ex:24505e573d32eb5fb331f174d7690fc8d77fdfe9 a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Makes New Investment in MGM Growth Properties LLC (NYSE:MGP)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "brookfield public securities group llc",
+        "kayne anderson rudnick investment management llc",
+        "marshall wace llp",
+        "mgm growth properties",
+        "mgm growth properties llc",
+        "nyse",
+        "securities and exchange commission" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "39.85"^^xsd:float ;
+    ex:uniqueTypes 412 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Makes New Investment in MGM Growth Properties LLC (NYSE:MGP)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-makes-new-investment-in-mgm-growth-properties-llc-nysemgp.html"^^xsd:anyURI ;
+    schema:wordCount 1034 .
+
+ex:25a14a14a417c99938f70585c66f19de5d2b7f5a a schema:NewsArticle ;
+    rdfs:label "Mitsubishi UFJ Trust & Banking Corp Sells 11,860 Shares of Xilinx, Inc. (NASDAQ:XLNX)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "man group plc",
+        "mitsubishi ufj trust & banking corp",
+        "nomura holdings inc.",
+        "sec",
+        "xilinx",
+        "xilinx, inc." ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "43.33"^^xsd:float ;
+    ex:uniqueTypes 370 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Mitsubishi UFJ Trust & Banking Corp Sells 11,860 Shares of Xilinx, Inc. (NASDAQ:XLNX)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-sells-11860-shares-of-xilinx-inc-nasdaqxlnx.html"^^xsd:anyURI ;
+    schema:wordCount 854 .
+
+ex:26cb9b999d3ccf09651839343954de2db339b550 a schema:NewsArticle ;
+    rdfs:label "Carrots & Wine"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "60.0"^^xsd:float ;
+    ex:uniqueTypes 282 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "aspinalllucy"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T17:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Carrots & Wine"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://therelucanthousewife.wordpress.com/2020/03/22/carrots-wine/"^^xsd:anyURI ;
+    schema:wordCount 470 .
+
+ex:2f806f4da2b7cd358a76757268c851119b73e0ec a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Invests $10.83 Million in Plexus Corp. (NASDAQ:PLXS)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "129,170 shares of the technology company",
+        "goldman sachs group inc.",
+        "guggenheim capital llc",
+        "marshall wace llp",
+        "plexus corp.",
+        "sec",
+        "ubs group ag" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "44.36"^^xsd:float ;
+    ex:uniqueTypes 354 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Invests $10.83 Million in Plexus Corp. (NASDAQ:PLXS)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-invests-10-83-million-in-plexus-corp-nasdaqplxs.html"^^xsd:anyURI ;
+    schema:wordCount 798 .
+
+ex:31ffc0025a9626fce517a52268e6e7ec46f4ecb1 a schema:NewsArticle ;
+    rdfs:label "Nell’s Corner: Why “Game Changers” Needn’t Change Your Game"^^xsd:string ;
+    ex:category "['health']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "special forces" ;
+    ex:person "james",
+        "james wilks",
+        "nell" ;
+    ex:sectionTitle "The Paleo Diet®"^^xsd:string ;
+    ex:typeTokenRatio "52.1"^^xsd:float ;
+    ex:uniqueTypes 1078 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Nell Stephenson, B.S."^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T13:00:00+02:00"^^xsd:dateTime ;
+    schema:headline "Nell’s Corner: Why “Game Changers” Needn’t Change Your Game"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://thepaleodiet.com/nells-corner-game-changers-neednt-change-game/"^^xsd:anyURI ;
+    schema:wordCount 2069 .
+
+ex:33251c825c515db8022969bb69c0ea602261476e a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Raises Stake in KT Corp (NYSE:KT)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "atlas capital advisors llc",
+        "kt corp",
+        "marshall wace llp",
+        "migdal insurance & financial holdings ltd.",
+        "numerixs investment technologies inc",
+        "nyse",
+        "sec",
+        "squarepoint ops llc" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "52.28"^^xsd:float ;
+    ex:uniqueTypes 206 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Raises Stake in KT Corp (NYSE:KT)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-raises-stake-in-kt-corp-nysekt.html"^^xsd:anyURI ;
+    schema:wordCount 394 .
+
+ex:398b5dd8bb277c269de1a7607a7f86827512a6f7 a schema:NewsArticle ;
+    rdfs:label "Loomis Sayles & Co. L P Has $11.92 Million Stock Holdings in Meta Financial Group Inc. (NASDAQ:CASH)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "loomis sayles & co",
+        "meta fi",
+        "meta financial group",
+        "meta financial group inc.",
+        "million stock holdings in meta financial group inc.",
+        "no comments loomis sayles & co",
+        "penserra capital management llc",
+        "pnc financial services group inc.",
+        "sec",
+        "securities and exchange commission",
+        "tower research capital llc trc" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "43.79"^^xsd:float ;
+    ex:uniqueTypes 384 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Loomis Sayles & Co. L P Has $11.92 Million Stock Holdings in Meta Financial Group Inc. (NASDAQ:CASH)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/loomis-sayles-co-l-p-has-11-92-million-stock-holdings-in-meta-financial-group-inc-nasdaqcash.html"^^xsd:anyURI ;
+    schema:wordCount 877 .
+
+ex:3fddbbe2d4b470dd7b1f39adefa7006caa493ac4 a schema:NewsArticle ;
+    rdfs:label "Veeva Systems Inc (NYSE:VEEV) Shares Bought by Mitsubishi UFJ Trust & Banking Corp"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "mitsubishi ufj trust & banking corp",
+        "nyse",
+        "redpoint investment management pty ltd",
+        "securities & exchange commission",
+        "tower research capital llc trc",
+        "veeva systems",
+        "veeva systems inc",
+        "voya financial advisors inc." ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "41.33"^^xsd:float ;
+    ex:uniqueTypes 391 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "Veeva Systems Inc (NYSE:VEEV) Shares Bought by Mitsubishi UFJ Trust & Banking Corp"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/veeva-systems-inc-nyseveev-shares-bought-by-mitsubishi-ufj-trust-banking-corp.html"^^xsd:anyURI ;
+    schema:wordCount 946 .
+
+ex:427fb381ab711ad79c3d259b8b1067c71637d1e0 a schema:NewsArticle ;
+    rdfs:label "Disaster Capitalism Is All Millennials Have Ever Known — But Shopping Won’t Save Us Now"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "afghanistan",
+        "d.c.",
+        "iraq",
+        "new york city",
+        "vogue",
+        "washington" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:person "anna wintour",
+        "george w. bush",
+        "kristin iversen",
+        "michael bloomberg",
+        "sandy" ;
+    ex:sectionTitle "Refinery29"^^xsd:string ;
+    ex:typeTokenRatio "48.54"^^xsd:float ;
+    ex:uniqueTypes 748 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Kristin Iversen"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T14:00:00+02:00"^^xsd:dateTime ;
+    schema:headline "Disaster Capitalism Is All Millennials Have Ever Known — But Shopping Won’t Save Us Now"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.refinery29.com/en-us/2020/03/9582445/coronavirus-millennials-shopping-disaster-capitalism"^^xsd:anyURI ;
+    schema:wordCount 1541 .
+
+ex:4341b39fda6f6296d0b0e908e7e335c538a97ac5 a schema:NewsArticle ;
+    rdfs:label "Little Known Facts About what is dropshipping."^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "55.2"^^xsd:float ;
+    ex:uniqueTypes 324 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T11:22:00+02:00"^^xsd:dateTime ;
+    schema:headline "Little Known Facts About what is dropshipping."^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://collinzxsmf.digiblogbox.com/16006217/little-known-facts-about-what-is-dropshipping"^^xsd:anyURI ;
+    schema:wordCount 587 .
+
+ex:4361a222ae7054859d67684d061fbf5163b2f8f1 a schema:NewsArticle ;
+    rdfs:label "Stimulus checks: Congress 'very close' to deal on US coronavirus relief plan involving $1,200 per person, $3,000 for families | abc7ny.com"^^xsd:string ;
+    ex:category "['media', 'television', 'entertainment']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "us",
+        "washington" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "congress",
+        "house",
+        "u.s. treasury",
+        "white house" ;
+    ex:person "donald trump",
+        "mnuchin",
+        "steven mnuchin" ;
+    ex:sectionTitle "ABC7 Eyewitness News - WABC-TV New York"^^xsd:string ;
+    ex:typeTokenRatio "50.66"^^xsd:float ;
+    ex:uniqueTypes 695 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "abc7ny.com"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T15:43:00+02:00"^^xsd:dateTime ;
+    schema:headline "Stimulus checks: Congress 'very close' to deal on US coronavirus relief plan involving $1,200 per person, $3,000 for families | abc7ny.com"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://abc7ny.com/politics/congress-very-close-to-relief-plan-deal-involving-$1200-checks/6038483/"^^xsd:anyURI ;
+    schema:wordCount 1372 .
+
+ex:44abecde693a7db330ceb54ba4927f9d99d258d9 a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Boosts Holdings in Alexion Pharmaceuticals, Inc. (NASDAQ:ALXN)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "alexion pharmaceuticals",
+        "alexion pharmaceuticals, inc.",
+        "allred capital management llc",
+        "alxn",
+        "cwm llc",
+        "marshall wace llp",
+        "marshall wace llp boosts holdings",
+        "sec",
+        "securities and exchange commission",
+        "tci wealth advisors inc." ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "43.03"^^xsd:float ;
+    ex:uniqueTypes 364 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Boosts Holdings in Alexion Pharmaceuticals, Inc. (NASDAQ:ALXN)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-boosts-holdings-in-alexion-pharmaceuticals-inc-nasdaqalxn.html"^^xsd:anyURI ;
+    schema:wordCount 846 .
+
+ex:4a1945d531b96b10f57aa46b2dea683a13233128 a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Sells 150,720 Shares of United Technologies Co. (NYSE:UTX)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "cim llc",
+        "marshall wace llp",
+        "nyse",
+        "peninsula wealth llc",
+        "sec",
+        "securities and exchange commission",
+        "truewealth llc",
+        "united technologies",
+        "united technologies co." ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "40.99"^^xsd:float ;
+    ex:uniqueTypes 355 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Sells 150,720 Shares of United Technologies Co. (NYSE:UTX)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-sells-150720-shares-of-united-technologies-co-nyseutx.html"^^xsd:anyURI ;
+    schema:wordCount 866 .
+
+ex:4a2c568e1843eb38d45a4ccce06b63b2c4069a06 a schema:NewsArticle ;
+    rdfs:label "The Civilian Conservation Corps"^^xsd:string ;
+    ex:category "['non_standard_content']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "detroit",
+        "texas",
+        "united states" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "civilian conservation corps" ;
+    ex:person "franklin d. roosevelt",
+        "robert stone",
+        "roosevelt" ;
+    ex:sectionTitle "Top Documentary Films"^^xsd:string ;
+    ex:typeTokenRatio "62.59"^^xsd:float ;
+    ex:uniqueTypes 271 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "TDF"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T17:00:00+02:00"^^xsd:dateTime ;
+    schema:headline "The Civilian Conservation Corps"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://topdocumentaryfilms.com/civilian-conservation-corps/"^^xsd:anyURI ;
+    schema:wordCount 433 .
+
+ex:4adcc597d32050671aa3d1eab3bbc4b3cceda009 a schema:NewsArticle ;
+    rdfs:label "The best Side of best order fulfillment"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "45.74"^^xsd:float ;
+    ex:uniqueTypes 666 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:datePublished "2020-03-22T02:36:00+02:00"^^xsd:dateTime ;
+    schema:headline "The best Side of best order fulfillment"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://shoponline68910.alltdesign.com/the-best-side-of-best-order-fulfillment-15357019"^^xsd:anyURI ;
+    schema:wordCount 1456 .
+
+ex:4b2206c4c72632a63bcde35334c464853f372b3e a schema:NewsArticle ;
+    rdfs:label "Malaysia government should provide financial aid."^^xsd:string ;
+    ex:category "['non_standard_content', 'adult']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Kopitiam - Lowyat.NET"^^xsd:string ;
+    ex:typeTokenRatio "60.48"^^xsd:float ;
+    ex:uniqueTypes 280 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "CJ 1997"^^xsd:string ;
+    schema:countryOfOrigin dbp:Malaysia ;
+    schema:datePublished "2020-03-22T17:00:00+02:00"^^xsd:dateTime ;
+    schema:headline "Malaysia government should provide financial aid."^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://forum.lowyat.net/topic/4928826"^^xsd:anyURI ;
+    schema:wordCount 463 .
+
+ex:4b4a024336b5c5fef0c9378ff5265bc30143ea35 a schema:NewsArticle ;
+    rdfs:label "Mitsubishi UFJ Trust & Banking Corp Buys 8,117 Shares of Skyworks Solutions Inc (NASDAQ:SWKS)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "aviance capital partners llc",
+        "mitsubishi ufj trust & banking corp",
+        "securities and exchange commission",
+        "skyworks solutions",
+        "skyworks solutions inc",
+        "voya financial advisors inc." ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "42.28"^^xsd:float ;
+    ex:uniqueTypes 452 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "Mitsubishi UFJ Trust & Banking Corp Buys 8,117 Shares of Skyworks Solutions Inc (NASDAQ:SWKS)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-buys-8117-shares-of-skyworks-solutions-inc-nasdaqswks.html"^^xsd:anyURI ;
+    schema:wordCount 1069 .
+
+ex:4cc8f0541ab9eb941095cd253d0e78ba01f699df a schema:NewsArticle ;
+    rdfs:label "De Blasio: If Trump does not act on coronavirus outbreak, 'people will die' | Fox News"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "FOX News"^^xsd:string ;
+    ex:typeTokenRatio "95.0"^^xsd:float ;
+    ex:uniqueTypes 19 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "anonymous"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T12:42:00+02:00"^^xsd:dateTime ;
+    schema:headline "De Blasio: If Trump does not act on coronavirus outbreak, 'people will die' | Fox News"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.foxnews.com/politics/de-blasio-if-trump-does-not-act-people-will-die"^^xsd:anyURI ;
+    schema:wordCount 20 .
+
+ex:533214ae6cedaa7c04545db5582a66f81e76d0ee a schema:NewsArticle ;
+    rdfs:label "Real Estate Round-Up: It's a great time to sell"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "21"^^xsd:gDay ;
+    ex:location "arizona",
+        "california",
+        "fallbrook",
+        "florida",
+        "georgia",
+        "idaho",
+        "nevada",
+        "north",
+        "oregon",
+        "south carolina",
+        "tennessee",
+        "texas" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Village News - RSS Feed"^^xsd:string ;
+    ex:typeTokenRatio "54.97"^^xsd:float ;
+    ex:uniqueTypes 470 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-21T16:24:00+02:00"^^xsd:dateTime ;
+    schema:headline "Real Estate Round-Up: It's a great time to sell"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.villagenews.com/story/2020/03/19/community/real-estate-round-up-its-a-great-time-to-sell/59867.html"^^xsd:anyURI ;
+    schema:wordCount 855 .
+
+ex:536c825610fe701294fbb4bb850e50dfccf0f07a a schema:NewsArticle ;
+    rdfs:label "More than 200 colleges delay deposit deadlines as families face unprecedented economic uncertainty"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "chicago",
+        "massachusetts",
+        "washington" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "admissions community cultivating equity & peace today",
+        "gonzaga university",
+        "university of illinois",
+        "williams college" ;
+    ex:person "marie bigham" ;
+    ex:sectionTitle "Top Stories"^^xsd:string ;
+    ex:typeTokenRatio "31.97"^^xsd:float ;
+    ex:uniqueTypes 374 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:34:00+02:00"^^xsd:dateTime ;
+    schema:headline "More than 200 colleges delay deposit deadlines as families face unprecedented economic uncertainty"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.wbaltv.com/article/more-than-200-colleges-delay-deposit-deadlines-as-families-face-economic-uncertainty/31872145"^^xsd:anyURI ;
+    schema:wordCount 1170 .
+
+ex:53847ae8c5194bb8aa6c6cbc0dd9ed5c6fa3bfa6 a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Sells 296,826 Shares of salesforce.com, inc. (NYSE:CRM)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "marshall wace llp",
+        "nwk group inc.",
+        "nyse",
+        "old second national bank of aurora",
+        "sec",
+        "securities and exchange commission",
+        "sound income strategies llc" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "42.65"^^xsd:float ;
+    ex:uniqueTypes 360 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Sells 296,826 Shares of salesforce.com, inc. (NYSE:CRM)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-sells-296826-shares-of-salesforce-com-inc-nysecrm.html"^^xsd:anyURI ;
+    schema:wordCount 844 .
+
+ex:61275f23b536b8b19c8f4dcbc83ee9eb02cfc5c2 a schema:NewsArticle ;
+    rdfs:label "Top what is dropshipping Secrets"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "55.06"^^xsd:float ;
+    ex:uniqueTypes 321 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T11:23:00+02:00"^^xsd:dateTime ;
+    schema:headline "Top what is dropshipping Secrets"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://collinzxsmf.digiblogbox.com/16006237/top-what-is-dropshipping-secrets"^^xsd:anyURI ;
+    schema:wordCount 583 .
+
+ex:672fbdd1db04542541bb4106d351381ee5ad4c2b a schema:NewsArticle ;
+    rdfs:label "International Paper Co (NYSE:IP) Shares Bought by Mitsubishi UFJ Trust & Banking Corp"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "international paper co",
+        "maverick capital ltd.",
+        "mitsubishi ufj trust & banking corp",
+        "sec",
+        "skandinaviska enskilda banken ab" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "41.56"^^xsd:float ;
+    ex:uniqueTypes 421 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "International Paper Co (NYSE:IP) Shares Bought by Mitsubishi UFJ Trust & Banking Corp"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/international-paper-co-nyseip-shares-bought-by-mitsubishi-ufj-trust-banking-corp.html"^^xsd:anyURI ;
+    schema:wordCount 1013 .
+
+ex:6843d65b4c8bd3d3f74a9b9a55fed8762627ae91 a schema:NewsArticle ;
+    rdfs:label "Insiders Pull the Trigger on These 3 Stocks on the Cheap"^^xsd:string ;
+    ex:category "['investing', 'financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "us" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "goldman sachs",
+        "s&p" ;
+    ex:sectionTitle "Yahoo News - Latest News & Headlines"^^xsd:string ;
+    ex:typeTokenRatio "66.12"^^xsd:float ;
+    ex:uniqueTypes 441 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_Kingdom ;
+    schema:datePublished "2020-03-22T16:55:00+02:00"^^xsd:dateTime ;
+    schema:headline "Insiders Pull the Trigger on These 3 Stocks on the Cheap"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://finance.yahoo.com/news/insiders-pull-trigger-3-stocks-145552147.html"^^xsd:anyURI ;
+    schema:wordCount 667 .
+
+ex:6c6315b956b3db72a369acf1fb367b9e1b4e0e6e a schema:NewsArticle ;
+    rdfs:label "No shorter working hours for markets, it'll be business as usual: Sebi - The Economic Times"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "maharashtra",
+        "mumbai" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "bse",
+        "finance ministry",
+        "nse",
+        "sebi",
+        "securities and exchange board of ind" ;
+    ex:person "sebi",
+        "sebi mumbai",
+        "uddhav thackeray" ;
+    ex:sectionTitle "Business News Today | Live Updates: Latest India Business News, Economy and International Business News - The Economic Times"^^xsd:string ;
+    ex:typeTokenRatio "62.95"^^xsd:float ;
+    ex:uniqueTypes 192 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Ami Shah"^^xsd:string ;
+    schema:countryOfOrigin dbp:India ;
+    schema:datePublished "2020-03-22T15:56:00+02:00"^^xsd:dateTime ;
+    schema:headline "No shorter working hours for markets, it'll be business as usual: Sebi - The Economic Times"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://economictimes.indiatimes.com/markets/stocks/news/indian-stock-markets-will-operate-as-usual-on-monday/articleshow/74761987.cms"^^xsd:anyURI ;
+    schema:wordCount 305 .
+
+ex:70b0f0a0b908eab8bf69b1f60fe82e80542f8a38 a schema:NewsArticle ;
+    rdfs:label "WE HAVE HOPE"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "65.56"^^xsd:float ;
+    ex:uniqueTypes 198 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Tom Haeg (noreply@blogger.com)"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T17:13:00+02:00"^^xsd:dateTime ;
+    schema:headline "WE HAVE HOPE"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://calledbychristtobeone.blogspot.com/2020/03/we-have-hope.html"^^xsd:anyURI ;
+    schema:wordCount 302 .
+
+ex:788e663add85843ae4b50257e72e945363527001 a schema:NewsArticle ;
+    rdfs:label "Calavo Growers, Inc. (NASDAQ:CVGW) Shares Bought by Marshall Wace LLP"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "calavo",
+        "calavo growers",
+        "calavo growers, inc.",
+        "marshall wace llp",
+        "marshall wace llp marshall wace llp",
+        "nuance investments llc",
+        "pictet asset management ltd.",
+        "renaissance technologies llc",
+        "sec",
+        "securities and exchange commission" ;
+    ex:person "rena" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "42.21"^^xsd:float ;
+    ex:uniqueTypes 398 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Calavo Growers, Inc. (NASDAQ:CVGW) Shares Bought by Marshall Wace LLP"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/calavo-growers-inc-nasdaqcvgw-shares-bought-by-marshall-wace-llp.html"^^xsd:anyURI ;
+    schema:wordCount 943 .
+
+ex:7bb221315c211ad4b55deca54e792beeb14e81e0 a schema:NewsArticle ;
+    rdfs:label "A top Obama economist says there's 'a real danger' the looming coronavirus recession could be worse than the 2008 financial crisis"^^xsd:string ;
+    ex:category "['media', 'tech']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "congress" ;
+    ex:person "jonathan ernst/reuters obama",
+        "obama" ;
+    ex:sectionTitle "Feedburner"^^xsd:string ;
+    ex:typeTokenRatio "66.55"^^xsd:float ;
+    ex:uniqueTypes 195 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Joseph Zeballos-Roig (jzeballos@businessinsider.com)"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T17:07:00+02:00"^^xsd:dateTime ;
+    schema:headline "A top Obama economist says there's 'a real danger' the looming coronavirus recession could be worse than the 2008 financial crisis"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.businessinsider.com/coronavirus-recession-outlook-forecast-top-obama-economist-trump-stimulus-crash-2020-3?utm_source=feedburner&amp;utm_medium=referral"^^xsd:anyURI ;
+    schema:wordCount 293 .
+
+ex:8122252651aac8e397fdd3337f825a6abb5dd57a a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Acquires 159,798 Shares of CIT Group Inc. (NYSE:CIT)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "cit",
+        "cit group",
+        "cit group inc.",
+        "marshall wace llp",
+        "nyse",
+        "public employees retirement system of ohio",
+        "sec",
+        "securities and exchange commission",
+        "squarepoint ops llc" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "40.74"^^xsd:float ;
+    ex:uniqueTypes 407 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:16:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Acquires 159,798 Shares of CIT Group Inc. (NYSE:CIT)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-acquires-159798-shares-of-cit-group-inc-nysecit.html"^^xsd:anyURI ;
+    schema:wordCount 999 .
+
+ex:89181bc13c3fbfef6fa3c9a40d3e12a0eb43b6e0 a schema:NewsArticle ;
+    rdfs:label "How to Avoid Selling when the Market is Down and Lock in Losses - Alpha Wealth Funds"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "54.69"^^xsd:float ;
+    ex:uniqueTypes 414 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T02:00:00+02:00"^^xsd:dateTime ;
+    schema:headline "How to Avoid Selling when the Market is Down and Lock in Losses - Alpha Wealth Funds"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.alphawealthfunds.com/2020/03/how-to-avoid-selling-when-the-market-is-down-and-lock-in-losses/"^^xsd:anyURI ;
+    schema:wordCount 757 .
+
+ex:8b110b5c9ce996909d520386ab548a1e06fdd3dc a schema:NewsArticle ;
+    rdfs:label "Mitsubishi UFJ Trust & Banking Corp Has $24.73 Million Stake in Fifth Third Bancorp (NASDAQ:FITB)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "aigen investment management lp",
+        "americana partners llc",
+        "fifth third bancorp",
+        "global retirement partners llc",
+        "mitsubishi ufj trust & banking corp",
+        "pacitti group",
+        "securities & exchange commission" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "44.0"^^xsd:float ;
+    ex:uniqueTypes 400 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Mitsubishi UFJ Trust & Banking Corp Has $24.73 Million Stake in Fifth Third Bancorp (NASDAQ:FITB)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-has-24-73-million-stake-in-fifth-third-bancorp-nasdaqfitb.html"^^xsd:anyURI ;
+    schema:wordCount 909 .
+
+ex:8ca44e9ed2a2e7c6816e846b79f93f2aac2eab0e a schema:NewsArticle ;
+    rdfs:label "Loomis Sayles & Co. L P Increases Stock Position in Methode Electronics Inc. (NYSE:MEI)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "loomis sayles & co",
+        "methode electronics",
+        "methode electronics inc.",
+        "millennium management llc",
+        "no comments loomis sayles & co",
+        "russell investments group ltd.",
+        "securities & exchange commission" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "43.96"^^xsd:float ;
+    ex:uniqueTypes 360 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:11:00+02:00"^^xsd:dateTime ;
+    schema:headline "Loomis Sayles & Co. L P Increases Stock Position in Methode Electronics Inc. (NYSE:MEI)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/loomis-sayles-co-l-p-increases-stock-position-in-methode-electronics-inc-nysemei.html"^^xsd:anyURI ;
+    schema:wordCount 819 .
+
+ex:8e0e60cf953ce5f8987479b80a462758a13bf02e a schema:NewsArticle ;
+    rdfs:label "Here is a supply and demand qustion??? - Tractor Tales (OT) Forum - Yesterday's Tractors"^^xsd:string ;
+    ex:category "['non_standard_content', 'adult']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Tractor Tales (OT) Discussion Forum - Yesterday's Tractors"^^xsd:string ;
+    ex:typeTokenRatio "63.99"^^xsd:float ;
+    ex:uniqueTypes 183 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "rockyridgefarm"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "Here is a supply and demand qustion??? - Tractor Tales (OT) Forum - Yesterday's Tractors"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://forums.yesterdaystractors.com/viewtopic.php?t=1424680"^^xsd:anyURI ;
+    schema:wordCount 286 .
+
+ex:8f65bd27bdcc63ac88bcfbda036a64c27432dfb5 a schema:NewsArticle ;
+    rdfs:label "All righty, gang! Here we go!"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "crazeysburg",
+        "muskingum county",
+        "ohio",
+        "zagreb" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Marilyn's Room"^^xsd:string ;
+    ex:typeTokenRatio "49.52"^^xsd:float ;
+    ex:uniqueTypes 362 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "marilyn jaye lewis"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T14:56:00+02:00"^^xsd:dateTime ;
+    schema:headline "All righty, gang! Here we go!"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://marilynjayelewis.com/2020/03/22/all-righty-gang-here-we-go-2/"^^xsd:anyURI ;
+    schema:wordCount 731 .
+
+ex:900e79b9ea0381e949e21975c90c68edd27d5e57 a schema:NewsArticle ;
+    rdfs:label "A top Obama economist says there's 'a real danger' the looming coronavirus recession could be worse than the 2008 financial crisis"^^xsd:string ;
+    ex:category "['financial_news', 'finance', 'options']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "congress" ;
+    ex:person "jonathan ernst/reuters obama",
+        "obama" ;
+    ex:sectionTitle "Feedburner"^^xsd:string ;
+    ex:typeTokenRatio "44.01"^^xsd:float ;
+    ex:uniqueTypes 757 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Joseph Zeballos-Roig (jzeballos@businessinsider.com)"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T17:07:00+02:00"^^xsd:dateTime ;
+    schema:headline "A top Obama economist says there's 'a real danger' the looming coronavirus recession could be worse than the 2008 financial crisis"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://markets.businessinsider.com/news/stocks/coronavirus-recession-outlook-forecast-top-obama-economist-trump-stimulus-crash-2020-3-1029020540"^^xsd:anyURI ;
+    schema:wordCount 1720 .
+
+ex:913ed967c56d11f0e17df376303095ac2debb84c a schema:NewsArticle ;
+    rdfs:label "General election polls: of value when? - Straight Dope Message Board"^^xsd:string ;
+    ex:category "['politics', 'law_government_and_politics', 'non_standard_content', 'adult']" ;
+    ex:dayPublished "21"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Politics &amp; Elections - Straight Dope Message Board"^^xsd:string ;
+    ex:typeTokenRatio "80.65"^^xsd:float ;
+    ex:uniqueTypes 100 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "chappachula"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-21T15:19:00+02:00"^^xsd:dateTime ;
+    schema:headline "General election polls: of value when? - Straight Dope Message Board"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://boards.straightdope.com/sdmb/showthread.php?t=892279"^^xsd:anyURI ;
+    schema:wordCount 124 .
+
+ex:934e95c5170fdf41d97c08115241aa8aac245cc9 a schema:NewsArticle ;
+    rdfs:label "The best Side of Elon Musk"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "70.31"^^xsd:float ;
+    ex:uniqueTypes 431 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:datePublished "2020-03-22T02:23:00+02:00"^^xsd:dateTime ;
+    schema:headline "The best Side of Elon Musk"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://connervpict.alltdesign.com/the-best-side-of-elon-musk-15356950"^^xsd:anyURI ;
+    schema:wordCount 613 .
+
+ex:9533fde12b772e2c8a7a8e9d5e9b1a0bc07c4d7b a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Acquires New Stake in Deere & Company (NYSE:DE)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "allied investment advisors llc",
+        "beaton management co",
+        "deere & company",
+        "fiduciary trust co.",
+        "inc.",
+        "marshall wace llp",
+        "marshall wace llp acquires new stake in deere & company",
+        "securities & exchange commission" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "40.93"^^xsd:float ;
+    ex:uniqueTypes 395 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Acquires New Stake in Deere & Company (NYSE:DE)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-acquires-new-stake-in-deere-company-nysede.html"^^xsd:anyURI ;
+    schema:wordCount 965 .
+
+ex:96985382aefb711cfce724f875f74b94e21840e9 a schema:NewsArticle ;
+    rdfs:label "More than 200 colleges delay deposit deadlines as families face unprecedented economic uncertainty"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "chicago",
+        "massachusetts",
+        "washington" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "admissions community cultivating equity & peace today",
+        "gonzaga university",
+        "university of illinois",
+        "williams college" ;
+    ex:person "marie bigham" ;
+    ex:sectionTitle "Top Stories"^^xsd:string ;
+    ex:typeTokenRatio "31.97"^^xsd:float ;
+    ex:uniqueTypes 374 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:34:00+02:00"^^xsd:dateTime ;
+    schema:headline "More than 200 colleges delay deposit deadlines as families face unprecedented economic uncertainty"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.ketv.com/article/more-than-200-colleges-delay-deposit-deadlines-as-families-face-economic-uncertainty/31872145"^^xsd:anyURI ;
+    schema:wordCount 1170 .
+
+ex:97b9148035312d4bfc1108478908a5c6afbbeaa3 a schema:NewsArticle ;
+    rdfs:label "Top Elon Musk Secrets"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "67.02"^^xsd:float ;
+    ex:uniqueTypes 441 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:datePublished "2020-03-22T02:13:00+02:00"^^xsd:dateTime ;
+    schema:headline "Top Elon Musk Secrets"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://stephenxywso.alltdesign.com/top-elon-musk-secrets-15356894"^^xsd:anyURI ;
+    schema:wordCount 658 .
+
+ex:97e9a91d19def6d25030005f1f23410c575d0c3b a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Increases Stock Holdings in Transocean LTD (NYSE:RIG)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "marshall wace llp",
+        "marshall wace llp increases stock holdings",
+        "nyse",
+        "russell investments group ltd.",
+        "sec",
+        "state street corp",
+        "transocean",
+        "transocean ltd" ;
+    ex:person "virtu fina" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "40.54"^^xsd:float ;
+    ex:uniqueTypes 362 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Increases Stock Holdings in Transocean LTD (NYSE:RIG)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-increases-stock-holdings-in-transocean-ltd-nyserig.html"^^xsd:anyURI ;
+    schema:wordCount 893 .
+
+ex:97eb003e2a7b74aeb36fa12c5dcc92f8a6c77a59 a schema:NewsArticle ;
+    rdfs:label "Meet the \"consumer hunker down\" basket - Blue Apron Holdings, Inc. (NYSE:APRN) | Seeking Alpha"^^xsd:string ;
+    ex:category "['education', 'business']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "u.s." ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "american outdoor brands",
+        "b&g foods",
+        "bgs",
+        "bj",
+        "blue apron holdings, inc.",
+        "clorox",
+        "fresh del monte",
+        "general mills",
+        "kellogg",
+        "kroger",
+        "nyse",
+        "united natural foods",
+        "waitr holdings",
+        "wholesale club" ;
+    ex:person "clark schultz",
+        "hormel" ;
+    ex:sectionTitle "archive.is"^^xsd:string ;
+    ex:typeTokenRatio "70.06"^^xsd:float ;
+    ex:uniqueTypes 117 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:Philippines ;
+    schema:datePublished "2020-03-22T17:03:00+02:00"^^xsd:dateTime ;
+    schema:headline "Meet the \"consumer hunker down\" basket - Blue Apron Holdings, Inc. (NYSE:APRN) | Seeking Alpha"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://archive.is/xbHTk"^^xsd:anyURI ;
+    schema:wordCount 167 .
+
+ex:a070e713a541802a98b39fa13ea49a5526e4ff06 a schema:NewsArticle ;
+    rdfs:label "Crank up mining royalties on Iron ore, 43636849, page-60 - HotCopper | ASX Share Prices, Stock Market & Share Trading Forum"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Breaking News Forum | HotCopper Forum"^^xsd:string ;
+    ex:typeTokenRatio "61.71"^^xsd:float ;
+    ex:uniqueTypes 361 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "moorookamick"^^xsd:string ;
+    schema:countryOfOrigin dbp:Australia ;
+    schema:datePublished "2020-03-22T17:20:00+02:00"^^xsd:dateTime ;
+    schema:headline "Crank up mining royalties on Iron ore, 43636849, page-60 - HotCopper | ASX Share Prices, Stock Market & Share Trading Forum"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://hotcopper.com.au/threads/crank-up-mining-royalties-on-iron-ore.5297985/?post_id=43636849"^^xsd:anyURI ;
+    schema:wordCount 585 .
+
+ex:a24dcd866c45c4429c3d58e06f9874ae593ef1f2 a schema:NewsArticle ;
+    rdfs:label "Mitsubishi UFJ Trust & Banking Corp Decreases Stake in Lululemon Athletica inc. (NASDAQ:LULU)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "comerica bank",
+        "lululemon athletica",
+        "mitsubishi ufj trust & banking corp",
+        "securities and exchange commission",
+        "utah retirement systems" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "41.62"^^xsd:float ;
+    ex:uniqueTypes 345 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Mitsubishi UFJ Trust & Banking Corp Decreases Stake in Lululemon Athletica inc. (NASDAQ:LULU)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-decreases-stake-in-lululemon-athletica-inc-nasdaqlulu.html"^^xsd:anyURI ;
+    schema:wordCount 829 .
+
+ex:a3a13c826c8ac217403045e79befdb25ceaca8e0 a schema:NewsArticle ;
+    rdfs:label "FDA is Cutting Red Tape for Hand Sanitizer \"Approval\" - Why Is There Red Tape At All? | Science 2.0"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "cdc",
+        "cutting red tape for hand sanitizer",
+        "fda",
+        "uc davis" ;
+    ex:sectionTitle ""^^xsd:string ;
+    ex:typeTokenRatio "56.93"^^xsd:float ;
+    ex:uniqueTypes 448 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T02:00:00+02:00"^^xsd:dateTime ;
+    schema:headline "FDA is Cutting Red Tape for Hand Sanitizer \"Approval\" - Why Is There Red Tape At All? | Science 2.0"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.science20.com/content/fda_is_cutting_red_tape_for_hand_sanitizer_approval_why_is_there_red_tape_at_all"^^xsd:anyURI ;
+    schema:wordCount 787 .
+
+ex:a564ff95068c37b154ffc85f8a85bede9bb16a79 a schema:NewsArticle ;
+    rdfs:label "More than 200 colleges delay deposit deadlines as families face unprecedented economic uncertainty"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "chicago",
+        "massachusetts",
+        "washington" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "admissions community cultivating equity & peace today",
+        "gonzaga university",
+        "university of illinois",
+        "williams college" ;
+    ex:person "marie bigham" ;
+    ex:sectionTitle "Top Stories"^^xsd:string ;
+    ex:typeTokenRatio "31.97"^^xsd:float ;
+    ex:uniqueTypes 374 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:34:00+02:00"^^xsd:dateTime ;
+    schema:headline "More than 200 colleges delay deposit deadlines as families face unprecedented economic uncertainty"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.koco.com/article/more-than-200-colleges-delay-deposit-deadlines-as-families-face-economic-uncertainty/31872145"^^xsd:anyURI ;
+    schema:wordCount 1170 .
+
+ex:a57642462e92e8b19172b204ddd15393ad9d117b a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Purchases Shares of 420,765 Adient PLC (NYSE:ADNT)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "adient" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "adient plc",
+        "cwm llc",
+        "dekabank deutsche girozentrale",
+        "marshall wace llp",
+        "nyse",
+        "pendal group ltd",
+        "sec",
+        "securities and exchange commission",
+        "tower research capital llc trc" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "42.18"^^xsd:float ;
+    ex:uniqueTypes 372 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:16:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Purchases Shares of 420,765 Adient PLC (NYSE:ADNT)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-purchases-shares-of-420765-adient-plc-nyseadnt.html"^^xsd:anyURI ;
+    schema:wordCount 882 .
+
+ex:a85981a5d8b47ab5e07f113b51debd510f02e5d1 a schema:NewsArticle ;
+    rdfs:label "Mitsubishi UFJ Trust & Banking Corp Acquires 23,033 Shares of RenaissanceRe Holdings Ltd. (NYSE:RNR)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "middleton & co inc",
+        "middleton & co inc ma",
+        "mitsubishi ufj trust & banking corp",
+        "nyse",
+        "renaissancere",
+        "renaissancere holdings ltd.",
+        "sec",
+        "securities and exchange commission",
+        "zurcher kantonalbank zurich cantonalbank" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "44.13"^^xsd:float ;
+    ex:uniqueTypes 395 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Mitsubishi UFJ Trust & Banking Corp Acquires 23,033 Shares of RenaissanceRe Holdings Ltd. (NYSE:RNR)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-acquires-23033-shares-of-renaissancere-holdings-ltd-nysernr.html"^^xsd:anyURI ;
+    schema:wordCount 895 .
+
+ex:aa89c835be36f06efcd7632922cddcf8030a23cf a schema:NewsArticle ;
+    rdfs:label "Sen. Burr defends stock sales as fellow Republicans call for invest.. | abc7ny.com"^^xsd:string ;
+    ex:category "['media', 'television', 'entertainment']" ;
+    ex:dayPublished "21"^^xsd:gDay ;
+    ex:location "north carolina",
+        "u.s." ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "congress",
+        "senate ethics committee",
+        "senate intelligence committee" ;
+    ex:person "burr",
+        "richard burr",
+        "sou" ;
+    ex:sectionTitle "ABC7 Eyewitness News - WABC-TV New York"^^xsd:string ;
+    ex:typeTokenRatio "51.87"^^xsd:float ;
+    ex:uniqueTypes 528 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "abc7ny.com"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-21T05:00:00+02:00"^^xsd:dateTime ;
+    schema:headline "Sen. Burr defends stock sales as fellow Republicans call for invest.. | abc7ny.com"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://abc7ny.com/sen-burr-defends-stock-sales-as-fellow-republicans-call-for-investigation/6033057/"^^xsd:anyURI ;
+    schema:wordCount 1018 .
+
+ex:abe51bdfe9a62f36c524c3fe87c4b06fd423aab5 a schema:NewsArticle ;
+    rdfs:label "Loomis Sayles & Co. L P Sells 12,386 Shares of Pegasystems Inc. (NASDAQ:PEGA)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "egasystems inc.",
+        "loomis sayles & co",
+        "no comments loomis sayles & co",
+        "pega",
+        "pegasystems",
+        "pegasystems inc.",
+        "piedmont investment advisors inc.",
+        "point72 asset management l.p.",
+        "securities & exchange commission",
+        "tower research capital llc trc" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "46.64"^^xsd:float ;
+    ex:uniqueTypes 403 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:11:00+02:00"^^xsd:dateTime ;
+    schema:headline "Loomis Sayles & Co. L P Sells 12,386 Shares of Pegasystems Inc. (NASDAQ:PEGA)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/loomis-sayles-co-l-p-sells-12386-shares-of-pegasystems-inc-nasdaqpega.html"^^xsd:anyURI ;
+    schema:wordCount 864 .
+
+ex:b1e2890f90fcb760f14b56b31f33d6893a54b1fc a schema:NewsArticle ;
+    rdfs:label "PhosAgro CEO Andrey Guryev Takes Part in First Meeting of the Russian Union of Industrialists and Entrepreneurs Coordination Council to Combat Coronavirus"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "alrosa",
+        "moscow" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "bureau",
+        "bureau of the management board of the russian union of industrialists",
+        "coordinating council",
+        "coordination council",
+        "council",
+        "entrepreneurs coordination council",
+        "gazprom neft",
+        "ruie bureau",
+        "ruie coordination council",
+        "ruie management board",
+        "russian union of industrialists",
+        "sibur" ;
+    ex:person "aleksandr shokhin",
+        "andrey guryev",
+        "mikhail mishustin",
+        "rosmedprom" ;
+    ex:sectionTitle "PR Newswire:"^^xsd:string ;
+    ex:typeTokenRatio "46.88"^^xsd:float ;
+    ex:uniqueTypes 489 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T17:08:00+02:00"^^xsd:dateTime ;
+    schema:headline "PhosAgro CEO Andrey Guryev Takes Part in First Meeting of the Russian Union of Industrialists and Entrepreneurs Coordination Council to Combat Coronavirus"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.prnewswire.com/news-releases/phosagro-ceo-andrey-guryev-takes-part-in-first-meeting-of-the-russian-union-of-industrialists-and-entrepreneurs-coordination-council-to-combat-coronavirus-301027885.html"^^xsd:anyURI ;
+    schema:wordCount 1043 .
+
+ex:b55d25eedf9160fb6ef90b98e594e2c0cb5e3c2d a schema:NewsArticle ;
+    rdfs:label "Are Bozeman’s good times over? Recession expected in wake of virus"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "gallatin county",
+        "washington" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "bureau of business and economic research",
+        "university of montana" ;
+    ex:person "barkey",
+        "bozeman",
+        "patrick barkey" ;
+    ex:sectionTitle "www.bozemandailychronicle.com - RSS Results in news,news* of type article"^^xsd:string ;
+    ex:typeTokenRatio "52.61"^^xsd:float ;
+    ex:uniqueTypes 877 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Gail Schontzler Chronicle Staff Writer"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T08:00:00+02:00"^^xsd:dateTime ;
+    schema:headline "Are Bozeman’s good times over? Recession expected in wake of virus"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.bozemandailychronicle.com/coronavirus/are-bozeman-s-good-times-over-recession-expected-in-wake/article_4c5acdb0-b247-57fb-a95a-f5312446a013.html"^^xsd:anyURI ;
+    schema:wordCount 1667 .
+
+ex:b5650a211380837c0b9cd238bfbfc5041797543b a schema:NewsArticle ;
+    rdfs:label "$50k and turn it into $250k- quickest way in this market- GO | TigerDroppings.com"^^xsd:string ;
+    ex:category "['football', 'sports']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Money Talk | TigerDroppings.com "^^xsd:string ;
+    ex:typeTokenRatio "72.03"^^xsd:float ;
+    ex:uniqueTypes 85 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "windshieldman"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T14:24:00+02:00"^^xsd:dateTime ;
+    schema:headline "$50k and turn it into $250k- quickest way in this market- GO | TigerDroppings.com"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://www.tigerdroppings.com/rant/money/50k-and-turn-it-into-250k--quickest-way-in-this-market--go/89188118/"^^xsd:anyURI ;
+    schema:wordCount 118 .
+
+ex:b58719750b437f64e60331afbfc6629daa8fd80b a schema:NewsArticle ;
+    rdfs:label "Stock Market Crash 2020: 2 Stocks That Can Double Your Money"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "motley fool canada" ;
+    ex:sectionTitle "Latest News on One News Page [United Kingdom] - Top Headlines and News Videos"^^xsd:string ;
+    ex:typeTokenRatio "65.73"^^xsd:float ;
+    ex:uniqueTypes 117 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_Kingdom ;
+    schema:datePublished "2020-03-22T14:34:00+02:00"^^xsd:dateTime ;
+    schema:headline "Stock Market Crash 2020: 2 Stocks That Can Double Your Money"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.onenewspage.com/n/Markets/1zlqy74k1a/Stock-Market-Crash-2020-Stocks-That-Can.htm"^^xsd:anyURI ;
+    schema:wordCount 178 .
+
+ex:b74adfc0544234582aed0ba1dac24d3af3797c35 a schema:NewsArticle ;
+    rdfs:label "Burr & Loeffler"^^xsd:string ;
+    ex:category "['vehicles']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Politics/Religion - BMW 1 Series Coupe Forum / 1 Series Convertible Forum (1M / tii / 135i / 128i / Coupe / Cabrio / Hatchback) (BMW E82 E88 128i 130i 135i)"^^xsd:string ;
+    ex:typeTokenRatio "85.71"^^xsd:float ;
+    ex:uniqueTypes 54 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "floridaorange"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T14:16:00+02:00"^^xsd:dateTime ;
+    schema:headline "Burr & Loeffler"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.1addicts.com/forums/showthread.php?t=1705270"^^xsd:anyURI ;
+    schema:wordCount 63 .
+
+ex:b815fc7d272f593aafa92c20ce1222530b6072b6 a schema:NewsArticle ;
+    rdfs:label "Here is a supply and demand qustion??? - Tractor Tales (OT) Forum - Yesterday's Tractors"^^xsd:string ;
+    ex:category "['non_standard_content', 'adult']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Tractor Tales (OT) Discussion Forum - Yesterday's Tractors"^^xsd:string ;
+    ex:typeTokenRatio "69.02"^^xsd:float ;
+    ex:uniqueTypes 127 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "JD Seller"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "Here is a supply and demand qustion??? - Tractor Tales (OT) Forum - Yesterday's Tractors"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://forums.yesterdaystractors.com/viewtopic.php?t=1424680"^^xsd:anyURI ;
+    schema:wordCount 184 .
+
+ex:b98bf00b154307906ba30c64ac107d13fb72ee87 a schema:NewsArticle ;
+    rdfs:label "Socialism at Its Finest after Fed’s Bazooka Fails"^^xsd:string ;
+    ex:category "['politics', 'law_government_and_politics']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "us",
+        "wall street" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "bazooka fails contact us socialism",
+        "fed",
+        "federal reserve",
+        "world health organization" ;
+    ex:sectionTitle "LA Progressive"^^xsd:string ;
+    ex:typeTokenRatio "47.6"^^xsd:float ;
+    ex:uniqueTypes 941 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Ellen Brown/Web of Debt"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:00:00+02:00"^^xsd:dateTime ;
+    schema:headline "Socialism at Its Finest after Fed’s Bazooka Fails"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.laprogressive.com/us-stock-market/"^^xsd:anyURI ;
+    schema:wordCount 1977 .
+
+ex:c10dea24a4f11400806098ab43c006ac321f8bd1 a schema:NewsArticle ;
+    rdfs:label "De Blasio: If Trump does not act on coronavirus outbreak, 'people will die' | Fox News"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "FOX News"^^xsd:string ;
+    ex:typeTokenRatio "87.5"^^xsd:float ;
+    ex:uniqueTypes 28 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "RemoveTrumpNow"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T12:42:00+02:00"^^xsd:dateTime ;
+    schema:headline "De Blasio: If Trump does not act on coronavirus outbreak, 'people will die' | Fox News"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.foxnews.com/politics/de-blasio-if-trump-does-not-act-people-will-die"^^xsd:anyURI ;
+    schema:wordCount 32 .
+
+ex:c919b147e4a7d7434c67fc2973fba76171379cce a schema:NewsArticle ;
+    rdfs:label "Buy the Crash: 2 Energy Stocks That Could Skyrocket"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "russia",
+        "saudi arabia" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "motley fool canada",
+        "u.s. news investing" ;
+    ex:person "elly shobeiri" ;
+    ex:sectionTitle "Latest News on One News Page [United Kingdom] - Top Headlines and News Videos"^^xsd:string ;
+    ex:typeTokenRatio "56.98"^^xsd:float ;
+    ex:uniqueTypes 49 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_Kingdom ;
+    schema:datePublished "2020-03-22T13:05:00+02:00"^^xsd:dateTime ;
+    schema:headline "Buy the Crash: 2 Energy Stocks That Could Skyrocket"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.onenewspage.com/n/Markets/1zlqy74jkf/Buy-the-Crash-Energy-Stocks-That-Could.htm"^^xsd:anyURI ;
+    schema:wordCount 86 .
+
+ex:c9e29910fc41a889405c1b67045503b9525fb54d a schema:NewsArticle ;
+    rdfs:label "Mitsubishi UFJ Trust & Banking Corp Has $22.13 Million Holdings in Cintas Co. (NASDAQ:CTAS)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "cintas",
+        "cintas co.",
+        "csat investment advisory l.p.",
+        "evoke wealth llc",
+        "million holdings",
+        "mitsubishi ufj trust & banking corp",
+        "securities and exchange commission",
+        "tobias financial advisors inc.",
+        "vigilant capital management llc" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "48.7"^^xsd:float ;
+    ex:uniqueTypes 355 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Mitsubishi UFJ Trust & Banking Corp Has $22.13 Million Holdings in Cintas Co. (NASDAQ:CTAS)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-has-22-13-million-holdings-in-cintas-co-nasdaqctas.html"^^xsd:anyURI ;
+    schema:wordCount 729 .
+
+ex:cb8fce728280f3089262937e4ec61ade97762936 a schema:NewsArticle ;
+    rdfs:label "Malaysia government should provide financial aid."^^xsd:string ;
+    ex:category "['non_standard_content', 'adult']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Kopitiam - Lowyat.NET"^^xsd:string ;
+    ex:typeTokenRatio "60.48"^^xsd:float ;
+    ex:uniqueTypes 280 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "CJ 1997"^^xsd:string ;
+    schema:countryOfOrigin dbp:Malaysia ;
+    schema:datePublished "2020-03-22T17:00:00+02:00"^^xsd:dateTime ;
+    schema:headline "Malaysia government should provide financial aid."^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://forum.lowyat.net/topic/4928824"^^xsd:anyURI ;
+    schema:wordCount 463 .
+
+ex:ccfd008d3efaf850636b647fe833bbd22cdf9cbe a schema:NewsArticle ;
+    rdfs:label "The Greatest Guide To what is dropshipping"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "55.17"^^xsd:float ;
+    ex:uniqueTypes 331 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T11:41:00+02:00"^^xsd:dateTime ;
+    schema:headline "The Greatest Guide To what is dropshipping"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://shop-online85146.fitnell.com/29712610/the-greatest-guide-to-what-is-dropshipping"^^xsd:anyURI ;
+    schema:wordCount 600 .
+
+ex:cdc8560f02608f056b6791cfaf2d58b6ba79b645 a schema:NewsArticle ;
+    rdfs:label "Google Alert - marketing"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "78.42"^^xsd:float ;
+    ex:uniqueTypes 149 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Patricia1 (noreply@blogger.com)"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Google Alert - marketing"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://marketingplanstrategies.blogspot.com/2020/03/google-alert-marketing_527.html"^^xsd:anyURI ;
+    schema:wordCount 190 .
+
+ex:cfbe38025b88a54bc3113c04d5f10ecba1fa377b a schema:NewsArticle ;
+    rdfs:label "Mitsubishi UFJ Trust & Banking Corp Acquires 15,635 Shares of Dollar Tree, Inc. (NASDAQ:DLTR)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "diamond partners llc",
+        "equitec specialists llc",
+        "heritage wealth advisors",
+        "mitsubishi ufj trust & banking corp",
+        "sec",
+        "securities and exchange commission" ;
+    ex:person "carmichael" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "45.76"^^xsd:float ;
+    ex:uniqueTypes 399 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Mitsubishi UFJ Trust & Banking Corp Acquires 15,635 Shares of Dollar Tree, Inc. (NASDAQ:DLTR)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-acquires-15635-shares-of-dollar-tree-inc-nasdaqdltr.html"^^xsd:anyURI ;
+    schema:wordCount 872 .
+
+ex:d0d665a228606fb41bcfc193b60588194d54577c a schema:NewsArticle ;
+    rdfs:label "Shutterstock Inc (NYSE:SSTK) Shares Sold by Marshall Wace LLP"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "shutterstock" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "jefferies group llc",
+        "marshall wace llp",
+        "marshall wace llp marshall wace llp",
+        "marshall wace north america l.p.",
+        "nyse",
+        "oxford asset management llp",
+        "penserra capital management llc",
+        "securities and exchange commission",
+        "shutterstock inc" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "49.92"^^xsd:float ;
+    ex:uniqueTypes 317 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:16:00+02:00"^^xsd:dateTime ;
+    schema:headline "Shutterstock Inc (NYSE:SSTK) Shares Sold by Marshall Wace LLP"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/shutterstock-inc-nysesstk-shares-sold-by-marshall-wace-llp.html"^^xsd:anyURI ;
+    schema:wordCount 635 .
+
+ex:d2af0fee74e54945bad092cdcf21f110a958f8ca a schema:NewsArticle ;
+    rdfs:label "Coronavirus New York: Million N95 masks on way to struggling NYC; 12,000 COVID-19 cases statewide | abc7ny.com"^^xsd:string ;
+    ex:category "['media', 'television', 'entertainment']" ;
+    ex:dayPublished "06"^^xsd:gDay ;
+    ex:location "connecticut",
+        "long island",
+        "new jersey",
+        "new york",
+        "new york city" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "fema",
+        "wabc" ;
+    ex:person "andrew cuomo",
+        "mike pence" ;
+    ex:sectionTitle "ABC7 Eyewitness News - WABC-TV New York"^^xsd:string ;
+    ex:typeTokenRatio "27.05"^^xsd:float ;
+    ex:uniqueTypes 3169 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "abc7ny.com"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-06T17:39:00+02:00"^^xsd:dateTime ;
+    schema:headline "Coronavirus New York: Million N95 masks on way to struggling NYC; 12,000 COVID-19 cases statewide | abc7ny.com"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://abc7ny.com/health/live-|-gov-cuomo-update-as-coronavirus-cases-pass-12000-statewide/5989875/"^^xsd:anyURI ;
+    schema:wordCount 11715 .
+
+ex:d31c4e8ac28ce0a5a5b44fb01b80ab4d82d81b49 a schema:NewsArticle ;
+    rdfs:label "Covid 19, Moving Barns, and Stress - Chronicle Forums"^^xsd:string ;
+    ex:category "['horses', 'sports']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Off Course - Chronicle Forums "^^xsd:string ;
+    ex:typeTokenRatio "62.05"^^xsd:float ;
+    ex:uniqueTypes 296 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "lenapesadie"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T15:26:00+02:00"^^xsd:dateTime ;
+    schema:headline "Covid 19, Moving Barns, and Stress - Chronicle Forums"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.chronofhorse.com/forum/forum/discussion-forums/off-course/10604770-covid-19-moving-barns-and-stress"^^xsd:anyURI ;
+    schema:wordCount 477 .
+
+ex:d706b7b25f53e56f4da52f975867a877a2253e89 a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Has $9.77 Million Stock Position in Unum Group (NYSE:UNM)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "bank of new york mellon corp",
+        "mackay shields llc",
+        "marshall wace llp",
+        "nyse",
+        "retirement systems of alabama",
+        "securities & exchange commission",
+        "unm",
+        "unum group" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "42.06"^^xsd:float ;
+    ex:uniqueTypes 376 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Has $9.77 Million Stock Position in Unum Group (NYSE:UNM)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-has-9-77-million-stock-position-in-unum-group-nyseunm.html"^^xsd:anyURI ;
+    schema:wordCount 894 .
+
+ex:d8ec5b0731982aac24c3184b6a8d37af101db8f2 a schema:NewsArticle ;
+    rdfs:label "A Hypothetical"^^xsd:string ;
+    ex:category "['vehicles']" ;
+    ex:dayPublished "20"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Politics/Religion - BMW 1 Series Coupe Forum / 1 Series Convertible Forum (1M / tii / 135i / 128i / Coupe / Cabrio / Hatchback) (BMW E82 E88 128i 130i 135i)"^^xsd:string ;
+    ex:typeTokenRatio "74.16"^^xsd:float ;
+    ex:uniqueTypes 66 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "adc100"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-20T22:28:00+02:00"^^xsd:dateTime ;
+    schema:headline "A Hypothetical"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.1addicts.com/forums/showthread.php?t=1704885"^^xsd:anyURI ;
+    schema:wordCount 89 .
+
+ex:da31dedd8f3243741851a79a303afbd642e7b5fb a schema:NewsArticle ;
+    rdfs:label "More than 200 colleges delay deposit deadlines as families face unprecedented economic uncertainty"^^xsd:string ;
+    ex:category "['television', 'entertainment']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "chicago",
+        "massachusetts",
+        "washington" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "admissions community cultivating equity & peace today",
+        "gonzaga university",
+        "university of illinois",
+        "williams college" ;
+    ex:person "marie bigham" ;
+    ex:sectionTitle "Top Stories"^^xsd:string ;
+    ex:typeTokenRatio "31.97"^^xsd:float ;
+    ex:uniqueTypes 374 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:34:00+02:00"^^xsd:dateTime ;
+    schema:headline "More than 200 colleges delay deposit deadlines as families face unprecedented economic uncertainty"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.mor-tv.com/article/more-than-200-colleges-delay-deposit-deadlines-as-families-face-economic-uncertainty/31872145"^^xsd:anyURI ;
+    schema:wordCount 1170 .
+
+ex:dda2478b76217d3052dc94913920f2a517ebd012 a schema:NewsArticle ;
+    rdfs:label "Rockwell Automation (NYSE:ROK) Shares Sold by Mitsubishi UFJ Trust & Banking Corp"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "mitsubishi ufj trust & banking corp",
+        "nyse",
+        "pinnacle wealth management advisory group",
+        "pinnacle wealth management advisory group llc",
+        "rockwell automation",
+        "sec",
+        "securities and exchange commission" ;
+    ex:person "elefante mark b" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "41.67"^^xsd:float ;
+    ex:uniqueTypes 445 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Rockwell Automation (NYSE:ROK) Shares Sold by Mitsubishi UFJ Trust & Banking Corp"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/rockwell-automation-nyserok-shares-sold-by-mitsubishi-ufj-trust-banking-corp.html"^^xsd:anyURI ;
+    schema:wordCount 1068 .
+
+ex:e035a3b0f92db94ca4d67349eca79ac1334d15e9 a schema:NewsArticle ;
+    rdfs:label "Syneos Health Inc (NASDAQ:SYNH) Shares Sold by Marshall Wace LLP"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "syneos health" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "california state teachers retirement system",
+        "marshall wace llp",
+        "marshall wace llp marshall wace llp",
+        "parametric portfolio associates llc",
+        "pictet asset management ltd.",
+        "securities & exchange commission",
+        "syneos health",
+        "syneos health inc" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "44.03"^^xsd:float ;
+    ex:uniqueTypes 317 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "Syneos Health Inc (NASDAQ:SYNH) Shares Sold by Marshall Wace LLP"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/syneos-health-inc-nasdaqsynh-shares-sold-by-marshall-wace-llp.html"^^xsd:anyURI ;
+    schema:wordCount 720 .
+
+ex:e3faa3cfc5a11f42e0e6235ce14eca92377f811d a schema:NewsArticle ;
+    rdfs:label "Coronavirus New York City: NYC Mayor Bill de Blasio warns \"The worst is yet to come\" | abc7ny.com"^^xsd:string ;
+    ex:category "['media', 'television', 'entertainment']" ;
+    ex:dayPublished "17"^^xsd:gDay ;
+    ex:location "connecticut",
+        "new jersey",
+        "new york",
+        "new york city",
+        "nyc",
+        "rikers island" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "cnn",
+        "wabc" ;
+    ex:person "bill de blasio" ;
+    ex:sectionTitle "ABC7 Eyewitness News - WABC-TV New York"^^xsd:string ;
+    ex:typeTokenRatio "37.89"^^xsd:float ;
+    ex:uniqueTypes 1484 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "abc7ny.com"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-17T22:58:00+02:00"^^xsd:dateTime ;
+    schema:headline "Coronavirus New York City: NYC Mayor Bill de Blasio warns \"The worst is yet to come\" | abc7ny.com"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://abc7ny.com/health/nyc-mayor-the-worst-is-yet-to-come/6021383/"^^xsd:anyURI ;
+    schema:wordCount 3917 .
+
+ex:e68ca7ed523cf4ff37889cf886ec6a9f964bf2c1 a schema:NewsArticle ;
+    rdfs:label "Global Financial System Exposed:"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "52.08"^^xsd:float ;
+    ex:uniqueTypes 276 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Scott (noreply@blogger.com)"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T17:15:00+02:00"^^xsd:dateTime ;
+    schema:headline "Global Financial System Exposed:"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://prophecyupdate.blogspot.com/2020/03/global-financial-system-exposed.html"^^xsd:anyURI ;
+    schema:wordCount 530 .
+
+ex:e75b0aa3c01613505f9c995586de67eef4077c33 a schema:NewsArticle ;
+    rdfs:label "Maureen Dowd: We have fear to fear. And misdirection from the White House. - The Salt Lake Tribune"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "oval",
+        "washington",
+        "white house" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "national institute of allergy",
+        "white house" ;
+    ex:person "anthony fauci",
+        "maureen dowd" ;
+    ex:sectionTitle "The Salt Lake Tribune"^^xsd:string ;
+    ex:typeTokenRatio "52.14"^^xsd:float ;
+    ex:uniqueTypes 596 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Maureen Dowd | The New York Times"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:21:00+02:00"^^xsd:dateTime ;
+    schema:headline "Maureen Dowd: We have fear to fear. And misdirection from the White House. - The Salt Lake Tribune"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.sltrib.com/opinion/commentary/2020/03/22/maureen-dowd-we-have-fear/"^^xsd:anyURI ;
+    schema:wordCount 1143 .
+
+ex:e7d3c7d6b406c160b08409a2f112316a8fc90046 a schema:NewsArticle ;
+    rdfs:label "Burr & Loeffler"^^xsd:string ;
+    ex:category "['vehicles']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Politics/Religion - BMW 1 Series Coupe Forum / 1 Series Convertible Forum (1M / tii / 135i / 128i / Coupe / Cabrio / Hatchback) (BMW E82 E88 128i 130i 135i)"^^xsd:string ;
+    ex:typeTokenRatio "79.21"^^xsd:float ;
+    ex:uniqueTypes 80 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "NormanConquest"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T14:16:00+02:00"^^xsd:dateTime ;
+    schema:headline "Burr & Loeffler"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.1addicts.com/forums/showthread.php?t=1705270"^^xsd:anyURI ;
+    schema:wordCount 101 .
+
+ex:e881ae0469036a69133dba7c5027bf0b8a4a054f a schema:NewsArticle ;
+    rdfs:label "PTC Inc (NASDAQ:PTC) Shares Acquired by Marshall Wace LLP"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "515 shares of the technology company",
+        "citizens financial group inc",
+        "harel insurance investments & financial services ltd.",
+        "marshall wace llp",
+        "marshall wace llp marshall wace llp",
+        "ptc",
+        "ptc inc",
+        "securities & exchange commission" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "40.65"^^xsd:float ;
+    ex:uniqueTypes 365 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:16:00+02:00"^^xsd:dateTime ;
+    schema:headline "PTC Inc (NASDAQ:PTC) Shares Acquired by Marshall Wace LLP"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/ptc-inc-nasdaqptc-shares-acquired-by-marshall-wace-llp.html"^^xsd:anyURI ;
+    schema:wordCount 898 .
+
+ex:ed9ed656bd7c91dd2fde44ecd29c82aeb6135a54 a schema:NewsArticle ;
+    rdfs:label "The Ultimate Guide to CBD Gummies"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "35.16"^^xsd:float ;
+    ex:uniqueTypes 777 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T11:21:00+02:00"^^xsd:dateTime ;
+    schema:headline "The Ultimate Guide to CBD Gummies"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://ladybughemp7.digiblogbox.com/16006202/the-ultimate-guide-to-cbd-gummies"^^xsd:anyURI ;
+    schema:wordCount 2210 .
+
+ex:eddaf033e517095558f453a1dedc99f41bf39fe5 a schema:NewsArticle ;
+    rdfs:label "Coronavirus New York: Million N95 masks on way to struggling NYC; 12,000 COVID-19 cases statewide | abc7ny.com"^^xsd:string ;
+    ex:category "['media', 'television', 'entertainment']" ;
+    ex:dayPublished "06"^^xsd:gDay ;
+    ex:location "connecticut",
+        "long island",
+        "new jersey",
+        "new york",
+        "new york city" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "fema",
+        "wabc" ;
+    ex:person "andrew cuomo",
+        "cuomo" ;
+    ex:sectionTitle "Northern Suburbs | abc7ny.com"^^xsd:string ;
+    ex:typeTokenRatio "27.02"^^xsd:float ;
+    ex:uniqueTypes 3180 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "abc7ny.com"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-06T17:39:00+02:00"^^xsd:dateTime ;
+    schema:headline "Coronavirus New York: Million N95 masks on way to struggling NYC; 12,000 COVID-19 cases statewide | abc7ny.com"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://abc7ny.com/health/schools-and-universities-closed-due-to-the-coronavirus-pandemic/5996102/"^^xsd:anyURI ;
+    schema:wordCount 11767 .
+
+ex:ef441d4e7499921cf3b1edcf17e21137f48a63a6 a schema:NewsArticle ;
+    rdfs:label "India’s stock markets will remain functional"^^xsd:string ;
+    ex:category "['media']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:location "india",
+        "mumbai" ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "nse",
+        "sebi" ;
+    ex:sectionTitle "Business/Economy – Canindia News"^^xsd:string ;
+    ex:typeTokenRatio "69.52"^^xsd:float ;
+    ex:uniqueTypes 73 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "CanIndia New Wire Service"^^xsd:string ;
+    schema:countryOfOrigin dbp:Canada ;
+    schema:datePublished "2020-03-22T16:37:00+02:00"^^xsd:dateTime ;
+    schema:headline "India’s stock markets will remain functional"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://www.canindia.com/indias-stock-markets-will-remain-functional/"^^xsd:anyURI ;
+    schema:wordCount 105 .
+
+ex:f4fd6eb6493267f50e5b7bb4cc19d7ef6a1c1a13 a schema:NewsArticle ;
+    rdfs:label "casino Secrets"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "64.73"^^xsd:float ;
+    ex:uniqueTypes 424 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T11:21:00+02:00"^^xsd:dateTime ;
+    schema:headline "casino Secrets"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://51-161-8-17971901.digiblogbox.com/16006204/casino-secrets"^^xsd:anyURI ;
+    schema:wordCount 655 .
+
+ex:f8bff9289411be69d460c869bb1b6650edffa7e5 a schema:NewsArticle ;
+    rdfs:label "Kinds of Business No Further a Mystery"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:typeTokenRatio "63.76"^^xsd:float ;
+    ex:uniqueTypes 373 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:datePublished "2020-03-22T02:29:00+02:00"^^xsd:dateTime ;
+    schema:headline "Kinds of Business No Further a Mystery"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://rylanfvjy36925.alltdesign.com/kinds-of-business-no-further-a-mystery-15356983"^^xsd:anyURI ;
+    schema:wordCount 585 .
+
+ex:fc7a62c78e1d2d8ce888a7cdcfd69bf006432ca7 a schema:NewsArticle ;
+    rdfs:label "Crank up mining royalties on Iron ore, 43636903, page-61 - HotCopper | ASX Share Prices, Stock Market & Share Trading Forum"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Breaking News Forum | HotCopper Forum"^^xsd:string ;
+    ex:typeTokenRatio "63.18"^^xsd:float ;
+    ex:uniqueTypes 362 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "Furpo2"^^xsd:string ;
+    schema:countryOfOrigin dbp:Australia ;
+    schema:datePublished "2020-03-22T17:29:00+02:00"^^xsd:dateTime ;
+    schema:headline "Crank up mining royalties on Iron ore, 43636903, page-61 - HotCopper | ASX Share Prices, Stock Market & Share Trading Forum"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://hotcopper.com.au/threads/crank-up-mining-royalties-on-iron-ore.5297985/?post_id=43636903"^^xsd:anyURI ;
+    schema:wordCount 573 .
+
+ex:fe37e1a7fc975b01509a997686b3223e7a437c9e a schema:NewsArticle ;
+    rdfs:label "Mitsubishi UFJ Trust & Banking Corp Sells 13,694 Shares of AMETEK, Inc. (NYSE:AME)"^^xsd:string ;
+    ex:category "['financial_news', 'finance']" ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:organization "abmn",
+        "ametek",
+        "ametek, inc.",
+        "brookfield hedge solutions llc",
+        "lord abbett & co. llc",
+        "mitsubishi ufj trust & banking corp",
+        "nyse",
+        "sec",
+        "securities and exchange commission",
+        "skandinaviska enskilda banken ab" ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:typeTokenRatio "43.47"^^xsd:float ;
+    ex:uniqueTypes 433 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:16:00+02:00"^^xsd:dateTime ;
+    schema:headline "Mitsubishi UFJ Trust & Banking Corp Sells 13,694 Shares of AMETEK, Inc. (NYSE:AME)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-sells-13694-shares-of-ametek-inc-nyseame.html"^^xsd:anyURI ;
+    schema:wordCount 996 .
+
