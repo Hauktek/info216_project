@@ -11,20 +11,20 @@ ents = [(x.text, x.label_) for x in doc.ents]
 
 
 for x in range(len(ents)):
-    # if ents[x][1] == 'LOC':
-    #     print(ents[x])
-    # if ents[x][1] == 'ORG':
-    #     print(ents[x])
-    # if ents[x][1] == 'DATE':
-    #     print(ents[x])
-    # if ents[x][1] == 'MONEY':
-    #     print(ents[x])
-    # if ents[x][1] == 'PERCENT':
-    #     print(ents[x])
-    # if ents[x][1] == 'CARDINAL':
-    #     print(ents[x])
-    # if ents[x][1] == 'GPE':
-    #     print(ents[x])
+    if ents[x][1] == 'LOC':
+        print(ents[x])
+    if ents[x][1] == 'ORG':
+        print(ents[x])
+    if ents[x][1] == 'DATE':
+        print(ents[x])
+    if ents[x][1] == 'MONEY':
+        print(ents[x])
+    if ents[x][1] == 'PERCENT':
+        print(ents[x])
+    if ents[x][1] == 'CARDINAL':
+        print(ents[x])
+    if ents[x][1] == 'GPE':
+         print(ents[x])
     if ents[x][1] == 'PERSON':
         print(ents[x])
     

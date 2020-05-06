@@ -1,6 +1,12 @@
+import requests
+import urllib
+import time
+import json
+
 class Analyzer:
 
     def __init__(self, text):
+        self.text = text
         self.tokens = text.split()
 
     # Finds the number of words in text
@@ -26,4 +32,21 @@ class Analyzer:
         numberOfTypes = self.findUniqueTypes()
         typeTokenRatio = (numberOfTypes / numberOfTokens) * 100
         return round(typeTokenRatio, 2)
+
+
+    def spotlightCall(self):
+        text_call = urllib.parse.quote(self.text)
+        response = requests.get('http://api.dbpedia-spotlight.org/en/annotate?text=' + text_call, headers={
+  'Accept':'application/json'
+},)
+        if response.status_code == 200:
+            print('ok')
+            return response.json()
+    
+    
+
+
+    
+    
+
 
