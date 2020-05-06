@@ -44,11 +44,14 @@ for article in data['posts']:
     if response.status_code == 200:
         for res in response.json()["Resources"]:
             if res["@types"]:
-                # types = x["@types"].split(',')
+                types = res["@types"].split(',')
                 b = res["@URI"].split('/resource/')
                 g.add((URIRef(ex + subject), ex.hasEntity, URIRef(dbp + str(b[1]))))
 
-
+                for t in types:
+                    t_split = t.split(':')
+                    if t_split[0] == 'DBpedia':
+                        g.add((URIRef(dbp + str(b[1])), RDF.type, URIRef(dbp + t_split[1])))
 
 
             g.add((URIRef(ex + subject), RDF.type, schema.NewsArticle))

@@ -116,6 +116,50 @@ Square, Inc provides payment and point-of-sale solutions in the United States an
     schema:url "https://www.americanbankingnews.com/2020/03/22/155557-shares-in-square-inc-nysesq-purchased-by-marshall-wace-llp.html"^^xsd:anyURI ;
     schema:wordCount 825 .
 
+ex:0b742b314d9de8033183d5f0a114d1bf1d3f6768 a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Has $10.11 Million Position in Carnival plc (NYSE:CUK)"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:hasEntity dbp:AIDA_Cruises,
+        dbp:Asia,
+        dbp:Asia_Cruise,
+        dbp:Australia,
+        dbp:Carnival_Cruise_Line,
+        dbp:Cunard_Line,
+        dbp:Goldman_Sachs,
+        dbp:Holland_America_Line,
+        dbp:Israel_Englander,
+        dbp:Marshall_Wace,
+        dbp:New_York_Stock_Exchange,
+        <https://dbpedia.org/resource/P&O_Cruises>,
+        dbp:Princess_Cruises,
+        dbp:Renminbi,
+        dbp:Seabourn_Cruise_Line,
+        dbp:U.S._Securities_and_Exchange_Commission,
+        dbp:United_Kingdom,
+        dbp:United_States ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:siteCategory "['financial_news', 'finance']" ;
+    ex:typeTokenRatio "46.58"^^xsd:float ;
+    ex:uniqueTypes 286 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:articleBody """Marshall Wace LLP lowered its stake in shares of Carnival plc (NYSE:CUK) by 42.2% during the fourth quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The institutional investor owned 210,022 shares of the company’s stock after selling 153,628 shares during the quarter. Marshall Wace LLP owned about 0.11% of Carnival worth $10,114,000 at the end of the most recent reporting period.
+A number of other large investors also recently modified their holdings of the stock. Goldman Sachs Group Inc. grew its position in Carnival by 3.7% during the fourth quarter. Goldman Sachs Group Inc. now owns 1,500,218 shares of the company’s stock worth $72,250,000 after buying an additional 53,942 shares in the last quarter. Todd Asset Management LLC grew its position in Carnival by 9.4% during the fourth quarter. Todd Asset Management LLC now owns 396,504 shares of the company’s stock worth $19,096,000 after buying an additional 33,987 shares in the last quarter. Marshall Wace North America L.P. grew its position in Carnival by 44.1% during the fourth quarter. Marshall Wace North America L.P. now owns 379,957 shares of the company’s stock worth $18,300,000 after buying an additional 116,193 shares in the last quarter. Millennium Management LLC grew its position in Carnival by 9,225.5% during the third quarter. Millennium Management LLC now owns 317,066 shares of the company’s stock worth $13,338,000 after buying an additional 313,666 shares in the last quarter. Finally, RMB Capital Management LLC grew its position in Carnival by 2.0% during the fourth quarter. RMB Capital Management LLC now owns 170,392 shares of the company’s stock worth $8,206,000 after buying an additional 3,392 shares in the last quarter. 6.71% of the stock is currently owned by institutional investors and hedge funds. Get Carnival alerts:
+Shares of CUK stock opened at $10.34 on Friday. The stock’s fifty day moving average price is $32.16 and its two-hundred day moving average price is $40.88. The company has a market cap of $1.62 billion, a PE ratio of 1.99 and a beta of 1.31. Carnival plc has a fifty-two week low of $7.08 and a fifty-two week high of $56.41. The company has a debt-to-equity ratio of 0.38, a quick ratio of 0.18 and a current ratio of 0.23.
+Carnival (NYSE:CUK) last issued its earnings results on Friday, December 20th. The company reported $0.62 earnings per share for the quarter. The firm had revenue of $4.78 billion for the quarter. Carnival had a return on equity of 12.29% and a net margin of 14.36%. On average, equities analysts predict that Carnival plc will post 4.45 EPS for the current fiscal year.
+The firm also recently announced a quarterly dividend, which was paid on Friday, March 13th. Shareholders of record on Friday, February 21st were issued a $0.50 dividend. This represents a $2.00 dividend on an annualized basis and a dividend yield of 19.34%. The ex-dividend date of this dividend was Thursday, February 20th. Carnival’s dividend payout ratio is presently 45.45%.
+Carnival Company Profile
+Carnival plc operates as a leisure travel company in North America, Australia, Europe, and Asia. It operates in four segments: North America and Australia Cruise Operations, Europe and Asia Cruise Operations, Cruise Support, and Tour and Other. The company operates cruises under the Carnival Cruise Line, Princess Cruises, Holland America Line, P&O Cruises (Australia), Seabourn, Costa, AIDA, P&O Cruises (UK), and Cunard brand names.
+Featured Story: What is a short straddle?
+Want to see what other hedge funds are holding CUK? Visit HoldingsChannel.com to get the latest 13F filings and insider trades for Carnival plc (NYSE:CUK). Receive News & Ratings for Carnival analysts' ratings for Carnival and related companies daily email newsletter . «"""^^xsd:string ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Has $10.11 Million Position in Carnival plc (NYSE:CUK)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-has-10-11-million-position-in-carnival-plc-nysecuk.html"^^xsd:anyURI ;
+    schema:wordCount 614 .
+
 ex:0ece3ede51ebeda7de08d303b3a3c0ca10188abe a schema:NewsArticle ;
     rdfs:label "Janata Curfew: Complete voluntary shut down in Telangana"^^xsd:string ;
     ex:dayPublished "22"^^xsd:gDay ;
@@ -402,6 +446,42 @@ That will make today fine. Hope yours is too. Share this:"""^^xsd:string ;
     schema:url "https://therelucanthousewife.wordpress.com/2020/03/22/carrots-wine/"^^xsd:anyURI ;
     schema:wordCount 470 .
 
+ex:2f806f4da2b7cd358a76757268c851119b73e0ec a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Invests $10.83 Million in Plexus Corp. (NASDAQ:PLXS)"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:hasEntity dbp:Africa,
+        dbp:Americas,
+        dbp:European_Union,
+        dbp:Goldman_Sachs,
+        dbp:JPMorgan_Chase,
+        dbp:Marshall_Wace,
+        <https://dbpedia.org/resource/Needham_&_Company>,
+        dbp:U.S._Securities_and_Exchange_Commission,
+        dbp:UBS ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:siteCategory "['financial_news', 'finance']" ;
+    ex:typeTokenRatio "44.36"^^xsd:float ;
+    ex:uniqueTypes 354 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:articleBody """Marshall Wace LLP purchased a new position in shares of Plexus Corp. (NASDAQ:PLXS) in the fourth quarter, according to its most recent disclosure with the SEC. The firm purchased 140,795 shares of the technology company’s stock, valued at approximately $10,833,000. Marshall Wace LLP owned approximately 0.48% of Plexus at the end of the most recent reporting period.
+Several other institutional investors and hedge funds have also recently bought and sold shares of the company. Goldman Sachs Group Inc. raised its stake in shares of Plexus by 18.1% during the 4th quarter. Goldman Sachs Group Inc. now owns 129,170 shares of the technology company’s stock worth $9,938,000 after purchasing an additional 19,799 shares in the last quarter. Guggenheim Capital LLC raised its stake in shares of Plexus by 1.6% during the 4th quarter. Guggenheim Capital LLC now owns 77,737 shares of the technology company’s stock worth $5,981,000 after purchasing an additional 1,243 shares in the last quarter. UBS Group AG increased its holdings in shares of Plexus by 186.8% during the 4th quarter. UBS Group AG now owns 4,242 shares of the technology company’s stock valued at $327,000 after acquiring an additional 2,763 shares during the last quarter. Dynamic Technology Lab Private Ltd acquired a new position in shares of Plexus during the 4th quarter valued at about $737,000. Finally, Americana Partners LLC acquired a new position in shares of Plexus during the 4th quarter valued at about $48,000. 95.98% of the stock is owned by institutional investors. Get Plexus alerts:
+In other Plexus news, VP Ronnie Darroch sold 5,000 shares of the firm’s stock in a transaction that occurred on Monday, January 27th. The stock was sold at an average price of $76.51, for a total value of $382,550.00. Following the sale, the vice president now owns 14,338 shares of the company’s stock, valued at approximately $1,097,000.38. The transaction was disclosed in a legal filing with the Securities & Exchange Commission, which is accessible through this link . Company insiders own 3.20% of the company’s stock.
+A number of research analysts have recently commented on PLXS shares. Sidoti raised Plexus from a “neutral” rating to a “buy” rating and set a $83.00 price objective on the stock in a report on Wednesday, March 11th. BidaskClub lowered Plexus from a “buy” rating to a “hold” rating in a report on Thursday, February 13th. ValuEngine raised Plexus from a “sell” rating to a “hold” rating in a report on Tuesday, March 3rd. Needham & Company LLC increased their price objective on Plexus from $80.00 to $88.00 and gave the company a “buy” rating in a report on Friday, January 24th. Finally, JPMorgan Chase & Co. raised Plexus from a “neutral” rating to an “overweight” rating and set a $84.00 price objective on the stock in a report on Monday, March 9th. Four analysts have rated the stock with a hold rating and three have assigned a buy rating to the company’s stock. The stock has a consensus rating of “Hold” and an average price target of $78.75.
+PLXS opened at $43.00 on Friday. The firm has a market capitalization of $1.30 billion, a P/E ratio of 11.14 and a beta of 0.95. The stock’s 50 day moving average price is $65.84 and its two-hundred day moving average price is $70.17. The company has a quick ratio of 0.96, a current ratio of 1.79 and a debt-to-equity ratio of 0.25. Plexus Corp. has a 12-month low of $35.16 and a 12-month high of $86.53.
+Plexus (NASDAQ:PLXS) last released its earnings results on Wednesday, January 22nd. The technology company reported $1.00 earnings per share (EPS) for the quarter, beating the Zacks’ consensus estimate of $0.93 by $0.07. The firm had revenue of $852.40 million for the quarter, compared to analyst estimates of $803.38 million. Plexus had a return on equity of 12.26% and a net margin of 3.61%. The company’s revenue was up 11.4% on a year-over-year basis. During the same quarter last year, the firm posted $0.91 EPS. As a group, analysts anticipate that Plexus Corp. will post 3.85 earnings per share for the current year.
+Plexus Profile
+Plexus Corp., together with its subsidiaries, provides electronic manufacturing services in the Americas, Europe, the Middle East, Africa, and the Asia-Pacific. It offers design and development, supply chain, new product introduction, and manufacturing solutions, as well as aftermarket services. The company provides its solutions to companies in the healthcare and life sciences, industrial and commercial, communications, and aerospace and defense sectors.
+Featured Story: What can cause a stock to outperform?
+Want to see what other hedge funds are holding PLXS? Visit HoldingsChannel.com to get the latest 13F filings and insider trades for Plexus Corp. (NASDAQ:PLXS). Receive News & Ratings for Plexus analysts' ratings for Plexus and related companies daily email newsletter . «"""^^xsd:string ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Invests $10.83 Million in Plexus Corp. (NASDAQ:PLXS)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-invests-10-83-million-in-plexus-corp-nasdaqplxs.html"^^xsd:anyURI ;
+    schema:wordCount 798 .
+
 ex:33251c825c515db8022969bb69c0ea602261476e a schema:NewsArticle ;
     rdfs:label "Marshall Wace LLP Raises Stake in KT Corp (NYSE:KT)"^^xsd:string ;
     ex:dayPublished "22"^^xsd:gDay ;
@@ -430,6 +510,42 @@ KT Corporation provides telecommunications services in Korea and internationally
     schema:inLanguage dbp:English ;
     schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-raises-stake-in-kt-corp-nysekt.html"^^xsd:anyURI ;
     schema:wordCount 394 .
+
+ex:398b5dd8bb277c269de1a7607a7f86827512a6f7 a schema:NewsArticle ;
+    rdfs:label "Loomis Sayles & Co. L P Has $11.92 Million Stock Holdings in Meta Financial Group Inc. (NASDAQ:CASH)"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:hasEntity <https://dbpedia.org/resource/Donetsk_People's_Republic>,
+        dbp:MetaBank,
+        dbp:PNC_Financial_Services,
+        dbp:Riley_Motor,
+        dbp:Thomson_Reuters,
+        dbp:U.S._Securities_and_Exchange_Commission,
+        dbp:United_States ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:siteCategory "['financial_news', 'finance']" ;
+    ex:typeTokenRatio "43.79"^^xsd:float ;
+    ex:uniqueTypes 384 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:articleBody """Posted by ABMN Staff on Mar 22nd, 2020 // No Comments
+Loomis Sayles & Co. L P trimmed its holdings in shares of Meta Financial Group Inc. (NASDAQ:CASH) by 2.4% in the fourth quarter, according to the company in its most recent filing with the Securities and Exchange Commission (SEC). The fund owned 326,574 shares of the savings and loans company’s stock after selling 8,133 shares during the period. Loomis Sayles & Co. L P owned about 0.90% of Meta Financial Group worth $11,923,000 at the end of the most recent quarter.
+Other institutional investors have also bought and sold shares of the company. Tower Research Capital LLC TRC boosted its stake in shares of Meta Financial Group by 453.0% during the 3rd quarter. Tower Research Capital LLC TRC now owns 1,576 shares of the savings and loans company’s stock worth $51,000 after buying an additional 1,291 shares during the last quarter. Penserra Capital Management LLC acquired a new position in shares of Meta Financial Group during the 4th quarter worth about $54,000. PNC Financial Services Group Inc. boosted its stake in shares of Meta Financial Group by 33.4% during the 4th quarter. PNC Financial Services Group Inc. now owns 1,642 shares of the savings and loans company’s stock worth $60,000 after buying an additional 411 shares during the last quarter. ProShare Advisors LLC acquired a new position in shares of Meta Financial Group during the 4th quarter worth about $209,000. Finally, LS Investment Advisors LLC boosted its stake in shares of Meta Financial Group by 640.2% during the 4th quarter. LS Investment Advisors LLC now owns 5,818 shares of the savings and loans company’s stock worth $212,000 after buying an additional 5,032 shares during the last quarter. Institutional investors own 77.97% of the company’s stock. Get Meta Financial Group alerts:
+Shares of NASDAQ:CASH opened at $20.65 on Friday. Meta Financial Group Inc. has a 52-week low of $15.61 and a 52-week high of $40.00. The company has a market capitalization of $783.98 million, a P/E ratio of 7.65 and a beta of 1.32. The company has a 50-day simple moving average of $33.84 and a 200 day simple moving average of $34.26. The company has a debt-to-equity ratio of 0.25, a quick ratio of 0.77 and a current ratio of 0.83.
+Meta Financial Group (NASDAQ:CASH) last issued its earnings results on Wednesday, January 29th. The savings and loans company reported $0.56 earnings per share (EPS) for the quarter, beating the Thomson Reuters’ consensus estimate of $0.50 by $0.06. Meta Financial Group had a net margin of 18.65% and a return on equity of 13.13%. The business had revenue of $102.13 million during the quarter, compared to the consensus estimate of $104.35 million. As a group, equities analysts forecast that Meta Financial Group Inc. will post 3.16 earnings per share for the current year.
+The company also recently announced a quarterly dividend, which will be paid on Wednesday, April 1st. Investors of record on Tuesday, March 10th will be paid a $0.05 dividend. The ex-dividend date is Monday, March 9th. This represents a $0.20 annualized dividend and a yield of 0.97%. Meta Financial Group’s dividend payout ratio (DPR) is currently 7.52%.
+A number of equities analysts have recently commented on CASH shares. B. Riley increased their price objective on shares of Meta Financial Group from $42.00 to $43.00 and gave the stock a “buy” rating in a research note on Thursday, January 30th. Zacks Investment Research downgraded shares of Meta Financial Group from a “buy” rating to a “hold” rating in a research note on Tuesday, February 4th. Finally, BidaskClub downgraded shares of Meta Financial Group from a “hold” rating to a “sell” rating in a research note on Wednesday. One research analyst has rated the stock with a sell rating, one has assigned a hold rating, two have assigned a buy rating and one has assigned a strong buy rating to the company. Meta Financial Group presently has a consensus rating of “Buy” and a consensus target price of $41.25.
+In related news, EVP Michael K. Goik sold 12,300 shares of the firm’s stock in a transaction dated Friday, January 31st. The shares were sold at an average price of $36.80, for a total value of $452,640.00. Following the completion of the sale, the executive vice president now directly owns 166,194 shares in the company, valued at approximately $6,115,939.20. The sale was disclosed in a document filed with the Securities & Exchange Commission, which is available at the SEC website . Company insiders own 4.67% of the company’s stock.
+Meta Financial Group Profile
+Meta Financial Group, Inc operates as the holding company for MetaBank that offers various banking products and services in the United States. The company accepts various deposit products, including statement savings accounts, money market savings accounts, negotiable order of withdrawal accounts, and checking accounts; and deposits related to prepaid cards, which primarily comprise checking accounts and certificate accounts.
+Read More: What are no-load funds?
+Want to see what other hedge funds are holding CASH? Visit HoldingsChannel.com to get the latest 13F filings and insider trades for Meta Financial Group Inc. (NASDAQ:CASH). Receive News & Ratings for Meta Financial Group analysts' ratings for Meta Financial Group and related companies daily email newsletter . «"""^^xsd:string ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Loomis Sayles & Co. L P Has $11.92 Million Stock Holdings in Meta Financial Group Inc. (NASDAQ:CASH)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/loomis-sayles-co-l-p-has-11-92-million-stock-holdings-in-meta-financial-group-inc-nasdaqcash.html"^^xsd:anyURI ;
+    schema:wordCount 877 .
 
 ex:4341b39fda6f6296d0b0e908e7e335c538a97ac5 a schema:NewsArticle ;
     rdfs:label "Little Known Facts About what is dropshipping."^^xsd:string ;
@@ -486,6 +602,41 @@ Want to see what other hedge funds are holding ALXN? Visit HoldingsChannel.com t
     schema:inLanguage dbp:English ;
     schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-boosts-holdings-in-alexion-pharmaceuticals-inc-nasdaqalxn.html"^^xsd:anyURI ;
     schema:wordCount 846 .
+
+ex:4a1945d531b96b10f57aa46b2dea683a13233128 a schema:NewsArticle ;
+    rdfs:label "Marshall Wace LLP Sells 150,720 Shares of United Technologies Co. (NYSE:UTX)"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:hasEntity dbp:Busta_Rhymes,
+        dbp:Credit_Suisse,
+        <https://dbpedia.org/resource/Gap_Inc.>,
+        dbp:Marshall_Wace,
+        dbp:New_York_Stock_Exchange,
+        dbp:U.S._Securities_and_Exchange_Commission,
+        dbp:UBS,
+        dbp:United_Technologies ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "American Banking News"^^xsd:string ;
+    ex:siteCategory "['financial_news', 'finance']" ;
+    ex:typeTokenRatio "40.99"^^xsd:float ;
+    ex:uniqueTypes 355 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:articleBody """Marshall Wace LLP trimmed its position in shares of United Technologies Co. (NYSE:UTX) by 68.0% during the 4th quarter, according to its most recent 13F filing with the Securities and Exchange Commission (SEC). The firm owned 70,779 shares of the conglomerate’s stock after selling 150,720 shares during the period. Marshall Wace LLP’s holdings in United Technologies were worth $10,600,000 at the end of the most recent reporting period.
+Several other hedge funds have also recently made changes to their positions in the company. Truewealth LLC boosted its holdings in shares of United Technologies by 4.2% in the 4th quarter. Truewealth LLC now owns 1,614 shares of the conglomerate’s stock valued at $242,000 after acquiring an additional 65 shares during the last quarter. Cim LLC boosted its holdings in shares of United Technologies by 1.9% in the 4th quarter. Cim LLC now owns 3,497 shares of the conglomerate’s stock valued at $524,000 after acquiring an additional 66 shares during the last quarter. Peninsula Wealth LLC boosted its holdings in shares of United Technologies by 4.7% in the 4th quarter. Peninsula Wealth LLC now owns 1,581 shares of the conglomerate’s stock valued at $237,000 after acquiring an additional 71 shares during the last quarter. Biltmore Family Office LLC boosted its holdings in shares of United Technologies by 0.3% in the 4th quarter. Biltmore Family Office LLC now owns 23,649 shares of the conglomerate’s stock valued at $3,542,000 after acquiring an additional 76 shares during the last quarter. Finally, Weatherly Asset Management L. P. boosted its holdings in shares of United Technologies by 2.4% in the 4th quarter. Weatherly Asset Management L. P. now owns 3,268 shares of the conglomerate’s stock valued at $489,000 after acquiring an additional 78 shares during the last quarter. Hedge funds and other institutional investors own 82.01% of the company’s stock. Get United Technologies alerts:
+NYSE:UTX opened at $82.53 on Friday. The company has a debt-to-equity ratio of 0.90, a quick ratio of 0.77 and a current ratio of 1.08. The company has a fifty day moving average of $135.95 and a two-hundred day moving average of $142.16. The stock has a market capitalization of $72.55 billion, a PE ratio of 10.14, a P/E/G ratio of 1.29 and a beta of 1.26. United Technologies Co. has a fifty-two week low of $69.02 and a fifty-two week high of $158.44.
+United Technologies (NYSE:UTX) last posted its quarterly earnings data on Tuesday, January 28th. The conglomerate reported $1.94 earnings per share for the quarter, topping the Zacks’ consensus estimate of $1.84 by $0.10. The company had revenue of $19.55 billion during the quarter, compared to analysts’ expectations of $19.34 billion. United Technologies had a net margin of 7.19% and a return on equity of 16.60%. The firm’s revenue for the quarter was up 8.4% on a year-over-year basis. During the same period in the prior year, the business posted $1.95 earnings per share. Research analysts forecast that United Technologies Co. will post 7.88 earnings per share for the current year.
+The business also recently disclosed a quarterly dividend, which was paid on Tuesday, March 10th. Shareholders of record on Friday, February 14th were given a dividend of $0.735 per share. This represents a $2.94 dividend on an annualized basis and a yield of 3.56%. The ex-dividend date was Thursday, February 13th. United Technologies’s dividend payout ratio is presently 35.59%.
+Several equities analysts recently issued reports on the stock. Argus reiterated a “buy” rating and issued a $170.00 target price on shares of United Technologies in a research note on Wednesday, January 29th. Zacks Investment Research upgraded shares of United Technologies from a “hold” rating to a “buy” rating and set a $155.00 target price for the company in a research note on Thursday, November 28th. UBS Group boosted their target price on shares of United Technologies from $157.00 to $170.00 and gave the company a “buy” rating in a research note on Wednesday, January 15th. Benchmark assumed coverage on shares of United Technologies in a research note on Friday, January 31st. They issued a “buy” rating and a $186.00 target price for the company. Finally, Credit Suisse Group decreased their target price on shares of United Technologies from $177.00 to $172.00 and set an “outperform” rating for the company in a research note on Monday, February 24th. They noted that the move was a valuation call. Four research analysts have rated the stock with a hold rating and thirteen have issued a buy rating to the company’s stock. The company presently has a consensus rating of “Buy” and an average price target of $162.80.
+United Technologies Company Profile
+United Technologies Corporation provides technology products and services to building systems and aerospace industries worldwide. Its Otis segment designs, manufactures, sells, and installs passenger and freight elevators, escalators, and moving walkways; and offers modernization products to upgrade elevators and escalators, as well as maintenance and repair services.
+Recommended Story: Gap Up Stocks
+Want to see what other hedge funds are holding UTX? Visit HoldingsChannel.com to get the latest 13F filings and insider trades for United Technologies Co. (NYSE:UTX). Receive News & Ratings for United Technologies analysts' ratings for United Technologies and related companies daily email newsletter . «"""^^xsd:string ;
+    schema:author "ABMN Staff"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
+    schema:headline "Marshall Wace LLP Sells 150,720 Shares of United Technologies Co. (NYSE:UTX)"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-sells-150720-shares-of-united-technologies-co-nyseutx.html"^^xsd:anyURI ;
+    schema:wordCount 866 .
 
 ex:4a2c568e1843eb38d45a4ccce06b63b2c4069a06 a schema:NewsArticle ;
     rdfs:label "The Civilian Conservation Corps"^^xsd:string ;
@@ -1068,6 +1219,58 @@ ex:97eb003e2a7b74aeb36fa12c5dcc92f8a6c77a59 a schema:NewsArticle ;
     schema:url "http://archive.is/xbHTk"^^xsd:anyURI ;
     schema:wordCount 167 .
 
+ex:a070e713a541802a98b39fa13ea49a5526e4ff06 a schema:NewsArticle ;
+    rdfs:label "Crank up mining royalties on Iron ore, 43636849, page-60 - HotCopper | ASX Share Prices, Stock Market & Share Trading Forum"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:hasEntity dbp:Australian_Taxation_Office,
+        dbp:Australian_dollar,
+        dbp:China,
+        dbp:Donald_Trump,
+        dbp:Pssst,
+        dbp:Republic_of_Ireland,
+        dbp:United_States_dollar ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Breaking News Forum | HotCopper Forum"^^xsd:string ;
+    ex:siteCategory "['financial_news', 'finance']" ;
+    ex:typeTokenRatio "61.71"^^xsd:float ;
+    ex:uniqueTypes 361 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:articleBody """Originally posted by EyeoftheTiger: ↑ We advocate low government involvement in normal circumstances, bit times like this, you load the government rocket launcher and you fire hard. We all know times will be tough, but i don't mind putting in extras if it gets us out of this hole in the short term, just don't destroy my wealth! Expand Over the past year our AUD has lost 21.5% vs the USD.
+https://www.xe.com/currencycharts/?from=AUD&to=USD&view=1Y
+With the drought, the fires & now the Covid-19 we can expect a dramatic
+reset of the stock market to reflect our impending recession. The lift over the
+past few days is simply a dead cat bounce, IMO.
+I walked along a cafe/resturant strip this evening of about 50-60 businesses and they were virtually empty.
+One owner told me that he had already retrenched three quarters of his staff and he was relying on takeaways
+now to pay the rent.
+The residential hotels a few blocks away were in a similar position to the resturants and cafes ( virtually empty ) offering rooms at 60% discount!
+The supermarkets seem to be the only ones benefiting at present.
+The PM's announcement this PM virtually shut down pubs, clubs, resturants Cafes gyms and your normal discretionary
+spend businesses. This will mean bankrupcy for many , devalue real estate and stun the economy.
+The question is who will pay.? At present we have not had offers from the billionaires who have trippled their wealth since the GFC,
+thanks to generous tax laws and we have had multinationals doubling their revenue in that period also and again treated very leintly
+by the ATO:
+https://www.xe.com/currencycharts/?from=AUD&to=USD&view=1Y
+Its now time that the Government made these multinationals pony-up and pay their fair share of tax at a time when the country is in strife.
+Someone will have to pay for the $180 Billion handout package announced yesterday and unless action is taken now, it will be the unfortunate PAYE
+workers who will have to pay later. This is what happened in Ireland and other European countries post the GFC which did not hit us thanks to China bailing us out with its additional demand for our exports and the accompanying high export prices.
+(Pssst...we're not sending our war ships up through the China Sea now)
+This time will be different, IMO, because China has been gutted already by the virus and the US Tariffs and besides China will want to support its neighbours such as Mongolia, Russis etc.
+Due to our obvious pro Trump stance on China, the Chinese will be very selective this time around when it comes to the supply of raw materials to
+support its own economic recovery, IMO.
+IMO doubling royalties on our Iron Ore & Coal should yield about $8 billion P/A extra State Government income which would just about pay the interest only on the current Government handouts. We are already paying about $20 billion interest on the rest.
+Unlike 2008, we are already loaded with soverign, state, muni, personal & business debts. If we add he lot together we're in the hole for over $7 trillion; 4 times our GDP.
+With massive unemployment imminent, real estate prices are bound to tumble more than 2008/2010 which will put some recent Gen Y home owners under water, IMO.
+When all this blows by this increased Government spending will have to be paid and who better than those who control our valueable mineral resources !
+PS: Gold at present seems to be the best preserver of wealth!"""^^xsd:string ;
+    schema:author "moorookamick"^^xsd:string ;
+    schema:countryOfOrigin dbp:Australia ;
+    schema:datePublished "2020-03-22T17:20:00+02:00"^^xsd:dateTime ;
+    schema:headline "Crank up mining royalties on Iron ore, 43636849, page-60 - HotCopper | ASX Share Prices, Stock Market & Share Trading Forum"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://hotcopper.com.au/threads/crank-up-mining-royalties-on-iron-ore.5297985/?post_id=43636849"^^xsd:anyURI ;
+    schema:wordCount 585 .
+
 ex:a24dcd866c45c4429c3d58e06f9874ae593ef1f2 a schema:NewsArticle ;
     rdfs:label "Mitsubishi UFJ Trust & Banking Corp Decreases Stake in Lululemon Athletica inc. (NASDAQ:LULU)"^^xsd:string ;
     ex:dayPublished "22"^^xsd:gDay ;
@@ -1547,6 +1750,29 @@ Want to see what other hedge funds are holding SSTK? Visit HoldingsChannel.com t
     schema:url "https://www.americanbankingnews.com/2020/03/22/shutterstock-inc-nysesstk-shares-sold-by-marshall-wace-llp.html"^^xsd:anyURI ;
     schema:wordCount 635 .
 
+ex:d31c4e8ac28ce0a5a5b44fb01b80ab4d82d81b49 a schema:NewsArticle ;
+    rdfs:label "Covid 19, Moving Barns, and Stress - Chronicle Forums"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:hasEntity dbp:Horse,
+        dbp:Nice,
+        dbp:The_Movie_Network ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Off Course - Chronicle Forums "^^xsd:string ;
+    ex:siteCategory "['horses', 'sports']" ;
+    ex:typeTokenRatio "62.05"^^xsd:float ;
+    ex:uniqueTypes 296 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:articleBody """Ugh. Covid 19 and it’s associated market uncertainties have resulted in a suspension of our search to buy property at this time. Granted rates are low but so is inventory and the stock market. My poor 401k has taken a beating. Nevertheless, I am grateful to so far only have these relatively minor financial impacts. SO and I are both still able to work as normal and I know that’s a blessing.
+I’ve given notice to my current barn. Nice time right? But since I won’t be moving him home anytime soon it seems, I need a different boarding situation. I’ve found a lovely facility quite close to home that offers a lovely array of amenities and services. My only concern is the turn out. The turn outs are impeccably fenced and maintained with an abundance of space and excellent grass. However the BO will not consider over night turn out. Horses are turned out all day every day bar thunderstorms or excessive heat. We live in FL so excessive heat is every day in the summer. During the summer horses go out half a day in the morning. BO is willing to accommodate my desire for extra turn out by also turning my boy out after pm feed around 5/6 until night check around 930. The stalls are traditional boxes, no attached paddock/run. Stalls are matted and bedded to a depth of @ 4”. I am unsure if it is concrete or clay under mats. I’m concerned about him standing in the stall so much. His physical and mental health are of course very important to me. I know that a lot of horses get less turn out. What say you COTHers? Is this adequate turnout? There is another farm a little further away that offers a more customizable turn out schedule up to 24/7 outside. But it is much busier and other aspects of care, while solid are not as customizable as my first choice.
+First choice barn also offers blanketing, boots, fly spray, fly mask on and off daily to my specifications included in cost. Also offers ability to supply my own feed of choice for an appropriate discount on board cost. BO states that her philosophy is horses should always have something to chew and feeds 4-5 flakes of hay in stalls on average and is willing to use my porta grazer in stall. I believe this enough hay for him to always have it in front of him. All stalls have exterior windows and half doors to center aisle that horses can put head through. So he would be able to look out front and back of stall. Two high velocity fans and three 5 gal water buckets in stalls. Would your horse be comfortable standing in this stall 15-18 hours a day? Am I being overly worried? I’m stressing out here!"""^^xsd:string ;
+    schema:author "lenapesadie"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T15:26:00+02:00"^^xsd:dateTime ;
+    schema:headline "Covid 19, Moving Barns, and Stress - Chronicle Forums"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.chronofhorse.com/forum/forum/discussion-forums/off-course/10604770-covid-19-moving-barns-and-stress"^^xsd:anyURI ;
+    schema:wordCount 477 .
+
 ex:d706b7b25f53e56f4da52f975867a877a2253e89 a schema:NewsArticle ;
     rdfs:label "Marshall Wace LLP Has $9.77 Million Stock Position in Unum Group (NYSE:UNM)"^^xsd:string ;
     ex:dayPublished "22"^^xsd:gDay ;
@@ -1781,4 +2007,1446 @@ ex:f4fd6eb6493267f50e5b7bb4cc19d7ef6a1c1a13 a schema:NewsArticle ;
     schema:inLanguage dbp:English ;
     schema:url "http://51-161-8-17971901.digiblogbox.com/16006204/casino-secrets"^^xsd:anyURI ;
     schema:wordCount 655 .
+
+ex:f8bff9289411be69d460c869bb1b6650edffa7e5 a schema:NewsArticle ;
+    rdfs:label "Kinds of Business No Further a Mystery"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:hasEntity dbp:Amazon.com,
+        dbp:EBay,
+        dbp:Horse-fly,
+        dbp:Investopedia ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "alltdesign.com RSS feed"^^xsd:string ;
+    ex:typeTokenRatio "63.76"^^xsd:float ;
+    ex:uniqueTypes 373 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:articleBody "March 22, 2020 | Leave a comment | Home Kinds of Business No Further a Mystery During the horse fly mask instance, the entrepreneur experienced not imagined by means of whether her area client foundation would assist her sewing-and-alterations business. She was lucky to come upon a distinct segment marketplace for her talent set, but don’t depend on that taking place to you.Learn More About: Kind of Business Most certainly, the development is going to be funded in its early stages by an investor, who is frequently the business owner or creator of The concept. Oftentimes, business ventures are funded by more than one investor, With all the expectation that the system are going to be profitable in time. A corporation is usually a business where a group of folks functions collectively as a single entity; most often, homeowners of a corporation are shareholders who Trade consideration for that corporation's popular stock.What Do Undertaking Capitalists Want in Return? Enterprise capitalists are only serious about corporations they Consider will develop into strong investments. Since they tackle much threat once they make an investment inside of a start-up mysterious agency and solution, they look to get paid a very significant return. Enterprise capital corporations decide and decide on their investments very carefully as they are investing Other individuals's funds.Most small businesses are personal restricted companies Along with the shares only available privately, such as, to relations. The shares usually are not available to get publically so they can't be traded about the stock market place.Traveling to Angels would make possessing your own private business from the high-demand from customers dwelling Health care business simpler than ever! You are going to obtain in depth ongoing teaching, solid nationwide and native marketing guidance and the opportunity to...If you’re an arranged particular person, you’ll almost certainly do well with an celebration arranging business. Should you appreciate coordinating components of weddings, parties, together with other instances, This may be a terrific facet business for yourself.From the arena of business activities, you can find three types or classifications. Let us acquire a more in-depth look.One among my to start with businesses right after faculty was a garden care business. It’s amazingly simple to get started provided that you’re willing to do the operate. The most significant hurdle was battling the modifications in climate, but it had been a very good business General.Businesses most frequently variety just after the event of a business strategy, that is a formal doc detailing a business's plans and targets, and its tactics of how it can accomplish the targets and targets. Business designs are Virtually important when borrowing capital to start operations.I have produced a substantial amount of income with tutoring. It’s fairly very simple for making $30-$40 an hour or so If you're good with math, physics, geometry, and many others. It isn’t definitely making residual revenue, however it’s tough to beat if you can obtain college students to meet you some put near.The presents that surface in this table are from partnerships from which Investopedia receives compensation.There are numerous auction web pages where You should buy and sell your solutions with correct bids. The more anyone bids, the greater is your earnings. Most well known between them would be the ebay.com, amazon.com. You'll get some expertise Together with the time as you hook up for your personal bids.Only one-member LLC (SMLLC) is unique mainly because it has the identical ownership type and legal responsibility safety being an LLC, nevertheless it's taxed like a sole proprietorship.https://makebusinessbol.club/kinds-of-business/"^^xsd:string ;
+    schema:datePublished "2020-03-22T02:29:00+02:00"^^xsd:dateTime ;
+    schema:headline "Kinds of Business No Further a Mystery"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://rylanfvjy36925.alltdesign.com/kinds-of-business-no-further-a-mystery-15356983"^^xsd:anyURI ;
+    schema:wordCount 585 .
+
+ex:fc7a62c78e1d2d8ce888a7cdcfd69bf006432ca7 a schema:NewsArticle ;
+    rdfs:label "Crank up mining royalties on Iron ore, 43636903, page-61 - HotCopper | ASX Share Prices, Stock Market & Share Trading Forum"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:hasEntity dbp:Australian_Taxation_Office,
+        dbp:Australian_dollar,
+        dbp:China,
+        dbp:Donald_Trump,
+        dbp:Microsoft_PowerPoint,
+        dbp:Pssst,
+        dbp:Republic_of_Ireland,
+        dbp:United_States_dollar ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Breaking News Forum | HotCopper Forum"^^xsd:string ;
+    ex:siteCategory "['financial_news', 'finance']" ;
+    ex:typeTokenRatio "63.18"^^xsd:float ;
+    ex:uniqueTypes 362 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:articleBody """Originally posted by moorookamick: ↑ Over the past year our AUD has lost 21.5% vs the USD.
+https://www.xe.com/currencycharts/?from=AUD&to=USD&view=1Y
+With the drought, the fires & now the Covid-19 we can expect a dramatic
+reset of the stock market to reflect our impending recession. The lift over the
+past few days is simply a dead cat bounce, IMO.
+I walked along a cafe/resturant strip this evening of about 50-60 businesses and they were virtually empty.
+One owner told me that he had already retrenched three quarters of his staff and he was relying on takeaways
+now to pay the rent.
+The residential hotels a few blocks away were in a similar position to the resturants and cafes ( virtually empty ) offering rooms at 60% discount!
+The supermarkets seem to be the only ones benefiting at present.
+The PM's announcement this PM virtually shut down pubs, clubs, resturants Cafes gyms and your normal discretionary
+spend businesses. This will mean bankrupcy for many , devalue real estate and stun the economy.
+The question is who will pay.? At present we have not had offers from the billionaires who have trippled their wealth since the GFC,
+thanks to generous tax laws and we have had multinationals doubling their revenue in that period also and again treated very leintly
+by the ATO:
+https://www.xe.com/currencycharts/?from=AUD&to=USD&view=1Y
+Its now time that the Government made these multinationals pony-up and pay their fair share of tax at a time when the country is in strife.
+Someone will have to pay for the $180 Billion handout package announced yesterday and unless action is taken now, it will be the unfortunate PAYE
+workers who will have to pay later. This is what happened in Ireland and other European countries post the GFC which did not hit us thanks to China bailing us out with its additional demand for our exports and the accompanying high export prices.
+(Pssst...we're not sending our war ships up through the China Sea now)
+This time will be different, IMO, because China has been gutted already by the virus and the US Tariffs and besides China will want to support its neighbours such as Mongolia, Russis etc.
+Due to our obvious pro Trump stance on China, the Chinese will be very selective this time around when it comes to the supply of raw materials to
+support its own economic recovery, IMO.
+IMO doubling royalties on our Iron Ore & Coal should yield about $8 billion P/A extra State Government income which would just about pay the interest only on the current Government handouts. We are already paying about $20 billion interest on the rest.
+Unlike 2008, we are already loaded with soverign, state, muni, personal & business debts. If we add he lot together we're in the hole for over $7 trillion; 4 times our GDP.
+With massive unemployment imminent, real estate prices are bound to tumble more than 2008/2010 which will put some recent Gen Y home owners under water, IMO.
+When all this blows by this increased Government spending will have to be paid and who better than those who control our valueable mineral resources !
+PS: Gold at present seems to be the best preserver of wealth! Expand Yes it's gloomy
+extent
+no one knows.
+People have to live in buildings
+eat, crap, use water elec and gas
+The government has panicked
+maybe they know something.
+The plug has been pulled from the
+power point.
+jobs, income, security gone."""^^xsd:string ;
+    schema:author "Furpo2"^^xsd:string ;
+    schema:countryOfOrigin dbp:Australia ;
+    schema:datePublished "2020-03-22T17:29:00+02:00"^^xsd:dateTime ;
+    schema:headline "Crank up mining royalties on Iron ore, 43636903, page-61 - HotCopper | ASX Share Prices, Stock Market & Share Trading Forum"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://hotcopper.com.au/threads/crank-up-mining-royalties-on-iron-ore.5297985/?post_id=43636903"^^xsd:anyURI ;
+    schema:wordCount 573 .
+
+dbp:18_Months a dbp:Album,
+        dbp:MusicalWork,
+        dbp:Work .
+
+dbp:2009_flu_pandemic a dbp:Disease .
+
+dbp:4_Minutes a dbp:MusicalWork,
+        dbp:Single,
+        dbp:Work .
+
+dbp:A.D._Vision a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:AIDA_Cruises a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Absolutely_Free a dbp:Album,
+        dbp:MusicalWork,
+        dbp:Work .
+
+dbp:Acadian_Asset_Management a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:African_Americans a dbp:EthnicGroup .
+
+dbp:Alabama a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:Alexion_Pharmaceuticals a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Alyssa_Milano a dbp:Agent,
+        dbp:Person .
+
+dbp:Amazon.com a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Amazon_rainforest a dbp:Location,
+        dbp:Place .
+
+dbp:Arizona a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:Asia_Cruise a dbp:Agent,
+        dbp:Artist,
+        dbp:MusicalArtist,
+        dbp:Person .
+
+dbp:BNP_Paribas a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Baccarat a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Barack_Obama a dbp:Agent,
+        dbp:Person,
+        dbp:Politician,
+        dbp:President .
+
+dbp:Battle_of_Dakar a dbp:Event,
+        dbp:MilitaryConflict,
+        dbp:SocietalEvent .
+
+dbp:Benjamin_Franklin a dbp:Agent,
+        dbp:OfficeHolder,
+        dbp:Person .
+
+dbp:Berkshire_Hathaway a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Bertrand_Russell a dbp:Agent,
+        dbp:Person,
+        dbp:Philosopher .
+
+dbp:Blue_Apron a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Boeing a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Break_Loose a dbp:Film,
+        dbp:Wikidata,
+        dbp:Work .
+
+<https://dbpedia.org/resource/Broken_(EP)> a dbp:Album,
+        dbp:MusicalWork,
+        dbp:Work .
+
+dbp:Buckingham a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Bummed a dbp:Album,
+        dbp:MusicalWork,
+        dbp:Work .
+
+dbp:Busta_Rhymes a dbp:Agent,
+        dbp:Person .
+
+dbp:CMS_Energy a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Canaccord_Genuity a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Cancer a dbp:Disease .
+
+dbp:Cannabis a dbp:Eukaryote,
+        dbp:Plant,
+        dbp:Species .
+
+dbp:Carnival_Cruise_Line a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+<https://dbpedia.org/resource/Carnival_Time_(song)> a dbp:MusicalWork,
+        dbp:Single,
+        dbp:Work .
+
+dbp:Carrot a dbp:Eukaryote,
+        dbp:Plant,
+        dbp:Species .
+
+dbp:Carrot_cake a dbp:Food .
+
+dbp:Centers_for_Disease_Control_and_Prevention a dbp:Agent,
+        dbp:GovernmentAgency,
+        dbp:Organisation .
+
+dbp:Chandra_Shekhar a dbp:Agent,
+        dbp:OfficeHolder,
+        dbp:Person .
+
+dbp:Chico_Marx a dbp:Agent,
+        dbp:Person .
+
+dbp:Christmas a dbp:Holiday .
+
+dbp:Chuck_Schumer a dbp:Agent,
+        dbp:OfficeHolder,
+        dbp:Person .
+
+dbp:Cintas a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Citizens_Financial_Group a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Clorox a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+<https://dbpedia.org/resource/Craig_Conway_(footballer)> a dbp:Agent,
+        dbp:Athlete,
+        dbp:Person,
+        dbp:SoccerPlayer .
+
+dbp:Creative_Commons a dbp:Agent,
+        dbp:Organisation .
+
+dbp:Cunard_Line a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Curry a dbp:Food .
+
+dbp:DNB_ASA a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+<https://dbpedia.org/resource/DekaBank_(Germany)> a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Detroit a dbp:City,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Deutsche_Bank a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Don_Schlitz a dbp:Agent,
+        dbp:Artist,
+        dbp:MusicalArtist,
+        dbp:Person .
+
+dbp:Drop-In a dbp:TelevisionShow,
+        dbp:Work .
+
+dbp:EBay a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Eculizumab a dbp:ChemicalSubstance,
+        dbp:Drug .
+
+dbp:Emergent_BioSolutions a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Epinephrine a dbp:ChemicalSubstance,
+        dbp:Drug .
+
+dbp:Evercore_Partners a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:FactSet a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Fallbrook_Center a dbp:ArchitecturalStructure,
+        dbp:Building,
+        dbp:Location,
+        dbp:Place,
+        dbp:ShoppingMall .
+
+dbp:Family_Dollar a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Fascination_Records a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation,
+        dbp:RecordLabel .
+
+dbp:FedEx a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Federal_Housing_Administration a dbp:Agent,
+        dbp:GovernmentAgency,
+        dbp:Organisation .
+
+dbp:Flickr a dbp:Website,
+        dbp:Work .
+
+dbp:Florida a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:Food_and_Drug_Administration a dbp:Agent,
+        dbp:GovernmentAgency,
+        dbp:Organisation .
+
+dbp:Franklin_D._Roosevelt a dbp:Agent,
+        dbp:OfficeHolder,
+        dbp:Person .
+
+dbp:Franklin_Templeton_Investments a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Free-tailed_bat a dbp:Animal,
+        dbp:Eukaryote,
+        dbp:Mammal,
+        dbp:Species .
+
+dbp:Free_Democratic_Party_of_Switzerland a dbp:Agent,
+        dbp:Organisation,
+        dbp:PoliticalParty .
+
+dbp:Furman_University a dbp:Agent,
+        dbp:EducationalInstitution,
+        dbp:Organisation,
+        dbp:University .
+
+<https://dbpedia.org/resource/Gap_Inc.> a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Gary_Becker a dbp:Agent,
+        dbp:Economist,
+        dbp:Person .
+
+dbp:General_Mills a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:George_Armstrong_Custer a dbp:Agent,
+        dbp:MilitaryPerson,
+        dbp:Person .
+
+dbp:George_Washington a dbp:Agent,
+        dbp:OfficeHolder,
+        dbp:Person .
+
+dbp:Google_Alerts a dbp:Website,
+        dbp:Work .
+
+dbp:Greg_Hunter a dbp:Agent,
+        dbp:Artist,
+        dbp:MusicalArtist,
+        dbp:Person .
+
+dbp:Gruyères a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:HIV a dbp:Species .
+
+dbp:HMS_Urge a dbp:MeanOfTransportation,
+        dbp:Ship .
+
+dbp:Halloween a dbp:Holiday .
+
+dbp:Hallum a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement,
+        dbp:Village .
+
+dbp:Hawaii a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:History_of_the_United_States_Republican_Party a dbp:Agent,
+        dbp:Organisation,
+        dbp:PoliticalParty .
+
+dbp:Holland_America_Line a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Hormel a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Horse a dbp:Animal,
+        dbp:Eukaryote,
+        dbp:Mammal,
+        dbp:Species .
+
+dbp:Horse-fly a dbp:Animal,
+        dbp:Eukaryote,
+        dbp:Insect,
+        dbp:Species .
+
+dbp:House_of_Stuart a dbp:Agent,
+        dbp:Organisation .
+
+dbp:Huntington_Bancshares a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Hyderabad a dbp:City,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:IPad a dbp:Device,
+        dbp:InformationAppliance .
+
+dbp:Idaho a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:Indonesian_language a dbp:Language .
+
+dbp:Interlaken a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Investopedia a dbp:Website,
+        dbp:Work .
+
+dbp:Iran a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Iven_Mackay a dbp:Agent,
+        dbp:MilitaryPerson,
+        dbp:Person .
+
+dbp:Jake_LaMotta a dbp:Agent,
+        dbp:Athlete,
+        dbp:Boxer,
+        dbp:Person .
+
+dbp:Japanese_language a dbp:Language .
+
+dbp:Jefferies_Group a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Jeffrey_Kitingan a dbp:Agent,
+        dbp:Person,
+        dbp:Politician .
+
+dbp:Jeremiah a dbp:Agent,
+        dbp:Person .
+
+dbp:Jeremy_Clarkson a dbp:Agent,
+        dbp:Person .
+
+dbp:Jerome a dbp:Agent,
+        dbp:Cleric,
+        dbp:Person,
+        dbp:Saint .
+
+<https://dbpedia.org/resource/Jersey_Express_S.C.> a dbp:Agent,
+        dbp:Organisation,
+        dbp:SoccerClub,
+        dbp:SportsTeam .
+
+dbp:Jesus a dbp:Agent,
+        dbp:Person .
+
+dbp:John_Cabot a dbp:Agent,
+        dbp:Person .
+
+dbp:John_D._Rockefeller a dbp:Agent,
+        dbp:Person .
+
+dbp:KBC_Bank a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:KT_Corporation a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Karimnagar a dbp:City,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Karnataka a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Kenny_Rogers a dbp:Agent,
+        dbp:Artist,
+        dbp:MusicalArtist,
+        dbp:Person .
+
+dbp:Kerala a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:KeyBank a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Kim_Murphy a dbp:Agent,
+        dbp:Person .
+
+dbp:Kingdom_of_Judah a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Kroger a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Kryzys a dbp:Agent,
+        dbp:Band,
+        dbp:Group,
+        dbp:Organisation .
+
+dbp:Late_Spring a dbp:Film,
+        dbp:Wikidata,
+        dbp:Work .
+
+dbp:Lewis_gun a dbp:Device,
+        dbp:Weapon .
+
+<https://dbpedia.org/resource/Lulu_(company)> a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Lululemon_Athletica a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Maharashtra a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Major_depressive_disorder a dbp:Disease .
+
+dbp:Man_Group a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Marc_Benioff a dbp:Agent,
+        dbp:Person .
+
+dbp:MarketWatch a dbp:Website,
+        dbp:Work .
+
+dbp:Marriott_International a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Marvel_Comics a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation,
+        dbp:Publisher .
+
+dbp:Massachusetts a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:Mellon_Financial a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:MetaBank a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Metro_International a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Microsoft_PowerPoint a dbp:Software,
+        dbp:Work .
+
+dbp:Mitsubishi_Corporation a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Mizuho_Financial_Group a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Muskingum_River a dbp:BodyOfWater,
+        dbp:Location,
+        dbp:NaturalPlace,
+        dbp:Place,
+        dbp:River,
+        dbp:Stream .
+
+dbp:Myasthenia_gravis a dbp:Disease .
+
+dbp:Narendra_Modi a dbp:Agent,
+        dbp:OfficeHolder,
+        dbp:Person .
+
+dbp:National_Organization_for_Women a dbp:Agent,
+        dbp:Organisation .
+
+dbp:National_Party_of_Honduras a dbp:Agent,
+        dbp:Organisation,
+        dbp:PoliticalParty .
+
+dbp:Netflix a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Nevada a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:New_York a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+<https://dbpedia.org/resource/News_(band)> a dbp:Agent,
+        dbp:Band,
+        dbp:Group,
+        dbp:Organisation .
+
+dbp:Nice a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Nikola_Tesla a dbp:Agent,
+        dbp:Person .
+
+dbp:Nippon_Life a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Nomura_Holdings a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Nordic_countries a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Ocado a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Ohio a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:Oregon a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:Oxfam a dbp:Agent,
+        dbp:Non-ProfitOrganisation,
+        dbp:Organisation .
+
+<https://dbpedia.org/resource/P&O_Cruises> a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:PNC_Financial_Services a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Parents_Television_Council a dbp:Agent,
+        dbp:Non-ProfitOrganisation,
+        dbp:Organisation .
+
+dbp:Paroxysmal_nocturnal_hemoglobinuria a dbp:Disease .
+
+dbp:Pega a dbp:Agent,
+        dbp:Person .
+
+dbp:Pegasystems a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Phocas a dbp:Agent,
+        dbp:Monarch,
+        dbp:Person .
+
+dbp:Piedmont a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:Pinckney_High_School a dbp:Agent,
+        dbp:EducationalInstitution,
+        dbp:Organisation,
+        dbp:School .
+
+dbp:Piper_Jaffray a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Poland a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Princess_Cruises a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+<https://dbpedia.org/resource/Punjab_(region)> a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:RT_UK a dbp:Agent,
+        dbp:Broadcaster,
+        dbp:Organisation,
+        dbp:TelevisionStation .
+
+<https://dbpedia.org/resource/Random_Thoughts_(Faye_Wong_album)> a dbp:Album,
+        dbp:MusicalWork,
+        dbp:Work .
+
+dbp:Real_People a dbp:TelevisionShow,
+        dbp:Work .
+
+dbp:Reginald_Frederick_Lawrence a dbp:Agent,
+        dbp:Person,
+        dbp:Scientist .
+
+dbp:Renminbi a dbp:Currency .
+
+dbp:Reuters a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Russell_Investments a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Russia a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:SARS_coronavirus a dbp:Species .
+
+dbp:SM-65_Atlas a dbp:MeanOfTransportation,
+        dbp:Rocket .
+
+dbp:Salesforce.com a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Sam_Winchester a dbp:Agent,
+        dbp:FictionalCharacter,
+        dbp:Person .
+
+dbp:Sanaa_Lathan a dbp:Agent,
+        dbp:Person .
+
+dbp:Saudi_Arabia a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Schutzstaffel a dbp:Agent,
+        dbp:GovernmentAgency,
+        dbp:Organisation .
+
+dbp:Seabourn_Cruise_Line a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Shutterstock a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Siege_of_Charleston a dbp:Event,
+        dbp:MilitaryConflict,
+        dbp:SocietalEvent .
+
+dbp:Soup a dbp:Food .
+
+dbp:South_Africa a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:South_Carolina a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:Speex a dbp:Software,
+        dbp:Work .
+
+<https://dbpedia.org/resource/Square,_Inc.> a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+<https://dbpedia.org/resource/Standard_&_Poor's> a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Stanley_Gibbons a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Stew a dbp:Food .
+
+dbp:Stifel a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Stokely_Carmichael a dbp:Agent,
+        dbp:OfficeHolder,
+        dbp:Person .
+
+<https://dbpedia.org/resource/Strange_Times_(The_Moody_Blues_album)> a dbp:Album,
+        dbp:MusicalWork,
+        dbp:Work .
+
+dbp:SunTrust_Banks a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Sustainable_Asset_Management a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Switzerland a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Taiwan_Railways_Administration a dbp:Agent,
+        dbp:Organisation,
+        dbp:PublicTransitSystem .
+
+dbp:Tamil_Nadu a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Telangana a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Telangana_State_Road_Transport_Corporation a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Tennessee a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+<https://dbpedia.org/resource/Thankful_(Kelly_Clarkson_album)> a dbp:Album,
+        dbp:MusicalWork,
+        dbp:Work .
+
+dbp:The_Atlantic a dbp:Magazine,
+        dbp:PeriodicalLiterature,
+        dbp:Work,
+        dbp:WrittenWork .
+
+<https://dbpedia.org/resource/The_Bubble_(2006_film)> a dbp:Film,
+        dbp:Wikidata,
+        dbp:Work .
+
+<https://dbpedia.org/resource/The_Gambler_(film_series)> a dbp:TelevisionShow,
+        dbp:Work .
+
+dbp:The_Game_of_Life a dbp:Activity,
+        dbp:Game .
+
+<https://dbpedia.org/resource/The_Greatest_(1977_film)> a dbp:Film,
+        dbp:Wikidata,
+        dbp:Work .
+
+dbp:The_Motley_Fool a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:The_Movie_Network a dbp:Agent,
+        dbp:Broadcaster,
+        dbp:Organisation,
+        dbp:TelevisionStation .
+
+dbp:The_Narrative a dbp:Agent,
+        dbp:Band,
+        dbp:Group,
+        dbp:Organisation .
+
+dbp:The_Non-GMO_Project a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:The_Rooms a dbp:ArchitecturalStructure,
+        dbp:Building,
+        dbp:Location,
+        dbp:Museum,
+        dbp:Place .
+
+dbp:The_Vanguard_Group a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:The_Wall_Street_Journal a dbp:Newspaper,
+        dbp:PeriodicalLiterature,
+        dbp:Work,
+        dbp:WrittenWork .
+
+dbp:Una_Himachal_railway_station a dbp:ArchitecturalStructure,
+        dbp:Infrastructure,
+        dbp:Location,
+        dbp:Place,
+        dbp:Station .
+
+dbp:United_Nations a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:United_Natural_Foods a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:United_Parcel_Service a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:United_States_Congress a dbp:Agent,
+        dbp:Legislature,
+        dbp:Organisation .
+
+dbp:United_States_Environmental_Protection_Agency a dbp:Agent,
+        dbp:GovernmentAgency,
+        dbp:Organisation .
+
+dbp:United_States_Postal_Service a dbp:Agent,
+        dbp:GovernmentAgency,
+        dbp:Organisation .
+
+dbp:United_Technologies a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:University_of_Cambridge a dbp:Agent,
+        dbp:EducationalInstitution,
+        dbp:Organisation,
+        dbp:University .
+
+dbp:University_of_Georgia a dbp:Agent,
+        dbp:EducationalInstitution,
+        dbp:Organisation,
+        dbp:University .
+
+dbp:University_of_Michigan a dbp:Agent,
+        dbp:EducationalInstitution,
+        dbp:Organisation,
+        dbp:University .
+
+dbp:University_of_Oxford a dbp:Agent,
+        dbp:EducationalInstitution,
+        dbp:Organisation,
+        dbp:University .
+
+dbp:Unum a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Utah a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:Uttar_Pradesh a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Venice a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+<https://dbpedia.org/resource/Visa_Inc.> a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Visual_Basic a dbp:Language,
+        dbp:ProgrammingLanguage .
+
+dbp:WGRZ a dbp:Agent,
+        dbp:Broadcaster,
+        dbp:Organisation,
+        dbp:TelevisionStation .
+
+dbp:Walter_Scott a dbp:Agent,
+        dbp:Person,
+        dbp:Writer .
+
+dbp:Warren_Buffett a dbp:Agent,
+        dbp:Person .
+
+dbp:West_Side_Story a dbp:Musical,
+        dbp:MusicalWork,
+        dbp:Work .
+
+dbp:WhatsApp a dbp:Software,
+        dbp:Work .
+
+dbp:Whole_Foods_Market a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:William_Makepeace_Thackeray a dbp:Agent,
+        dbp:Person,
+        dbp:Writer .
+
+dbp:Wine a dbp:Beverage,
+        dbp:Food .
+
+dbp:Wire_Service a dbp:TelevisionShow,
+        dbp:Work .
+
+dbp:Worst_Week a dbp:TelevisionShow,
+        dbp:Work .
+
+dbp:Xilinx a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Y._S._Rajasekhara_Reddy a dbp:Agent,
+        dbp:Person,
+        dbp:Politician .
+
+dbp:Zagreb a dbp:City,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Zoon a dbp:Album,
+        dbp:MusicalWork,
+        dbp:Work .
+
+dbp:Świecie a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Africa a dbp:Continent,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Australian_Taxation_Office a dbp:Agent,
+        dbp:GovernmentAgency,
+        dbp:Organisation .
+
+dbp:Australian_dollar a dbp:Currency .
+
+dbp:BMO_Capital_Markets a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Business_Insider a dbp:Website,
+        dbp:Work .
+
+dbp:California a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:Common_Reaction a dbp:Album,
+        dbp:MusicalWork,
+        dbp:Work .
+
+dbp:DJ_Magazine a dbp:Magazine,
+        dbp:PeriodicalLiterature,
+        dbp:Work,
+        dbp:WrittenWork .
+
+dbp:Dollar_Tree a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Ebola_virus_disease a dbp:Disease .
+
+dbp:Elon_Musk a dbp:Agent,
+        dbp:Person .
+
+dbp:Facebook a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Harel_Brigade a dbp:Agent,
+        dbp:MilitaryUnit,
+        dbp:Organisation .
+
+dbp:Israel_Englander a dbp:Agent,
+        dbp:Person .
+
+dbp:Italy a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:JPMorgan_Chase a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Latin_America a dbp:Continent,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:M40_motorway a dbp:ArchitecturalStructure,
+        dbp:Infrastructure,
+        dbp:Location,
+        dbp:Place,
+        dbp:Road,
+        dbp:RouteOfTransportation .
+
+dbp:Malaysian_ringgit a dbp:Currency .
+
+dbp:Michigan a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:Mumbai a dbp:City,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:New_York_City a dbp:City,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement .
+
+dbp:Point72_Asset_Management a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Pound_sterling a dbp:Currency .
+
+dbp:Pssst a dbp:Software,
+        dbp:VideoGame,
+        dbp:Work .
+
+dbp:Republic_of_Ireland a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Royal_Army_Medical_Corps a dbp:Agent,
+        dbp:MilitaryUnit,
+        dbp:Organisation .
+
+dbp:South_Korea a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+<https://dbpedia.org/resource/Tele-Communications_Inc.> a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Texas a dbp:AdministrativeRegion,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Region .
+
+dbp:TheStreet.com a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Weimar_Republic a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Zurich_Insurance_Group a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+<https://dbpedia.org/resource/90_Days_(film)> a dbp:Film,
+        dbp:Wikidata,
+        dbp:Work .
+
+dbp:Brian_Cowen a dbp:Agent,
+        dbp:OfficeHolder,
+        dbp:Person .
+
+dbp:China a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Comerica a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+<https://dbpedia.org/resource/Needham_&_Company> a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Riley_Motor a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Twitter a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:UBS a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Wells_Fargo a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Americas a dbp:Continent,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Mitsubishi a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Toyota a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Australia a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Citigroup a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+<https://dbpedia.org/resource/Donetsk_People's_Republic> a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Goldman_Sachs a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:India a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Malaysia a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Thomson_Reuters a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:United_Kingdom a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:United_States_dollar a dbp:Currency .
+
+dbp:Asia a dbp:Continent,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Donald_Trump a dbp:Agent,
+        dbp:Person .
+
+dbp:Canada a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Morgan_Stanley a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Credit_Suisse a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:European_Union a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Marshall_Wace a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
+dbp:Coronavirus a dbp:Species .
+
+dbp:New_York_Stock_Exchange a dbp:ArchitecturalStructure,
+        dbp:Building,
+        dbp:Location,
+        dbp:Place .
+
+dbp:U.S._Securities_and_Exchange_Commission a dbp:Agent,
+        dbp:GovernmentAgency,
+        dbp:Organisation .
+
+dbp:United_States a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
 
