@@ -1,13 +1,16 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, render_template
 
-app = Flask(__name__)
 
-@app.route('/')
+app = Flask(__name__, template_folder='templates')
 
-def index(name):
-    return render_template('index.html', name=name)
+@app.route("/", methods=["POST", "GET"])
+def index():
+    return render_template('index.html')
 
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+
 

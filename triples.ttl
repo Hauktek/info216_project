@@ -116,50 +116,6 @@ Square, Inc provides payment and point-of-sale solutions in the United States an
     schema:url "https://www.americanbankingnews.com/2020/03/22/155557-shares-in-square-inc-nysesq-purchased-by-marshall-wace-llp.html"^^xsd:anyURI ;
     schema:wordCount 825 .
 
-ex:0b742b314d9de8033183d5f0a114d1bf1d3f6768 a schema:NewsArticle ;
-    rdfs:label "Marshall Wace LLP Has $10.11 Million Position in Carnival plc (NYSE:CUK)"^^xsd:string ;
-    ex:dayPublished "22"^^xsd:gDay ;
-    ex:hasEntity dbp:AIDA_Cruises,
-        dbp:Asia,
-        dbp:Asia_Cruise,
-        dbp:Australia,
-        dbp:Carnival_Cruise_Line,
-        dbp:Cunard_Line,
-        dbp:Goldman_Sachs,
-        dbp:Holland_America_Line,
-        dbp:Israel_Englander,
-        dbp:Marshall_Wace,
-        dbp:New_York_Stock_Exchange,
-        <https://dbpedia.org/resource/P&O_Cruises>,
-        dbp:Princess_Cruises,
-        dbp:Renminbi,
-        dbp:Seabourn_Cruise_Line,
-        dbp:U.S._Securities_and_Exchange_Commission,
-        dbp:United_Kingdom,
-        dbp:United_States ;
-    ex:monthPublished "03"^^xsd:gMonth ;
-    ex:sectionTitle "American Banking News"^^xsd:string ;
-    ex:siteCategory "['financial_news', 'finance']" ;
-    ex:typeTokenRatio "46.58"^^xsd:float ;
-    ex:uniqueTypes 286 ;
-    ex:yearPublished "2020-01-01"^^xsd:gYear ;
-    schema:articleBody """Marshall Wace LLP lowered its stake in shares of Carnival plc (NYSE:CUK) by 42.2% during the fourth quarter, according to its most recent Form 13F filing with the Securities and Exchange Commission (SEC). The institutional investor owned 210,022 shares of the company’s stock after selling 153,628 shares during the quarter. Marshall Wace LLP owned about 0.11% of Carnival worth $10,114,000 at the end of the most recent reporting period.
-A number of other large investors also recently modified their holdings of the stock. Goldman Sachs Group Inc. grew its position in Carnival by 3.7% during the fourth quarter. Goldman Sachs Group Inc. now owns 1,500,218 shares of the company’s stock worth $72,250,000 after buying an additional 53,942 shares in the last quarter. Todd Asset Management LLC grew its position in Carnival by 9.4% during the fourth quarter. Todd Asset Management LLC now owns 396,504 shares of the company’s stock worth $19,096,000 after buying an additional 33,987 shares in the last quarter. Marshall Wace North America L.P. grew its position in Carnival by 44.1% during the fourth quarter. Marshall Wace North America L.P. now owns 379,957 shares of the company’s stock worth $18,300,000 after buying an additional 116,193 shares in the last quarter. Millennium Management LLC grew its position in Carnival by 9,225.5% during the third quarter. Millennium Management LLC now owns 317,066 shares of the company’s stock worth $13,338,000 after buying an additional 313,666 shares in the last quarter. Finally, RMB Capital Management LLC grew its position in Carnival by 2.0% during the fourth quarter. RMB Capital Management LLC now owns 170,392 shares of the company’s stock worth $8,206,000 after buying an additional 3,392 shares in the last quarter. 6.71% of the stock is currently owned by institutional investors and hedge funds. Get Carnival alerts:
-Shares of CUK stock opened at $10.34 on Friday. The stock’s fifty day moving average price is $32.16 and its two-hundred day moving average price is $40.88. The company has a market cap of $1.62 billion, a PE ratio of 1.99 and a beta of 1.31. Carnival plc has a fifty-two week low of $7.08 and a fifty-two week high of $56.41. The company has a debt-to-equity ratio of 0.38, a quick ratio of 0.18 and a current ratio of 0.23.
-Carnival (NYSE:CUK) last issued its earnings results on Friday, December 20th. The company reported $0.62 earnings per share for the quarter. The firm had revenue of $4.78 billion for the quarter. Carnival had a return on equity of 12.29% and a net margin of 14.36%. On average, equities analysts predict that Carnival plc will post 4.45 EPS for the current fiscal year.
-The firm also recently announced a quarterly dividend, which was paid on Friday, March 13th. Shareholders of record on Friday, February 21st were issued a $0.50 dividend. This represents a $2.00 dividend on an annualized basis and a dividend yield of 19.34%. The ex-dividend date of this dividend was Thursday, February 20th. Carnival’s dividend payout ratio is presently 45.45%.
-Carnival Company Profile
-Carnival plc operates as a leisure travel company in North America, Australia, Europe, and Asia. It operates in four segments: North America and Australia Cruise Operations, Europe and Asia Cruise Operations, Cruise Support, and Tour and Other. The company operates cruises under the Carnival Cruise Line, Princess Cruises, Holland America Line, P&O Cruises (Australia), Seabourn, Costa, AIDA, P&O Cruises (UK), and Cunard brand names.
-Featured Story: What is a short straddle?
-Want to see what other hedge funds are holding CUK? Visit HoldingsChannel.com to get the latest 13F filings and insider trades for Carnival plc (NYSE:CUK). Receive News & Ratings for Carnival analysts' ratings for Carnival and related companies daily email newsletter . «"""^^xsd:string ;
-    schema:author "ABMN Staff"^^xsd:string ;
-    schema:countryOfOrigin dbp:United_States ;
-    schema:datePublished "2020-03-22T16:14:00+02:00"^^xsd:dateTime ;
-    schema:headline "Marshall Wace LLP Has $10.11 Million Position in Carnival plc (NYSE:CUK)"^^xsd:string ;
-    schema:inLanguage dbp:English ;
-    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-has-10-11-million-position-in-carnival-plc-nysecuk.html"^^xsd:anyURI ;
-    schema:wordCount 614 .
-
 ex:0ece3ede51ebeda7de08d303b3a3c0ca10188abe a schema:NewsArticle ;
     rdfs:label "Janata Curfew: Complete voluntary shut down in Telangana"^^xsd:string ;
     ex:dayPublished "22"^^xsd:gDay ;
@@ -2103,10 +2059,6 @@ dbp:A.D._Vision a dbp:Agent,
         dbp:Company,
         dbp:Organisation .
 
-dbp:AIDA_Cruises a dbp:Agent,
-        dbp:Company,
-        dbp:Organisation .
-
 dbp:Absolutely_Free a dbp:Album,
         dbp:MusicalWork,
         dbp:Work .
@@ -2143,11 +2095,6 @@ dbp:Arizona a dbp:AdministrativeRegion,
         dbp:Place,
         dbp:PopulatedPlace,
         dbp:Region .
-
-dbp:Asia_Cruise a dbp:Agent,
-        dbp:Artist,
-        dbp:MusicalArtist,
-        dbp:Person .
 
 dbp:BNP_Paribas a dbp:Agent,
         dbp:Bank,
@@ -2223,10 +2170,6 @@ dbp:Cannabis a dbp:Eukaryote,
         dbp:Plant,
         dbp:Species .
 
-dbp:Carnival_Cruise_Line a dbp:Agent,
-        dbp:Company,
-        dbp:Organisation .
-
 <https://dbpedia.org/resource/Carnival_Time_(song)> a dbp:MusicalWork,
         dbp:Single,
         dbp:Work .
@@ -2272,10 +2215,6 @@ dbp:Clorox a dbp:Agent,
         dbp:SoccerPlayer .
 
 dbp:Creative_Commons a dbp:Agent,
-        dbp:Organisation .
-
-dbp:Cunard_Line a dbp:Agent,
-        dbp:Company,
         dbp:Organisation .
 
 dbp:Curry a dbp:Food .
@@ -2447,10 +2386,6 @@ dbp:History_of_the_United_States_Republican_Party a dbp:Agent,
         dbp:Organisation,
         dbp:PoliticalParty .
 
-dbp:Holland_America_Line a dbp:Agent,
-        dbp:Company,
-        dbp:Organisation .
-
 dbp:Hormel a dbp:Agent,
         dbp:Company,
         dbp:Organisation .
@@ -2501,6 +2436,9 @@ dbp:Iran a dbp:Country,
         dbp:Location,
         dbp:Place,
         dbp:PopulatedPlace .
+
+dbp:Israel_Englander a dbp:Agent,
+        dbp:Person .
 
 dbp:Iven_Mackay a dbp:Agent,
         dbp:MilitaryPerson,
@@ -2756,10 +2694,6 @@ dbp:Oxfam a dbp:Agent,
         dbp:Non-ProfitOrganisation,
         dbp:Organisation .
 
-<https://dbpedia.org/resource/P&O_Cruises> a dbp:Agent,
-        dbp:Company,
-        dbp:Organisation .
-
 dbp:PNC_Financial_Services a dbp:Agent,
         dbp:Bank,
         dbp:Company,
@@ -2803,10 +2737,6 @@ dbp:Poland a dbp:Country,
         dbp:Place,
         dbp:PopulatedPlace .
 
-dbp:Princess_Cruises a dbp:Agent,
-        dbp:Company,
-        dbp:Organisation .
-
 <https://dbpedia.org/resource/Punjab_(region)> a dbp:Location,
         dbp:Place,
         dbp:PopulatedPlace,
@@ -2827,8 +2757,6 @@ dbp:Real_People a dbp:TelevisionShow,
 dbp:Reginald_Frederick_Lawrence a dbp:Agent,
         dbp:Person,
         dbp:Scientist .
-
-dbp:Renminbi a dbp:Currency .
 
 dbp:Reuters a dbp:Agent,
         dbp:Company,
@@ -2867,10 +2795,6 @@ dbp:Saudi_Arabia a dbp:Country,
 
 dbp:Schutzstaffel a dbp:Agent,
         dbp:GovernmentAgency,
-        dbp:Organisation .
-
-dbp:Seabourn_Cruise_Line a dbp:Agent,
-        dbp:Company,
         dbp:Organisation .
 
 dbp:Shutterstock a dbp:Agent,
@@ -3212,9 +3136,6 @@ dbp:Harel_Brigade a dbp:Agent,
         dbp:MilitaryUnit,
         dbp:Organisation .
 
-dbp:Israel_Englander a dbp:Agent,
-        dbp:Person .
-
 dbp:Italy a dbp:Country,
         dbp:Location,
         dbp:Place,
@@ -3352,6 +3273,16 @@ dbp:Americas a dbp:Continent,
         dbp:Place,
         dbp:PopulatedPlace .
 
+dbp:Australia a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Goldman_Sachs a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation .
+
 dbp:Mitsubishi a dbp:Agent,
         dbp:Company,
         dbp:Organisation .
@@ -3360,7 +3291,12 @@ dbp:Toyota a dbp:Agent,
         dbp:Company,
         dbp:Organisation .
 
-dbp:Australia a dbp:Country,
+dbp:United_Kingdom a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace .
+
+dbp:Asia a dbp:Continent,
         dbp:Location,
         dbp:Place,
         dbp:PopulatedPlace .
@@ -3374,11 +3310,6 @@ dbp:Citigroup a dbp:Agent,
         dbp:Location,
         dbp:Place,
         dbp:PopulatedPlace .
-
-dbp:Goldman_Sachs a dbp:Agent,
-        dbp:Bank,
-        dbp:Company,
-        dbp:Organisation .
 
 dbp:India a dbp:Country,
         dbp:Location,
@@ -3394,17 +3325,7 @@ dbp:Thomson_Reuters a dbp:Agent,
         dbp:Company,
         dbp:Organisation .
 
-dbp:United_Kingdom a dbp:Country,
-        dbp:Location,
-        dbp:Place,
-        dbp:PopulatedPlace .
-
 dbp:United_States_dollar a dbp:Currency .
-
-dbp:Asia a dbp:Continent,
-        dbp:Location,
-        dbp:Place,
-        dbp:PopulatedPlace .
 
 dbp:Donald_Trump a dbp:Agent,
         dbp:Person .
@@ -3434,12 +3355,12 @@ dbp:Marshall_Wace a dbp:Agent,
         dbp:Company,
         dbp:Organisation .
 
-dbp:Coronavirus a dbp:Species .
-
 dbp:New_York_Stock_Exchange a dbp:ArchitecturalStructure,
         dbp:Building,
         dbp:Location,
         dbp:Place .
+
+dbp:Coronavirus a dbp:Species .
 
 dbp:U.S._Securities_and_Exchange_Commission a dbp:Agent,
         dbp:GovernmentAgency,
