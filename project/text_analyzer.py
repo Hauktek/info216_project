@@ -1,8 +1,5 @@
-import requests
-import urllib
-import time
-import json
-
+# A class for retrieving extra data from text like number of words, nubber of unique words and type token ratio. 
+# Used to show that it it possible to find extra information that lies in the text. 
 class Analyzer:
 
     def __init__(self, text):

@@ -1,6 +1,7 @@
 from datetime import datetime
 import dateutil.parser
 
+# A class for splitting the date from dateTime format into day, month and year.
 class Finder: 
 
     def __init__(self, dateString):
