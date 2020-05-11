@@ -36,6 +36,10 @@ def spotlightCall(text):
 # A fuction for creating triples from data and adding them to a graph
 # Takes one argument of data 
 def makeTriples(data):
+    g.add((ex.Entity, RDF.type, RDFS.Class))
+    g.add((ex.hasEntity, RDFS.range, ex.Entity))
+    g.add((ex.hasEntity, RDFS.domain, schema.NewsArticle))
+
     # Iterates through each article data and set up time and text analyzers, and makes an API call to dbpedia spotlight
     for article in data['posts']:
         thread = article['thread']
@@ -54,6 +58,9 @@ def makeTriples(data):
                     ent = res["@URI"].split('/resource/')
                     obj = urllib.parse.quote(ent[1])
                     g.add((URIRef(ex + subject), ex.hasEntity, URIRef(dbp + obj)))
+
+                    #ent_label = ent[1].replace("_"," ")
+                    #g.add((URIRef(dbp + obj), RDFS.label, Literal(, datatype=XSD.string)))
 
                     # Iterates through types and creates triples based on the type of types. 
                     types = res["@types"].split(',')

@@ -5,6 +5,8 @@
 @prefix wiki: <https://www.wikidata.org/wiki/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+ex:Entity a rdfs:Class .
+
 ex:01b2e7d47de3cf7efcdcee0197533d5c31a2450d a schema:NewsArticle ;
     rdfs:label "Mitsubishi UFJ Trust & Banking Corp Buys 15,100 Shares of CMS Energy Co. (NYSE:CMS)"^^xsd:string ;
     ex:dayPublished "22"^^xsd:gDay ;
@@ -276,119 +278,6 @@ KT Corporation provides telecommunications services in Korea and internationally
     schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-raises-stake-in-kt-corp-nysekt.html"^^xsd:anyURI ;
     schema:wordCount 394 .
 
-ex:398b5dd8bb277c269de1a7607a7f86827512a6f7 a schema:NewsArticle ;
-    rdfs:label "Loomis Sayles & Co. L P Has $11.92 Million Stock Holdings in Meta Financial Group Inc. (NASDAQ:CASH)"^^xsd:string ;
-    ex:dayPublished "22"^^xsd:gDay ;
-    ex:hasEntity <https://dbpedia.org/resource/Donetsk_People%27s_Republic>,
-        dbp:MetaBank,
-        dbp:PNC_Financial_Services,
-        dbp:Riley_Motor,
-        dbp:Thomson_Reuters,
-        dbp:U.S._Securities_and_Exchange_Commission,
-        dbp:United_States ;
-    ex:monthPublished "03"^^xsd:gMonth ;
-    ex:sectionTitle "American Banking News"^^xsd:string ;
-    ex:siteCategory "finance",
-        "financial_news" ;
-    ex:typeTokenRatio "43.79"^^xsd:float ;
-    ex:uniqueTypes 384 ;
-    ex:yearPublished "2020-01-01"^^xsd:gYear ;
-    schema:articleBody """Posted by ABMN Staff on Mar 22nd, 2020 // No Comments
-Loomis Sayles & Co. L P trimmed its holdings in shares of Meta Financial Group Inc. (NASDAQ:CASH) by 2.4% in the fourth quarter, according to the company in its most recent filing with the Securities and Exchange Commission (SEC). The fund owned 326,574 shares of the savings and loans company’s stock after selling 8,133 shares during the period. Loomis Sayles & Co. L P owned about 0.90% of Meta Financial Group worth $11,923,000 at the end of the most recent quarter.
-Other institutional investors have also bought and sold shares of the company. Tower Research Capital LLC TRC boosted its stake in shares of Meta Financial Group by 453.0% during the 3rd quarter. Tower Research Capital LLC TRC now owns 1,576 shares of the savings and loans company’s stock worth $51,000 after buying an additional 1,291 shares during the last quarter. Penserra Capital Management LLC acquired a new position in shares of Meta Financial Group during the 4th quarter worth about $54,000. PNC Financial Services Group Inc. boosted its stake in shares of Meta Financial Group by 33.4% during the 4th quarter. PNC Financial Services Group Inc. now owns 1,642 shares of the savings and loans company’s stock worth $60,000 after buying an additional 411 shares during the last quarter. ProShare Advisors LLC acquired a new position in shares of Meta Financial Group during the 4th quarter worth about $209,000. Finally, LS Investment Advisors LLC boosted its stake in shares of Meta Financial Group by 640.2% during the 4th quarter. LS Investment Advisors LLC now owns 5,818 shares of the savings and loans company’s stock worth $212,000 after buying an additional 5,032 shares during the last quarter. Institutional investors own 77.97% of the company’s stock. Get Meta Financial Group alerts:
-Shares of NASDAQ:CASH opened at $20.65 on Friday. Meta Financial Group Inc. has a 52-week low of $15.61 and a 52-week high of $40.00. The company has a market capitalization of $783.98 million, a P/E ratio of 7.65 and a beta of 1.32. The company has a 50-day simple moving average of $33.84 and a 200 day simple moving average of $34.26. The company has a debt-to-equity ratio of 0.25, a quick ratio of 0.77 and a current ratio of 0.83.
-Meta Financial Group (NASDAQ:CASH) last issued its earnings results on Wednesday, January 29th. The savings and loans company reported $0.56 earnings per share (EPS) for the quarter, beating the Thomson Reuters’ consensus estimate of $0.50 by $0.06. Meta Financial Group had a net margin of 18.65% and a return on equity of 13.13%. The business had revenue of $102.13 million during the quarter, compared to the consensus estimate of $104.35 million. As a group, equities analysts forecast that Meta Financial Group Inc. will post 3.16 earnings per share for the current year.
-The company also recently announced a quarterly dividend, which will be paid on Wednesday, April 1st. Investors of record on Tuesday, March 10th will be paid a $0.05 dividend. The ex-dividend date is Monday, March 9th. This represents a $0.20 annualized dividend and a yield of 0.97%. Meta Financial Group’s dividend payout ratio (DPR) is currently 7.52%.
-A number of equities analysts have recently commented on CASH shares. B. Riley increased their price objective on shares of Meta Financial Group from $42.00 to $43.00 and gave the stock a “buy” rating in a research note on Thursday, January 30th. Zacks Investment Research downgraded shares of Meta Financial Group from a “buy” rating to a “hold” rating in a research note on Tuesday, February 4th. Finally, BidaskClub downgraded shares of Meta Financial Group from a “hold” rating to a “sell” rating in a research note on Wednesday. One research analyst has rated the stock with a sell rating, one has assigned a hold rating, two have assigned a buy rating and one has assigned a strong buy rating to the company. Meta Financial Group presently has a consensus rating of “Buy” and a consensus target price of $41.25.
-In related news, EVP Michael K. Goik sold 12,300 shares of the firm’s stock in a transaction dated Friday, January 31st. The shares were sold at an average price of $36.80, for a total value of $452,640.00. Following the completion of the sale, the executive vice president now directly owns 166,194 shares in the company, valued at approximately $6,115,939.20. The sale was disclosed in a document filed with the Securities & Exchange Commission, which is available at the SEC website . Company insiders own 4.67% of the company’s stock.
-Meta Financial Group Profile
-Meta Financial Group, Inc operates as the holding company for MetaBank that offers various banking products and services in the United States. The company accepts various deposit products, including statement savings accounts, money market savings accounts, negotiable order of withdrawal accounts, and checking accounts; and deposits related to prepaid cards, which primarily comprise checking accounts and certificate accounts.
-Read More: What are no-load funds?
-Want to see what other hedge funds are holding CASH? Visit HoldingsChannel.com to get the latest 13F filings and insider trades for Meta Financial Group Inc. (NASDAQ:CASH). Receive News & Ratings for Meta Financial Group analysts' ratings for Meta Financial Group and related companies daily email newsletter . «"""^^xsd:string ;
-    schema:author "ABMN Staff"^^xsd:string ;
-    schema:countryOfOrigin dbp:United_States ;
-    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
-    schema:headline "Loomis Sayles & Co. L P Has $11.92 Million Stock Holdings in Meta Financial Group Inc. (NASDAQ:CASH)"^^xsd:string ;
-    schema:inLanguage dbp:English ;
-    schema:url "https://www.americanbankingnews.com/2020/03/22/loomis-sayles-co-l-p-has-11-92-million-stock-holdings-in-meta-financial-group-inc-nasdaqcash.html"^^xsd:anyURI ;
-    schema:wordCount 877 .
-
-ex:44abecde693a7db330ceb54ba4927f9d99d258d9 a schema:NewsArticle ;
-    rdfs:label "Marshall Wace LLP Boosts Holdings in Alexion Pharmaceuticals, Inc. (NASDAQ:ALXN)"^^xsd:string ;
-    ex:dayPublished "22"^^xsd:gDay ;
-    ex:hasEntity dbp:Alexion_Pharmaceuticals,
-        dbp:Brian_Cowen,
-        dbp:Canada,
-        dbp:Eculizumab,
-        dbp:Huntington_Bancshares,
-        dbp:Marshall_Wace,
-        dbp:Myasthenia_gravis,
-        dbp:National_Party_of_Honduras,
-        dbp:Paroxysmal_nocturnal_hemoglobinuria,
-        dbp:SunTrust_Banks,
-        <https://dbpedia.org/resource/Tele-Communications_Inc.>,
-        dbp:U.S._Securities_and_Exchange_Commission ;
-    ex:monthPublished "03"^^xsd:gMonth ;
-    ex:sectionTitle "American Banking News"^^xsd:string ;
-    ex:siteCategory "finance",
-        "financial_news" ;
-    ex:typeTokenRatio "43.03"^^xsd:float ;
-    ex:uniqueTypes 364 ;
-    ex:yearPublished "2020-01-01"^^xsd:gYear ;
-    schema:articleBody """Marshall Wace LLP lifted its stake in Alexion Pharmaceuticals, Inc. (NASDAQ:ALXN) by 20.3% in the 4th quarter, according to the company in its most recent 13F filing with the Securities and Exchange Commission. The firm owned 108,233 shares of the biopharmaceutical company’s stock after purchasing an additional 18,250 shares during the period. Marshall Wace LLP’s holdings in Alexion Pharmaceuticals were worth $11,705,000 as of its most recent SEC filing.
-Several other large investors also recently bought and sold shares of ALXN. TCI Wealth Advisors Inc. lifted its position in Alexion Pharmaceuticals by 686.0% during the 4th quarter. TCI Wealth Advisors Inc. now owns 393 shares of the biopharmaceutical company’s stock valued at $43,000 after acquiring an additional 343 shares during the period. CWM LLC lifted its position in Alexion Pharmaceuticals by 172.8% during the 4th quarter. CWM LLC now owns 491 shares of the biopharmaceutical company’s stock valued at $53,000 after acquiring an additional 311 shares during the period. Allred Capital Management LLC purchased a new position in Alexion Pharmaceuticals during the 4th quarter valued at about $60,000. Quadrant Capital Group LLC lifted its position in Alexion Pharmaceuticals by 253.5% during the 4th quarter. Quadrant Capital Group LLC now owns 813 shares of the biopharmaceutical company’s stock valued at $82,000 after acquiring an additional 583 shares during the period. Finally, Huntington National Bank lifted its position in Alexion Pharmaceuticals by 59.3% during the 4th quarter. Huntington National Bank now owns 913 shares of the biopharmaceutical company’s stock valued at $98,000 after acquiring an additional 340 shares during the period. 91.24% of the stock is owned by hedge funds and other institutional investors. Get Alexion Pharmaceuticals alerts:
-Shares of ALXN stock opened at $80.35 on Friday. The company has a 50 day moving average price of $95.47 and a 200-day moving average price of $104.03. Alexion Pharmaceuticals, Inc. has a 52 week low of $72.67 and a 52 week high of $141.86. The firm has a market capitalization of $18.49 billion, a PE ratio of 7.49, a P/E/G ratio of 0.72 and a beta of 1.61. The company has a quick ratio of 3.73, a current ratio of 4.25 and a debt-to-equity ratio of 0.23.
-Alexion Pharmaceuticals (NASDAQ:ALXN) last announced its quarterly earnings results on Thursday, January 30th. The biopharmaceutical company reported $2.71 EPS for the quarter, topping analysts’ consensus estimates of $2.60 by $0.11. Alexion Pharmaceuticals had a net margin of 48.17% and a return on equity of 21.29%. The firm had revenue of $1.38 billion during the quarter, compared to analyst estimates of $1.32 billion. During the same period in the previous year, the business posted $2.14 earnings per share. The business’s revenue for the quarter was up 22.7% on a year-over-year basis. Analysts anticipate that Alexion Pharmaceuticals, Inc. will post 9.18 earnings per share for the current year.
-A number of research analysts recently issued reports on the stock. Bank of America cut shares of Alexion Pharmaceuticals from a “buy” rating to a “neutral” rating and lowered their price target for the company from $130.00 to $110.00 in a research report on Thursday, March 5th. Royal Bank of Canada assumed coverage on shares of Alexion Pharmaceuticals in a research report on Friday, January 31st. They set a “positive” rating and a $135.00 price target for the company. They noted that the move was a valuation call. Cowen reissued a “buy” rating and set a $165.00 price target on shares of Alexion Pharmaceuticals in a research report on Thursday, January 30th. SunTrust Banks reaffirmed a “buy” rating and issued a $141.00 target price on shares of Alexion Pharmaceuticals in a report on Tuesday, February 25th. Finally, Oppenheimer cut shares of Alexion Pharmaceuticals from an “outperform” rating to a “market perform” rating in a report on Tuesday, March 17th. Eight equities research analysts have rated the stock with a hold rating and sixteen have assigned a buy rating to the stock. The company currently has an average rating of “Buy” and an average target price of $148.14.
-In related news, Director Bros. Advisors Lp Baker purchased 265,298 shares of Alexion Pharmaceuticals stock in a transaction dated Monday, March 16th. The stock was purchased at an average cost of $78.76 per share, for a total transaction of $20,894,870.48. The purchase was disclosed in a legal filing with the Securities & Exchange Commission, which can be accessed through the SEC website . Insiders own 4.08% of the company’s stock.
-Alexion Pharmaceuticals Profile
-Alexion Pharmaceuticals, Inc, a biopharmaceutical company, develops and commercializes various therapeutic products. The company offers ULTOMIRIS (ALXN1210/ravulizumab-cwvz), a monoclonal antibody for the treatment of paroxysmal nocturnal hemoglobinuria (PNH), a genetic blood disorder; and Soliris (eculizumab), a monoclonal antibody for the treatment of PNH, atypical hemolytic uremic syndrome (aHUS), and generalized myasthenia gravis.
-Read More: Return on Investment (ROI) Defined, Explained
-Want to see what other hedge funds are holding ALXN? Visit HoldingsChannel.com to get the latest 13F filings and insider trades for Alexion Pharmaceuticals, Inc. (NASDAQ:ALXN). Receive News & Ratings for Alexion Pharmaceuticals analysts' ratings for Alexion Pharmaceuticals and related companies daily email newsletter . «"""^^xsd:string ;
-    schema:author "ABMN Staff"^^xsd:string ;
-    schema:countryOfOrigin dbp:United_States ;
-    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
-    schema:headline "Marshall Wace LLP Boosts Holdings in Alexion Pharmaceuticals, Inc. (NASDAQ:ALXN)"^^xsd:string ;
-    schema:inLanguage dbp:English ;
-    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-boosts-holdings-in-alexion-pharmaceuticals-inc-nasdaqalxn.html"^^xsd:anyURI ;
-    schema:wordCount 846 .
-
-ex:4a1945d531b96b10f57aa46b2dea683a13233128 a schema:NewsArticle ;
-    rdfs:label "Marshall Wace LLP Sells 150,720 Shares of United Technologies Co. (NYSE:UTX)"^^xsd:string ;
-    ex:dayPublished "22"^^xsd:gDay ;
-    ex:hasEntity dbp:Busta_Rhymes,
-        dbp:Credit_Suisse,
-        <https://dbpedia.org/resource/Gap_Inc.>,
-        dbp:Marshall_Wace,
-        dbp:New_York_Stock_Exchange,
-        dbp:U.S._Securities_and_Exchange_Commission,
-        dbp:UBS,
-        dbp:United_Technologies ;
-    ex:monthPublished "03"^^xsd:gMonth ;
-    ex:sectionTitle "American Banking News"^^xsd:string ;
-    ex:siteCategory "finance",
-        "financial_news" ;
-    ex:typeTokenRatio "40.99"^^xsd:float ;
-    ex:uniqueTypes 355 ;
-    ex:yearPublished "2020-01-01"^^xsd:gYear ;
-    schema:articleBody """Marshall Wace LLP trimmed its position in shares of United Technologies Co. (NYSE:UTX) by 68.0% during the 4th quarter, according to its most recent 13F filing with the Securities and Exchange Commission (SEC). The firm owned 70,779 shares of the conglomerate’s stock after selling 150,720 shares during the period. Marshall Wace LLP’s holdings in United Technologies were worth $10,600,000 at the end of the most recent reporting period.
-Several other hedge funds have also recently made changes to their positions in the company. Truewealth LLC boosted its holdings in shares of United Technologies by 4.2% in the 4th quarter. Truewealth LLC now owns 1,614 shares of the conglomerate’s stock valued at $242,000 after acquiring an additional 65 shares during the last quarter. Cim LLC boosted its holdings in shares of United Technologies by 1.9% in the 4th quarter. Cim LLC now owns 3,497 shares of the conglomerate’s stock valued at $524,000 after acquiring an additional 66 shares during the last quarter. Peninsula Wealth LLC boosted its holdings in shares of United Technologies by 4.7% in the 4th quarter. Peninsula Wealth LLC now owns 1,581 shares of the conglomerate’s stock valued at $237,000 after acquiring an additional 71 shares during the last quarter. Biltmore Family Office LLC boosted its holdings in shares of United Technologies by 0.3% in the 4th quarter. Biltmore Family Office LLC now owns 23,649 shares of the conglomerate’s stock valued at $3,542,000 after acquiring an additional 76 shares during the last quarter. Finally, Weatherly Asset Management L. P. boosted its holdings in shares of United Technologies by 2.4% in the 4th quarter. Weatherly Asset Management L. P. now owns 3,268 shares of the conglomerate’s stock valued at $489,000 after acquiring an additional 78 shares during the last quarter. Hedge funds and other institutional investors own 82.01% of the company’s stock. Get United Technologies alerts:
-NYSE:UTX opened at $82.53 on Friday. The company has a debt-to-equity ratio of 0.90, a quick ratio of 0.77 and a current ratio of 1.08. The company has a fifty day moving average of $135.95 and a two-hundred day moving average of $142.16. The stock has a market capitalization of $72.55 billion, a PE ratio of 10.14, a P/E/G ratio of 1.29 and a beta of 1.26. United Technologies Co. has a fifty-two week low of $69.02 and a fifty-two week high of $158.44.
-United Technologies (NYSE:UTX) last posted its quarterly earnings data on Tuesday, January 28th. The conglomerate reported $1.94 earnings per share for the quarter, topping the Zacks’ consensus estimate of $1.84 by $0.10. The company had revenue of $19.55 billion during the quarter, compared to analysts’ expectations of $19.34 billion. United Technologies had a net margin of 7.19% and a return on equity of 16.60%. The firm’s revenue for the quarter was up 8.4% on a year-over-year basis. During the same period in the prior year, the business posted $1.95 earnings per share. Research analysts forecast that United Technologies Co. will post 7.88 earnings per share for the current year.
-The business also recently disclosed a quarterly dividend, which was paid on Tuesday, March 10th. Shareholders of record on Friday, February 14th were given a dividend of $0.735 per share. This represents a $2.94 dividend on an annualized basis and a yield of 3.56%. The ex-dividend date was Thursday, February 13th. United Technologies’s dividend payout ratio is presently 35.59%.
-Several equities analysts recently issued reports on the stock. Argus reiterated a “buy” rating and issued a $170.00 target price on shares of United Technologies in a research note on Wednesday, January 29th. Zacks Investment Research upgraded shares of United Technologies from a “hold” rating to a “buy” rating and set a $155.00 target price for the company in a research note on Thursday, November 28th. UBS Group boosted their target price on shares of United Technologies from $157.00 to $170.00 and gave the company a “buy” rating in a research note on Wednesday, January 15th. Benchmark assumed coverage on shares of United Technologies in a research note on Friday, January 31st. They issued a “buy” rating and a $186.00 target price for the company. Finally, Credit Suisse Group decreased their target price on shares of United Technologies from $177.00 to $172.00 and set an “outperform” rating for the company in a research note on Monday, February 24th. They noted that the move was a valuation call. Four research analysts have rated the stock with a hold rating and thirteen have issued a buy rating to the company’s stock. The company presently has a consensus rating of “Buy” and an average price target of $162.80.
-United Technologies Company Profile
-United Technologies Corporation provides technology products and services to building systems and aerospace industries worldwide. Its Otis segment designs, manufactures, sells, and installs passenger and freight elevators, escalators, and moving walkways; and offers modernization products to upgrade elevators and escalators, as well as maintenance and repair services.
-Recommended Story: Gap Up Stocks
-Want to see what other hedge funds are holding UTX? Visit HoldingsChannel.com to get the latest 13F filings and insider trades for United Technologies Co. (NYSE:UTX). Receive News & Ratings for United Technologies analysts' ratings for United Technologies and related companies daily email newsletter . «"""^^xsd:string ;
-    schema:author "ABMN Staff"^^xsd:string ;
-    schema:countryOfOrigin dbp:United_States ;
-    schema:datePublished "2020-03-22T16:12:00+02:00"^^xsd:dateTime ;
-    schema:headline "Marshall Wace LLP Sells 150,720 Shares of United Technologies Co. (NYSE:UTX)"^^xsd:string ;
-    schema:inLanguage dbp:English ;
-    schema:url "https://www.americanbankingnews.com/2020/03/22/marshall-wace-llp-sells-150720-shares-of-united-technologies-co-nyseutx.html"^^xsd:anyURI ;
-    schema:wordCount 866 .
-
 ex:4b2206c4c72632a63bcde35334c464853f372b3e a schema:NewsArticle ;
     rdfs:label "Malaysia government should provide financial aid."^^xsd:string ;
     ex:dayPublished "22"^^xsd:gDay ;
@@ -505,6 +394,63 @@ The districts where lockdown was announced are from states that include Uttar Pr
     schema:url "https://economictimes.indiatimes.com/markets/stocks/news/indian-stock-markets-will-operate-as-usual-on-monday/articleshow/74761987.cms"^^xsd:anyURI ;
     schema:wordCount 305 .
 
+ex:7bb221315c211ad4b55deca54e792beeb14e81e0 a schema:NewsArticle ;
+    rdfs:label "A top Obama economist says there's 'a real danger' the looming coronavirus recession could be worse than the 2008 financial crisis"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:hasEntity dbp:Barack_Obama,
+        dbp:Business_Insider,
+        dbp:Coronavirus,
+        dbp:Facebook,
+        dbp:Furman_University,
+        dbp:Goldman_Sachs,
+        dbp:National_Organization_for_Women,
+        dbp:Netflix,
+        dbp:Reuters,
+        dbp:United_States_Congress ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "Feedburner"^^xsd:string ;
+    ex:siteCategory "media",
+        "tech" ;
+    ex:typeTokenRatio "66.55"^^xsd:float ;
+    ex:uniqueTypes 195 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:articleBody """Jonathan Ernst/Reuters
+Obama's former top economist is warning the economic crisis that results from the coronavirus could be worse than the 2008 financial disaster. "There is a real danger that the economic crisis that comes out of this health crisis is worse than what we experienced in 2008," Furman told Business Insider in an exclusive interview. Business Insider talked to Furman about the likelihood of recession, and how long it could take for the economy to dig itself out into a state of recovery. Visit Business Insider's homepage for more stories . The former top economist to President Obama is warning the coronavirus pandemic could throw the economy into a tailspin that's significantly worse than the financial disaster in 2008 — and believes its almost certainly in recession already .
+In the past seven days, stocks continued their free-fall and recorded its worst finish since the financial crisis. Congress is scrambling to construct a colossal federal rescue package that may carry a price tag surpassing $1 trillion as economists warn layoffs are soaring and entire industries could be demolished in the fallout. See the rest of the story at Business Insider
+NOW WATCH: A big-money investor in juggernauts like Facebook and Netflix breaks down the '3rd wave' firms that are leading the next round of tech disruption
+See Also:
+GOLDMAN SACHS: Buy these 13 stocks poised to dominate in a market where everyone is paralyzed by fear 'Refinance your mortgage, and take the money, and buy some stocks': An investment chief overseeing $7 billion says he's all in on equities amid the mass coronavirus sell-off — and shares 5 stocks he just bought An investment chief whose ETF has surged 24% during the coronavirus meltdown details his strategy for profiting during stock-market crashes """^^xsd:string ;
+    schema:author "Joseph Zeballos-Roig (jzeballos@businessinsider.com)"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T17:07:00+02:00"^^xsd:dateTime ;
+    schema:headline "A top Obama economist says there's 'a real danger' the looming coronavirus recession could be worse than the 2008 financial crisis"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.businessinsider.com/coronavirus-recession-outlook-forecast-top-obama-economist-trump-stimulus-crash-2020-3?utm_source=feedburner&amp;utm_medium=referral"^^xsd:anyURI ;
+    schema:wordCount 293 .
+
+ex:934e95c5170fdf41d97c08115241aa8aac245cc9 a schema:NewsArticle ;
+    rdfs:label "The best Side of Elon Musk"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:hasEntity <https://dbpedia.org/resource/%C5%9Awiecie>,
+        dbp:Donald_Trump,
+        dbp:Elon_Musk,
+        dbp:Fascination_Records,
+        dbp:George_Washington,
+        dbp:Kryzys,
+        dbp:United_States_dollar,
+        dbp:Walter_Scott ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle "alltdesign.com RSS feed"^^xsd:string ;
+    ex:typeTokenRatio "70.31"^^xsd:float ;
+    ex:uniqueTypes 431 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:articleBody "March 22, 2020 | Leave a comment | Home The best Side of Elon Musk With a wider scale, the Federal Reserve can institute bond getting to infuse funds into your economic climate for getting money flowing. This may inflate stock selling prices though a recession continues to be raging. An illustration of This may be the Raise the stock market acquired from \"quantitative easing\" -- the Fed's shopping for up of mortgage-backed securities to raise the income provide.Ulteriori informazioni sul consumo dichiarato di carburante e sulle emissioni specifiche dichiarate di CO2 delle autovetture nuove sono reperibili nella guida sul consumo di carburante e sulle emissioni specifiche delle autovetture nuove, distribuita gratuitamente presso tutti i punti vendita e scaricabile dal sito: .S. isn’t in almost any placement to do this. President Donald Trump has championed his tax cuts, as have many taxpayers, but expending hasn’t slowed down in any way.Typical Mills (GIS) is one of those stocks that could be owned in superior times and terrible. However, need for his or her goods tends to enhance in the course of recessions mostly for the reason that customers will seek out their goods since they trim their enjoyment budgets.This doc could be submitted in lieu of a current Ability of Legal professional. Your signature will both must be notarized or confirmed by two witnesses in order for the document for being valid. You could print the shape by picking this backlink. Recent Washington Citizens with a valid Electric power of Lawyer, Guardianship or Conservatorship:The Dow thirty is really an index which was formulated as a straightforward indicates of tracking U.S. market functionality in an age when details stream was generally minimal. The put together stock cost of these thirty large, publicly-traded corporations decides the Dow Jones Industrial Regular.Diversifying your portfolio with defensive stocks that pay out regularly rising dividends is always a very good approach in instances of financial turmoil.The wire bundles were being so close alongside one another that, in uncommon conditions, they may induce a brief circuit and result in a catastrophic failure.[31] She voted to get a bill that raised profits taxes from 5 cents for every greenback to 6 cents per dollar. The Stock Market Recession bill exempted gross sales tax on unprepared food like canned items. The exact same Monthly bill also exempts residence tax on \"proprietor-occupied residential assets\" except for the taxes due from what is still owed around the residence.[32] Instruction[edit]“We welcome makes an attempt by lawmakers to motivate People to avoid wasting much more for retirement. But the Protected Act, that can allow firms to market perplexing annuity plans with around-sized hidden charges, would put quite a few buyers in peril, and with the mercy of large-pressure sales,\" claimed Scott Puritz, controlling director at Rebalance, which seeks to give traders endowment-quality assistance at decreased Value.Everything you have to empower your workflow and improve your company info administration Earth-Look atBut, in investing what arrives up will go down. Fortunately, recessions don't have being the Dying knell for stocks. In fact, there are lots of stocks that have a heritage of accomplishing nicely even if the overall economy would not.When fascination costs increase also rapid, it may result in corporate The united states pulling back again. Greater desire rates also inhibit customer shelling out—not a giant shock when you concentrate on that 80% of Americans are living paycheck to paycheck.Joachim Snoch wczoraj seventeen:47 Obecnie na świecie trwa już nie tyle sama pandemia koronawirusa, co też kryzys materiałów medycznych związanych z ochroną lekarzy, pielęgniarek, a także tego sprzętu, który potrzebny jest chorym. Leave a Reply Your email address will not be published. Required fields are marked * Name *"^^xsd:string ;
+    schema:datePublished "2020-03-22T02:23:00+02:00"^^xsd:dateTime ;
+    schema:headline "The best Side of Elon Musk"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "http://connervpict.alltdesign.com/the-best-side-of-elon-musk-15356950"^^xsd:anyURI ;
+    schema:wordCount 613 .
+
 ex:97eb003e2a7b74aeb36fa12c5dcc92f8a6c77a59 a schema:NewsArticle ;
     rdfs:label "Meet the \"consumer hunker down\" basket - Blue Apron Holdings, Inc. (NYSE:APRN) | Seeking Alpha"^^xsd:string ;
     ex:dayPublished "22"^^xsd:gDay ;
@@ -572,6 +518,40 @@ lululemon athletica inc., together with its subsidiaries, designs, distributes, 
     schema:inLanguage dbp:English ;
     schema:url "https://www.americanbankingnews.com/2020/03/22/mitsubishi-ufj-trust-banking-corp-decreases-stake-in-lululemon-athletica-inc-nasdaqlulu.html"^^xsd:anyURI ;
     schema:wordCount 829 .
+
+ex:a3a13c826c8ac217403045e79befdb25ceaca8e0 a schema:NewsArticle ;
+    rdfs:label "FDA is Cutting Red Tape for Hand Sanitizer \"Approval\" - Why Is There Red Tape At All? | Science 2.0"^^xsd:string ;
+    ex:dayPublished "22"^^xsd:gDay ;
+    ex:hasEntity dbp:18_Months,
+        dbp:2009_flu_pandemic,
+        dbp:Amazon_rainforest,
+        dbp:Centers_for_Disease_Control_and_Prevention,
+        dbp:Chuck_Schumer,
+        dbp:Coronavirus,
+        dbp:Creative_Commons,
+        dbp:Ebola_virus_disease,
+        dbp:Epinephrine,
+        dbp:Flickr,
+        dbp:Food_and_Drug_Administration,
+        dbp:New_York_City,
+        dbp:Real_People,
+        dbp:SARS_coronavirus,
+        dbp:The_Non-GMO_Project,
+        dbp:United_States_Environmental_Protection_Agency,
+        dbp:Whole_Foods_Market ;
+    ex:monthPublished "03"^^xsd:gMonth ;
+    ex:sectionTitle ""^^xsd:string ;
+    ex:siteCategory "media" ;
+    ex:typeTokenRatio "56.93"^^xsd:float ;
+    ex:uniqueTypes 448 ;
+    ex:yearPublished "2020-01-01"^^xsd:gYear ;
+    schema:articleBody "FDA is streamlining labs to allow independent coronavirus testing after CDC showed they were just as cumbersome and incompetent as I'd worried for years, they're cutting red tape for hand sanitizer \"approval\" , getting treatments to market without 90-day comment periods where activists can insist science is a vast corporate conspiracy.What's going on? Coronavirus , that's what.The one way to show how useless most regulations are is to have a public health crisis you hope would never happen. Last month CDC literally told UC Davis they couldn't have a test to see if a patient had COVID-19 unless they first proved the patient had COVID-19 . When they finally sent tests to states, they were contaminated. How did we ever get convinced that centralized bureaucracy was the best solution to anything? That 1,000 patients in a clinical trial was not enough but 2,000 would be fine? That a change in the color of a label on a drug should require 18 months of regulatory effort? Or that a manufacturing problem in an epinephrine product should mean that the company would have to undergo registration all over again? Why not just create a standard and anyone who meets it can make it, and if they don't they get fines? Flickr, creative commons. Those blockages that prevent innovation now were not determined by public health needs, they were all politics that resulted from political theater. The same politics that led to New York spending $575,000,000 to subsidize a solar panel plant while telling scientists and doctors to create a rationing plan for the coronavirus pandemics the state had narrowly missed in 2003 and 2012 and with H1N1 in 2009. A solar panel plant in a state where it snows five months per year. Instead of buying the 16,000 ventilators experts said the state needed. Now Senator Chuck Schumer tells companies they should have been prepared for this \"rainy day\" - obviously coronavirus can be dismissed as a rainy day only when you're a wealthy politician with the world's best health care and income whether you work or not. Meanwhile, he said nothing when New York was not preparing for the disease outbreak literally everyone knew would come in. In early 2018 a team of us published The Next Plague And How Science Will Stop It (that link is to a free download of the galley, you can buy it on Amazon in print form) because we knew it was coming, it was just as matter of it would be a virus like this or an intentional act.We the public got convinced government was ready for this because things were good. When things get bad, we learn better. People get a lot more skeptical. If you want to find plenty of toilet paper, milk, and eggs today, go to Whole Foods. The minute this coronavirus crisis became real people flocked to normal food and goods. Even in my town, which got a Whole Foods when the store only put them in wealthy liberal neighborhoods, shelves are stocked. Two months ago Non-GMO Project touted how their 67,000 stickers on products led to a healthier world but now they sound absolutely tone-deaf as they continue to market fake hysteria about modern science and health in the presence of a real threat.Those of us inside science policy knew we were unprepared for anything important because we saw partisan bureaucratic creep grind the wheels of discovery and prevention to a halt. Efforts to get government science back to something close to the middle, with efforts to stop \"secret sauce\" in government panel decisions, conflicts of interest inside EPA, or streamlining drug approval so it wasn't just Big Pharma able to afford to bring products to market, We were told the people behind reform ideas hated the public and lives would be lost due to invisible pollution or a dearth of new papers linking some harmless food to some new disease.It was all nonsense, and now the public sees it. So maybe now scientists inside government the political mandate to fix itself.FDA is loosening the stranglehold on hand sanitizer approval because people are making it themselves. That shows you how little government regulatory hammers decided by politicians are needed. A bureaucracy that allows $30 billion in supplement claims and $100 billion in organic food claims that it is \"healthier\" has kept the public from having clean hands .Regulatory reform motivation that may come of this won't last forever, bureaucratic creep is a fungus that only stops growing until times are good again, but the pro-science public should stop complaining about the other political party and demand real reform of the institution itself.More about SARS-CoV-2, the 2019 form of coronavirus, and the COVID-19 disease it causes:"^^xsd:string ;
+    schema:countryOfOrigin dbp:United_States ;
+    schema:datePublished "2020-03-22T02:00:00+02:00"^^xsd:dateTime ;
+    schema:headline "FDA is Cutting Red Tape for Hand Sanitizer \"Approval\" - Why Is There Red Tape At All? | Science 2.0"^^xsd:string ;
+    schema:inLanguage dbp:English ;
+    schema:url "https://www.science20.com/content/fda_is_cutting_red_tape_for_hand_sanitizer_approval_why_is_there_red_tape_at_all"^^xsd:anyURI ;
+    schema:wordCount 787 .
 
 ex:a57642462e92e8b19172b204ddd15393ad9d117b a schema:NewsArticle ;
     rdfs:label "Marshall Wace LLP Purchases Shares of 420,765 Adient PLC (NYSE:ADNT)"^^xsd:string ;
@@ -849,68 +829,29 @@ PTC Inc operates as software and services company in Americas, Europe, and the A
     schema:url "https://www.americanbankingnews.com/2020/03/22/ptc-inc-nasdaqptc-shares-acquired-by-marshall-wace-llp.html"^^xsd:anyURI ;
     schema:wordCount 898 .
 
-ex:fc7a62c78e1d2d8ce888a7cdcfd69bf006432ca7 a schema:NewsArticle ;
-    rdfs:label "Crank up mining royalties on Iron ore, 43636903, page-61 - HotCopper | ASX Share Prices, Stock Market & Share Trading Forum"^^xsd:string ;
+ex:ef441d4e7499921cf3b1edcf17e21137f48a63a6 a schema:NewsArticle ;
+    rdfs:label "India’s stock markets will remain functional"^^xsd:string ;
     ex:dayPublished "22"^^xsd:gDay ;
-    ex:hasEntity dbp:Australian_Taxation_Office,
-        dbp:Australian_dollar,
-        dbp:China,
-        dbp:Donald_Trump,
-        dbp:Microsoft_PowerPoint,
-        dbp:Pssst,
-        dbp:Republic_of_Ireland,
-        dbp:United_States_dollar ;
+    ex:hasEntity dbp:India,
+        dbp:Mumbai,
+        dbp:Wire_Service ;
     ex:monthPublished "03"^^xsd:gMonth ;
-    ex:sectionTitle "Breaking News Forum | HotCopper Forum"^^xsd:string ;
-    ex:siteCategory "finance",
-        "financial_news" ;
-    ex:typeTokenRatio "63.18"^^xsd:float ;
-    ex:uniqueTypes 362 ;
+    ex:sectionTitle "Business/Economy – Canindia News"^^xsd:string ;
+    ex:siteCategory "media" ;
+    ex:typeTokenRatio "69.52"^^xsd:float ;
+    ex:uniqueTypes 73 ;
     ex:yearPublished "2020-01-01"^^xsd:gYear ;
-    schema:articleBody """Originally posted by moorookamick: ↑ Over the past year our AUD has lost 21.5% vs the USD.
-https://www.xe.com/currencycharts/?from=AUD&to=USD&view=1Y
-With the drought, the fires & now the Covid-19 we can expect a dramatic
-reset of the stock market to reflect our impending recession. The lift over the
-past few days is simply a dead cat bounce, IMO.
-I walked along a cafe/resturant strip this evening of about 50-60 businesses and they were virtually empty.
-One owner told me that he had already retrenched three quarters of his staff and he was relying on takeaways
-now to pay the rent.
-The residential hotels a few blocks away were in a similar position to the resturants and cafes ( virtually empty ) offering rooms at 60% discount!
-The supermarkets seem to be the only ones benefiting at present.
-The PM's announcement this PM virtually shut down pubs, clubs, resturants Cafes gyms and your normal discretionary
-spend businesses. This will mean bankrupcy for many , devalue real estate and stun the economy.
-The question is who will pay.? At present we have not had offers from the billionaires who have trippled their wealth since the GFC,
-thanks to generous tax laws and we have had multinationals doubling their revenue in that period also and again treated very leintly
-by the ATO:
-https://www.xe.com/currencycharts/?from=AUD&to=USD&view=1Y
-Its now time that the Government made these multinationals pony-up and pay their fair share of tax at a time when the country is in strife.
-Someone will have to pay for the $180 Billion handout package announced yesterday and unless action is taken now, it will be the unfortunate PAYE
-workers who will have to pay later. This is what happened in Ireland and other European countries post the GFC which did not hit us thanks to China bailing us out with its additional demand for our exports and the accompanying high export prices.
-(Pssst...we're not sending our war ships up through the China Sea now)
-This time will be different, IMO, because China has been gutted already by the virus and the US Tariffs and besides China will want to support its neighbours such as Mongolia, Russis etc.
-Due to our obvious pro Trump stance on China, the Chinese will be very selective this time around when it comes to the supply of raw materials to
-support its own economic recovery, IMO.
-IMO doubling royalties on our Iron Ore & Coal should yield about $8 billion P/A extra State Government income which would just about pay the interest only on the current Government handouts. We are already paying about $20 billion interest on the rest.
-Unlike 2008, we are already loaded with soverign, state, muni, personal & business debts. If we add he lot together we're in the hole for over $7 trillion; 4 times our GDP.
-With massive unemployment imminent, real estate prices are bound to tumble more than 2008/2010 which will put some recent Gen Y home owners under water, IMO.
-When all this blows by this increased Government spending will have to be paid and who better than those who control our valueable mineral resources !
-PS: Gold at present seems to be the best preserver of wealth! Expand Yes it's gloomy
-extent
-no one knows.
-People have to live in buildings
-eat, crap, use water elec and gas
-The government has panicked
-maybe they know something.
-The plug has been pulled from the
-power point.
-jobs, income, security gone."""^^xsd:string ;
-    schema:author "Furpo2"^^xsd:string ;
-    schema:countryOfOrigin dbp:Australia ;
-    schema:datePublished "2020-03-22T17:29:00+02:00"^^xsd:dateTime ;
-    schema:headline "Crank up mining royalties on Iron ore, 43636903, page-61 - HotCopper | ASX Share Prices, Stock Market & Share Trading Forum"^^xsd:string ;
+    schema:articleBody "India’s stock markets will remain functional March 22, 2020 Author: CanIndia New Wire Service Views: 1 Mumbai, March 22 (IANS) India’s key stock markets – NSE and the BSE – will remain functional despite massive lockdown measures being implemented by the authorities across the country to contain the spread of Covid-19. Accordingly, all segments on both the stock markets will operate “as usual on Monday, March 23, 2020”. On Sunday, central and state governments announced wide ranging measures including lockdowns to contain the spread of Covid-19. Last week, market regulator Sebi had announced measures to contain the volatility from eroding massive wealth of investors. –IANS"^^xsd:string ;
+    schema:author "CanIndia New Wire Service"^^xsd:string ;
+    schema:countryOfOrigin dbp:Canada ;
+    schema:datePublished "2020-03-22T16:37:00+02:00"^^xsd:dateTime ;
+    schema:headline "India’s stock markets will remain functional"^^xsd:string ;
     schema:inLanguage dbp:English ;
-    schema:url "https://hotcopper.com.au/threads/crank-up-mining-royalties-on-iron-ore.5297985/?post_id=43636903"^^xsd:anyURI ;
-    schema:wordCount 573 .
+    schema:url "http://www.canindia.com/indias-stock-markets-will-remain-functional/"^^xsd:anyURI ;
+    schema:wordCount 105 .
+
+ex:hasEntity rdfs:domain schema:NewsArticle ;
+    rdfs:range ex:Entity .
 
 <https://dbpedia.org/resource/90_Days_(film)> a dbp:Film,
         dbp:Wikidata,
@@ -976,6 +917,25 @@ jobs, income, security gone."""^^xsd:string ;
         wiki:Q24229398,
         wiki:Q43229 .
 
+dbp:Świecie a dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement,
+        schema:Place,
+        wiki:Q486972 .
+
+dbp:18_Months a dbp:Album,
+        dbp:MusicalWork,
+        dbp:Work,
+        schema:CreativeWork,
+        schema:MusicAlbum,
+        wiki:Q2188189,
+        wiki:Q386724,
+        wiki:Q482994 .
+
+dbp:2009_flu_pandemic a dbp:Disease,
+        wiki:Q12136 .
+
 dbp:A.D._Vision a dbp:Agent,
         dbp:Company,
         dbp:Organisation,
@@ -1008,13 +968,6 @@ dbp:Alabama a dbp:AdministrativeRegion,
         schema:Place,
         wiki:Q3455524 .
 
-dbp:Alexion_Pharmaceuticals a dbp:Agent,
-        dbp:Company,
-        dbp:Organisation,
-        schema:Organization,
-        wiki:Q24229398,
-        wiki:Q43229 .
-
 dbp:Alyssa_Milano a dbp:Agent,
         dbp:Person,
         schema:Person,
@@ -1022,15 +975,17 @@ dbp:Alyssa_Milano a dbp:Agent,
         wiki:Q24229398,
         wiki:Q5 .
 
-dbp:Australian_Taxation_Office a dbp:Agent,
-        dbp:GovernmentAgency,
-        dbp:Organisation,
-        schema:Organization,
-        wiki:Q24229398,
-        wiki:Q327333,
-        wiki:Q43229 .
+dbp:Amazon_rainforest a dbp:Location,
+        dbp:Place,
+        schema:Place .
 
-dbp:Australian_dollar a dbp:Currency .
+dbp:Australia a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        schema:Country,
+        schema:Place,
+        wiki:Q6256 .
 
 dbp:BNP_Paribas a dbp:Agent,
         dbp:Bank,
@@ -1040,6 +995,17 @@ dbp:BNP_Paribas a dbp:Agent,
         schema:Organization,
         wiki:Q24229398,
         wiki:Q43229 .
+
+dbp:Barack_Obama a dbp:Agent,
+        dbp:Person,
+        dbp:Politician,
+        dbp:President,
+        schema:Person,
+        wiki:Q215627,
+        wiki:Q24229398,
+        wiki:Q30461,
+        wiki:Q5,
+        wiki:Q82955 .
 
 dbp:Bertrand_Russell a dbp:Agent,
         dbp:Person,
@@ -1057,6 +1023,14 @@ dbp:Blue_Apron a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
+dbp:Brian_Cowen a dbp:Agent,
+        dbp:OfficeHolder,
+        dbp:Person,
+        schema:Person,
+        wiki:Q215627,
+        wiki:Q24229398,
+        wiki:Q5 .
+
 dbp:Buckingham a dbp:Location,
         dbp:Place,
         dbp:PopulatedPlace,
@@ -1064,12 +1038,11 @@ dbp:Buckingham a dbp:Location,
         schema:Place,
         wiki:Q486972 .
 
-dbp:Busta_Rhymes a dbp:Agent,
-        dbp:Person,
-        schema:Person,
-        wiki:Q215627,
-        wiki:Q24229398,
-        wiki:Q5 .
+dbp:Business_Insider a dbp:Website,
+        dbp:Work,
+        schema:CreativeWork,
+        schema:WebPage,
+        wiki:Q386724 .
 
 dbp:CMS_Energy a dbp:Agent,
         dbp:Company,
@@ -1099,16 +1072,24 @@ dbp:Canaccord_Genuity a dbp:Agent,
 dbp:Cancer a dbp:Disease,
         wiki:Q12136 .
 
-dbp:China a dbp:Country,
-        dbp:Location,
-        dbp:Place,
-        dbp:PopulatedPlace,
-        schema:Country,
-        schema:Place,
-        wiki:Q6256 .
+dbp:Centers_for_Disease_Control_and_Prevention a dbp:Agent,
+        dbp:GovernmentAgency,
+        dbp:Organisation,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q327333,
+        wiki:Q43229 .
 
 dbp:Christmas a dbp:Holiday,
         wiki:Q1445650 .
+
+dbp:Chuck_Schumer a dbp:Agent,
+        dbp:OfficeHolder,
+        dbp:Person,
+        schema:Person,
+        wiki:Q215627,
+        wiki:Q24229398,
+        wiki:Q5 .
 
 dbp:Cintas a dbp:Agent,
         dbp:Company,
@@ -1126,6 +1107,12 @@ dbp:Citizens_Financial_Group a dbp:Agent,
 
 dbp:Clorox a dbp:Agent,
         dbp:Company,
+        dbp:Organisation,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q43229 .
+
+dbp:Creative_Commons a dbp:Agent,
         dbp:Organisation,
         schema:Organization,
         wiki:Q24229398,
@@ -1172,9 +1159,15 @@ dbp:Donald_Trump a dbp:Agent,
         wiki:Q24229398,
         wiki:Q5 .
 
-dbp:Eculizumab a dbp:ChemicalSubstance,
-        dbp:Drug,
-        wiki:Q8386 .
+dbp:Ebola_virus_disease a dbp:Disease,
+        wiki:Q12136 .
+
+dbp:Elon_Musk a dbp:Agent,
+        dbp:Person,
+        schema:Person,
+        wiki:Q215627,
+        wiki:Q24229398,
+        wiki:Q5 .
 
 dbp:Emergent_BioSolutions a dbp:Agent,
         dbp:Company,
@@ -1182,6 +1175,10 @@ dbp:Emergent_BioSolutions a dbp:Agent,
         schema:Organization,
         wiki:Q24229398,
         wiki:Q43229 .
+
+dbp:Epinephrine a dbp:ChemicalSubstance,
+        dbp:Drug,
+        wiki:Q8386 .
 
 dbp:Evercore_Partners a dbp:Agent,
         dbp:Bank,
@@ -1192,11 +1189,41 @@ dbp:Evercore_Partners a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
+dbp:Facebook a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q43229 .
+
 dbp:Family_Dollar a dbp:Agent,
         dbp:Company,
         dbp:Organisation,
         schema:Organization,
         wiki:Q24229398,
+        wiki:Q43229 .
+
+dbp:Fascination_Records a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation,
+        dbp:RecordLabel,
+        schema:Organization,
+        wiki:Q18127,
+        wiki:Q24229398,
+        wiki:Q43229 .
+
+dbp:Flickr a dbp:Website,
+        dbp:Work,
+        schema:CreativeWork,
+        schema:WebPage,
+        wiki:Q386724 .
+
+dbp:Food_and_Drug_Administration a dbp:Agent,
+        dbp:GovernmentAgency,
+        dbp:Organisation,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q327333,
         wiki:Q43229 .
 
 dbp:Franklin_Templeton_Investments a dbp:Agent,
@@ -1224,11 +1251,15 @@ dbp:Free_Democratic_Party_of_Switzerland a dbp:Agent,
         wiki:Q43229,
         wiki:Q7278 .
 
-<https://dbpedia.org/resource/Gap_Inc.> a dbp:Agent,
-        dbp:Company,
+dbp:Furman_University a dbp:Agent,
+        dbp:EducationalInstitution,
         dbp:Organisation,
+        dbp:University,
+        schema:CollegeOrUniversity,
+        schema:EducationalOrganization,
         schema:Organization,
         wiki:Q24229398,
+        wiki:Q3918,
         wiki:Q43229 .
 
 dbp:General_Mills a dbp:Agent,
@@ -1238,14 +1269,13 @@ dbp:General_Mills a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
-dbp:Goldman_Sachs a dbp:Agent,
-        dbp:Bank,
-        dbp:Company,
-        dbp:Organisation,
-        schema:BankOrCreditUnion,
-        schema:Organization,
+dbp:George_Washington a dbp:Agent,
+        dbp:OfficeHolder,
+        dbp:Person,
+        schema:Person,
+        wiki:Q215627,
         wiki:Q24229398,
-        wiki:Q43229 .
+        wiki:Q5 .
 
 dbp:Halloween a dbp:Holiday,
         wiki:Q1445650 .
@@ -1267,13 +1297,6 @@ dbp:Hormel a dbp:Agent,
         wiki:Q43229 .
 
 dbp:House_of_Stuart a dbp:Agent,
-        dbp:Organisation,
-        schema:Organization,
-        wiki:Q24229398,
-        wiki:Q43229 .
-
-dbp:Huntington_Bancshares a dbp:Agent,
-        dbp:Company,
         dbp:Organisation,
         schema:Organization,
         wiki:Q24229398,
@@ -1394,6 +1417,16 @@ dbp:Kroger a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
+dbp:Kryzys a dbp:Agent,
+        dbp:Band,
+        dbp:Group,
+        dbp:Organisation,
+        schema:MusicGroup,
+        schema:Organization,
+        wiki:Q215380,
+        wiki:Q24229398,
+        wiki:Q43229 .
+
 dbp:Lewis_gun a dbp:Device,
         dbp:Weapon,
         schema:Product,
@@ -1458,21 +1491,6 @@ dbp:Mellon_Financial a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
-dbp:MetaBank a dbp:Agent,
-        dbp:Bank,
-        dbp:Company,
-        dbp:Organisation,
-        schema:BankOrCreditUnion,
-        schema:Organization,
-        wiki:Q24229398,
-        wiki:Q43229 .
-
-dbp:Microsoft_PowerPoint a dbp:Software,
-        dbp:Work,
-        schema:CreativeWork,
-        wiki:Q386724,
-        wiki:Q7397 .
-
 dbp:Mitsubishi_Corporation a dbp:Agent,
         dbp:Company,
         dbp:Organisation,
@@ -1489,36 +1507,18 @@ dbp:Mizuho_Financial_Group a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
-dbp:Mumbai a dbp:City,
-        dbp:Location,
-        dbp:Place,
-        dbp:PopulatedPlace,
-        dbp:Settlement,
-        schema:City,
-        schema:Place,
-        wiki:Q486972,
-        wiki:Q515 .
-
-dbp:Myasthenia_gravis a dbp:Disease,
-        wiki:Q12136 .
-
-dbp:National_Party_of_Honduras a dbp:Agent,
+dbp:National_Organization_for_Women a dbp:Agent,
         dbp:Organisation,
-        dbp:PoliticalParty,
         schema:Organization,
         wiki:Q24229398,
-        wiki:Q43229,
-        wiki:Q7278 .
+        wiki:Q43229 .
 
-dbp:New_York_City a dbp:City,
-        dbp:Location,
-        dbp:Place,
-        dbp:PopulatedPlace,
-        dbp:Settlement,
-        schema:City,
-        schema:Place,
-        wiki:Q486972,
-        wiki:Q515 .
+dbp:Netflix a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q43229 .
 
 dbp:Nippon_Life a dbp:Agent,
         dbp:Bank,
@@ -1538,15 +1538,6 @@ dbp:Nomura_Holdings a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
-dbp:PNC_Financial_Services a dbp:Agent,
-        dbp:Bank,
-        dbp:Company,
-        dbp:Organisation,
-        schema:BankOrCreditUnion,
-        schema:Organization,
-        wiki:Q24229398,
-        wiki:Q43229 .
-
 dbp:Parents_Television_Council a dbp:Agent,
         dbp:Non-ProfitOrganisation,
         dbp:Organisation,
@@ -1555,13 +1546,11 @@ dbp:Parents_Television_Council a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
-dbp:Paroxysmal_nocturnal_hemoglobinuria a dbp:Disease,
-        wiki:Q12136 .
-
 dbp:Philippines a dbp:Country,
         dbp:Location,
         dbp:Place,
         dbp:PopulatedPlace,
+        schema:Country,
         schema:Place,
         wiki:Q315,
         wiki:Q6256 .
@@ -1584,21 +1573,25 @@ dbp:Point72_Asset_Management a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
-dbp:Pssst a dbp:Software,
-        dbp:VideoGame,
+dbp:Real_People a dbp:TelevisionShow,
         dbp:Work,
         schema:CreativeWork,
-        wiki:Q386724,
-        wiki:Q7397,
-        wiki:Q7889 .
+        wiki:Q15416,
+        wiki:Q386724 .
 
-dbp:Republic_of_Ireland a dbp:Country,
-        dbp:Location,
-        dbp:Place,
-        dbp:PopulatedPlace,
-        schema:Country,
-        schema:Place,
-        wiki:Q6256 .
+dbp:Reuters a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q43229 .
+
+dbp:Riley_Motor a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q43229 .
 
 dbp:Royal_Army_Medical_Corps a dbp:Agent,
         dbp:MilitaryUnit,
@@ -1607,6 +1600,8 @@ dbp:Royal_Army_Medical_Corps a dbp:Agent,
         wiki:Q176799,
         wiki:Q24229398,
         wiki:Q43229 .
+
+dbp:SARS_coronavirus a dbp:Species .
 
 dbp:SM-65_Atlas a dbp:MeanOfTransportation,
         dbp:Rocket,
@@ -1671,15 +1666,6 @@ dbp:Stokely_Carmichael a dbp:Agent,
         wiki:Q24229398,
         wiki:Q5 .
 
-dbp:SunTrust_Banks a dbp:Agent,
-        dbp:Bank,
-        dbp:Company,
-        dbp:Organisation,
-        schema:BankOrCreditUnion,
-        schema:Organization,
-        wiki:Q24229398,
-        wiki:Q43229 .
-
 dbp:Sustainable_Asset_Management a dbp:Agent,
         dbp:Bank,
         dbp:Company,
@@ -1695,6 +1681,13 @@ dbp:Tamil_Nadu a dbp:Location,
         dbp:Settlement,
         schema:Place,
         wiki:Q486972 .
+
+<https://dbpedia.org/resource/Tele-Communications_Inc.> a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q43229 .
 
 dbp:TheStreet.com a dbp:Agent,
         dbp:Company,
@@ -1716,6 +1709,22 @@ dbp:The_Game_of_Life a dbp:Activity,
         dbp:Game,
         wiki:Q11410,
         wiki:Q1914636 .
+
+dbp:The_Non-GMO_Project a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q43229 .
+
+dbp:UBS a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation,
+        schema:BankOrCreditUnion,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q43229 .
 
 dbp:United_Kingdom a dbp:Country,
         dbp:Location,
@@ -1739,7 +1748,15 @@ dbp:United_Parcel_Service a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
-dbp:United_States_Postal_Service a dbp:Agent,
+dbp:United_States_Congress a dbp:Agent,
+        dbp:Legislature,
+        dbp:Organisation,
+        schema:Organization,
+        wiki:Q11204,
+        wiki:Q24229398,
+        wiki:Q43229 .
+
+dbp:United_States_Environmental_Protection_Agency a dbp:Agent,
         dbp:GovernmentAgency,
         dbp:Organisation,
         schema:Organization,
@@ -1747,11 +1764,12 @@ dbp:United_States_Postal_Service a dbp:Agent,
         wiki:Q327333,
         wiki:Q43229 .
 
-dbp:United_Technologies a dbp:Agent,
-        dbp:Company,
+dbp:United_States_Postal_Service a dbp:Agent,
+        dbp:GovernmentAgency,
         dbp:Organisation,
         schema:Organization,
         wiki:Q24229398,
+        wiki:Q327333,
         wiki:Q43229 .
 
 dbp:University_of_Cambridge a dbp:Agent,
@@ -1810,6 +1828,15 @@ dbp:Uttar_Pradesh a dbp:Location,
         schema:Place,
         wiki:Q486972 .
 
+dbp:Walter_Scott a dbp:Agent,
+        dbp:Person,
+        dbp:Writer,
+        schema:Person,
+        wiki:Q215627,
+        wiki:Q24229398,
+        wiki:Q36180,
+        wiki:Q5 .
+
 dbp:Weimar_Republic a dbp:Country,
         dbp:Location,
         dbp:Place,
@@ -1817,6 +1844,13 @@ dbp:Weimar_Republic a dbp:Country,
         schema:Country,
         schema:Place,
         wiki:Q6256 .
+
+dbp:Whole_Foods_Market a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q43229 .
 
 dbp:William_Makepeace_Thackeray a dbp:Agent,
         dbp:Person,
@@ -1826,6 +1860,12 @@ dbp:William_Makepeace_Thackeray a dbp:Agent,
         wiki:Q24229398,
         wiki:Q36180,
         wiki:Q5 .
+
+dbp:Wire_Service a dbp:TelevisionShow,
+        dbp:Work,
+        schema:CreativeWork,
+        wiki:Q15416,
+        wiki:Q386724 .
 
 dbp:Xilinx a dbp:Agent,
         dbp:Company,
@@ -1843,15 +1883,6 @@ dbp:Zoon a dbp:Album,
         wiki:Q386724,
         wiki:Q482994 .
 
-dbp:Australia a dbp:Country,
-        dbp:Location,
-        dbp:Place,
-        dbp:PopulatedPlace,
-        schema:Country,
-        schema:Place,
-        wiki:Q315,
-        wiki:Q6256 .
-
 dbp:BMO_Capital_Markets a dbp:Agent,
         dbp:Bank,
         dbp:Company,
@@ -1861,13 +1892,14 @@ dbp:BMO_Capital_Markets a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
-dbp:Brian_Cowen a dbp:Agent,
-        dbp:OfficeHolder,
-        dbp:Person,
-        schema:Person,
-        wiki:Q215627,
+dbp:Goldman_Sachs a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation,
+        schema:BankOrCreditUnion,
+        schema:Organization,
         wiki:Q24229398,
-        wiki:Q5 .
+        wiki:Q43229 .
 
 dbp:Harel_Brigade a dbp:Agent,
         dbp:MilitaryUnit,
@@ -1876,15 +1908,6 @@ dbp:Harel_Brigade a dbp:Agent,
         wiki:Q176799,
         wiki:Q24229398,
         wiki:Q43229 .
-
-dbp:India a dbp:Country,
-        dbp:Location,
-        dbp:Place,
-        dbp:PopulatedPlace,
-        schema:Country,
-        schema:Place,
-        wiki:Q315,
-        wiki:Q6256 .
 
 dbp:Latin_America a dbp:Continent,
         dbp:Location,
@@ -1911,12 +1934,25 @@ dbp:Michigan a dbp:AdministrativeRegion,
         schema:Place,
         wiki:Q3455524 .
 
-dbp:Riley_Motor a dbp:Agent,
-        dbp:Company,
-        dbp:Organisation,
-        schema:Organization,
-        wiki:Q24229398,
-        wiki:Q43229 .
+dbp:Mumbai a dbp:City,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement,
+        schema:City,
+        schema:Place,
+        wiki:Q486972,
+        wiki:Q515 .
+
+dbp:New_York_City a dbp:City,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        dbp:Settlement,
+        schema:City,
+        schema:Place,
+        wiki:Q486972,
+        wiki:Q515 .
 
 dbp:South_Korea a dbp:Country,
         dbp:Location,
@@ -1925,22 +1961,6 @@ dbp:South_Korea a dbp:Country,
         schema:Country,
         schema:Place,
         wiki:Q6256 .
-
-<https://dbpedia.org/resource/Tele-Communications_Inc.> a dbp:Agent,
-        dbp:Company,
-        dbp:Organisation,
-        schema:Organization,
-        wiki:Q24229398,
-        wiki:Q43229 .
-
-dbp:UBS a dbp:Agent,
-        dbp:Bank,
-        dbp:Company,
-        dbp:Organisation,
-        schema:BankOrCreditUnion,
-        schema:Organization,
-        wiki:Q24229398,
-        wiki:Q43229 .
 
 dbp:United_States_dollar a dbp:Currency .
 
@@ -1969,7 +1989,21 @@ dbp:Comerica a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
-dbp:Coronavirus a dbp:Species .
+dbp:India a dbp:Country,
+        dbp:Location,
+        dbp:Place,
+        dbp:PopulatedPlace,
+        schema:Country,
+        schema:Place,
+        wiki:Q315,
+        wiki:Q6256 .
+
+dbp:Thomson_Reuters a dbp:Agent,
+        dbp:Company,
+        dbp:Organisation,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q43229 .
 
 dbp:Wells_Fargo a dbp:Agent,
         dbp:Bank,
@@ -1994,22 +2028,27 @@ dbp:Mitsubishi a dbp:Agent,
         wiki:Q24229398,
         wiki:Q43229 .
 
-dbp:Thomson_Reuters a dbp:Agent,
-        dbp:Company,
-        dbp:Organisation,
-        schema:Organization,
-        wiki:Q24229398,
-        wiki:Q43229 .
-
 dbp:Canada a dbp:Country,
         dbp:Location,
         dbp:Place,
         dbp:PopulatedPlace,
         schema:Country,
         schema:Place,
+        wiki:Q315,
         wiki:Q6256 .
 
 dbp:Citigroup a dbp:Agent,
+        dbp:Bank,
+        dbp:Company,
+        dbp:Organisation,
+        schema:BankOrCreditUnion,
+        schema:Organization,
+        wiki:Q24229398,
+        wiki:Q43229 .
+
+dbp:Coronavirus a dbp:Species .
+
+dbp:Credit_Suisse a dbp:Agent,
         dbp:Bank,
         dbp:Company,
         dbp:Organisation,
@@ -2025,15 +2064,6 @@ dbp:European_Union a dbp:Country,
         schema:Country,
         schema:Place,
         wiki:Q6256 .
-
-dbp:Credit_Suisse a dbp:Agent,
-        dbp:Bank,
-        dbp:Company,
-        dbp:Organisation,
-        schema:BankOrCreditUnion,
-        schema:Organization,
-        wiki:Q24229398,
-        wiki:Q43229 .
 
 dbp:Morgan_Stanley a dbp:Agent,
         dbp:Bank,
