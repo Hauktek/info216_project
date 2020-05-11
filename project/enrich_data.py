@@ -22,6 +22,7 @@ from SPARQLWrapper import SPARQLWrapper, POST, DIGEST, RDFXML, JSON
 
 def test():
     print(123)
+    print("test")
 
 
 # namespace = "test"
