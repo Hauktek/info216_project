@@ -130,3 +130,5 @@ dmypy.json
 
 triples.ttl
 testData.json
+blazegraph.jar
+blazegraph.jnl
