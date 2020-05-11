@@ -8,6 +8,7 @@ import requests
 import time
 from time_finder import Finder
 from text_analyzer import Analyzer
+from enrich_data import enrich_data
 
 g = Graph()
 
@@ -21,6 +22,7 @@ g.bind('schema', schema)
 g.bind('dbp', dbp)
 g.bind('foaf', FOAF)
 g.bind('wiki', wiki)
+
 
 # Load the json data from webhose and put it in a variable 
 with open('webhoseData.json', encoding="utf8") as json_file:
@@ -61,6 +63,12 @@ def makeTriples(data):
 
                     #ent_label = ent[1].replace("_"," ")
                     #g.add((URIRef(dbp + obj), RDFS.label, Literal(, datatype=XSD.string)))
+
+                    results = enrich_data(ent[1])
+
+                    for result in results["results"]["bindings"]:
+                        g.add((URIRef(dbp + obj), RDFS.label, Literal(result["label"]["value"], datatype=XSD.string)))
+
 
                     # Iterates through types and creates triples based on the type of types. 
                     types = res["@types"].split(',')

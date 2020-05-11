@@ -5,9 +5,9 @@ from SPARQLWrapper import SPARQLWrapper, POST, DIGEST, RDFXML, JSON
 namespace = "test"
 sparql = SPARQLWrapper("http://10.0.0.6:9999/blazegraph/namespace/"+ namespace + "/sparql")
 
-prefixSchema = "PREFIX schema: <http://schema.org/>"
-prefixExample = "PREFIX ex: <http://example.org/>"
-prefixRdf = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>"
+prefixSchema = "PREFIX schema: <http://schema.org/> "
+prefixExample = "PREFIX ex: <http://example.org/> "
+prefixRdf = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
 
 
 
