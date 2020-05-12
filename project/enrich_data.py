@@ -4,16 +4,31 @@ import urllib
 def enrich_data(entity):
     sparqlDB = SPARQLWrapper("http://dbpedia.org/sparql")
 
-    prefixDBP = "PREFIX dbp: <http://dbpedia.org/resource/> "
-    prefixDBO = "PREFIX dbo: <http://dbpedia.org/ontology/> "
+    prefixDBR = "PREFIX dbr: <http://dbpedia.org/resource/> "
     prefixRDFS = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "
+    prefixDCT = "PREFIX dct: <http://purl.org/dc/terms/> "
+    prefixDBO = "PREFIX dbo: <http://dbpedia.org/ontology/> "
+    prefixDBP = "PREFIX dbp: <http://dbpedia.org/property/>"
 
     ent = urllib.parse.quote(entity)
     ent = ent.replace(".","%2E")
 
-    queryString = prefixDBP + prefixRDFS + ' SELECT ?label WHERE { dbp:' + ent + ' rdfs:label ?label. FILTER (langMatches(lang(?label),"en")) }'
-
-    sparqlDB.setQuery(queryString)
+    sparqlDB.setQuery("""
+    PREFIX dbr: <http://dbpedia.org/resource/>
+    PREFIX dbo: <http://dbpedia.org/ontology/>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    PREFIX dct: <http://purl.org/dc/terms/>
+    SELECT ?label ?comment ?description
+    WHERE { dbr:""" 
+    + ent + 
+    """ rdfs:label ?label;
+    rdfs:comment ?comment;
+    dct:description ?description.
+    FILTER (langMatches(lang(?label),"en"))
+    FILTER (langMatches(lang(?description),"en"))
+    FILTER (langMatches(lang(?comment),"en"))
+    }
+    """)
 
     sparqlDB.setReturnFormat(JSON)
     results = sparqlDB.query().convert()
@@ -21,54 +36,3 @@ def enrich_data(entity):
     return results
 
 
-
-
-
-
-
-
-
-
-
-
-# sparqlDB = SPARQLWrapper("http://dbpedia.org/sparql")
-
-# sparqlDB.setQuery("""
-#     PREFIX dbp: <http://dbpedia.org/resource/>
-#     PREFIX dbo: <http://dbpedia.org/ontology/>
-#     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-#     SELECT ?comment
-#     WHERE {
-#     dbp:Barack_Obama rdfs:label ?comment.
-#     FILTER (langMatches(lang(?comment),"en"))
-#     }
-# """)
-
-
-
-
-
-
-# sparqlDB.setReturnFormat(JSON)
-# results = sparqlDB.query().convert()
-
-# for result in results["results"]["bindings"]:
-#     print(result["comment"]["value"])
-
-
-
-# namespace = "test"
-# sparql = SPARQLWrapper("http://10.0.0.6:9999/blazegraph/namespace/"+ namespace + "/sparql")
-
-# sparql.setMethod(POST)
-
-# sparql.setQuery("""
-#     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-#     PREFIX dbp: <http://dbpedia.org/resource/>
-#     INSERT DATA{
-#     dbp:Barack_Obama rdfs:label "Barack Obama".
-#     }
-# """)
-
-# results = sparql.query()
-# print(results.response.read())

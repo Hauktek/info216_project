@@ -14,14 +14,16 @@ g = Graph()
 
 ex = Namespace('http://example.org/')
 schema = Namespace('https://schema.org/')
-dbp = Namespace('https://dbpedia.org/resource/')
+dbr = Namespace('http://dbpedia.org/resource/')
 wiki = Namespace('https://www.wikidata.org/wiki/')
+dct = Namespace('http://purl.org/dc/terms/')
 
 g.bind('ex', ex)
 g.bind('schema', schema)
-g.bind('dbp', dbp)
+g.bind('dbr', dbr)
 g.bind('foaf', FOAF)
 g.bind('wiki', wiki)
+g.bind('dct', dct)
 
 
 # Load the json data from webhose and put it in a variable 
@@ -42,6 +44,8 @@ def makeTriples(data):
     g.add((ex.hasEntity, RDFS.range, ex.Entity))
     g.add((ex.hasEntity, RDFS.domain, schema.NewsArticle))
 
+    entities = []
+
     # Iterates through each article data and set up time and text analyzers, and makes an API call to dbpedia spotlight
     for article in data['posts']:
         thread = article['thread']
@@ -59,15 +63,16 @@ def makeTriples(data):
                     # Parses the dbpedia resource to a string with valid characters and adds it an object
                     ent = res["@URI"].split('/resource/')
                     obj = urllib.parse.quote(ent[1])
-                    g.add((URIRef(ex + subject), ex.hasEntity, URIRef(dbp + obj)))
+                    g.add((URIRef(ex + subject), ex.hasEntity, URIRef(dbr + obj)))
 
-                    #ent_label = ent[1].replace("_"," ")
-                    #g.add((URIRef(dbp + obj), RDFS.label, Literal(, datatype=XSD.string)))
 
-                    results = enrich_data(ent[1])
-
-                    for result in results["results"]["bindings"]:
-                        g.add((URIRef(dbp + obj), RDFS.label, Literal(result["label"]["value"], datatype=XSD.string)))
+                    if ent[1] not in entities: 
+                        entities.append(ent[1])
+                        results = enrich_data(ent[1])
+                        for result in results["results"]["bindings"]:
+                            g.add((URIRef(dbr + obj), RDFS.label, Literal(result["label"]["value"], datatype=XSD.string)))
+                            g.add((URIRef(dbr + obj), RDFS.comment, Literal(result["comment"]["value"], datatype=XSD.string)))
+                            g.add((URIRef(dbr + obj), dct.description, Literal(result["description"]["value"], datatype=XSD.string)))
 
 
                     # Iterates through types and creates triples based on the type of types. 
@@ -75,11 +80,11 @@ def makeTriples(data):
                     for t in types:
                         t_split = t.split(':')
                         if t_split[0] == 'DBpedia':
-                            g.add((URIRef(dbp + str(ent[1])), RDF.type, URIRef(dbp + t_split[1])))
+                            g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(dbr + t_split[1])))
                         if t_split[0] == 'Wikidata':
-                            g.add((URIRef(dbp + str(ent[1])), RDF.type, URIRef(wiki + t_split[1])))
+                            g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(wiki + t_split[1])))
                         if t_split[0] == 'Schema':
-                            g.add((URIRef(dbp + str(ent[1])), RDF.type, URIRef(schema + t_split[1])))
+                            g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(schema + t_split[1])))
 
                     # Uses the metadata provided from webhose to create triples 
                     g.add((URIRef(ex + subject), RDF.type, schema.NewsArticle))
@@ -107,23 +112,23 @@ def makeTriples(data):
                     if thread['country'] != '':
                         country = pycountry.countries.get(alpha_2=thread['country'])
                         country = country.name.replace(" ", "_")
-                        g.add((URIRef(ex + subject), schema.countryOfOrigin, URIRef(dbp + country)))
-                        g.add((URIRef(dbp + country), RDF.type, dbp.PopulatedPlace))
-                        g.add((URIRef(dbp + country), RDF.type, dbp.Place))
-                        g.add((URIRef(dbp + country), RDF.type, dbp.Location))
-                        g.add((URIRef(dbp + country), RDF.type, dbp.Country))
-                        g.add((URIRef(dbp + country), RDF.type, wiki.Q6256))
-                        g.add((URIRef(dbp + country), RDF.type, wiki.Q315))
-                        g.add((URIRef(dbp + country), RDF.type, schema.Place))
-                        g.add((URIRef(dbp + country), RDF.type, schema.Country))
+                        g.add((URIRef(ex + subject), schema.countryOfOrigin, URIRef(dbr + country)))
+                        g.add((URIRef(dbr + country), RDF.type, dbr.PopulatedPlace))
+                        g.add((URIRef(dbr + country), RDF.type, dbr.Place))
+                        g.add((URIRef(dbr + country), RDF.type, dbr.Location))
+                        g.add((URIRef(dbr + country), RDF.type, dbr.Country))
+                        g.add((URIRef(dbr + country), RDF.type, wiki.Q6256))
+                        g.add((URIRef(dbr + country), RDF.type, wiki.Q315))
+                        g.add((URIRef(dbr + country), RDF.type, schema.Place))
+                        g.add((URIRef(dbr + country), RDF.type, schema.Country))
 
                     if article['language'] != '':
                         language = article['language'].capitalize()
-                        g.add((URIRef(dbp + language), RDF.type, dbp.Language))
-                        g.add((URIRef(ex + subject), schema.inLanguage, URIRef(dbp + language)))    
-                        g.add((URIRef(dbp + language), RDF.type, wiki.Q34770))
-                        g.add((URIRef(dbp + language), RDF.type, wiki.Q315))
-                        g.add((URIRef(dbp + language), RDF.type, schema.Language))
+                        g.add((URIRef(dbr + language), RDF.type, dbr.Language))
+                        g.add((URIRef(ex + subject), schema.inLanguage, URIRef(dbr + language)))    
+                        g.add((URIRef(dbr + language), RDF.type, wiki.Q34770))
+                        g.add((URIRef(dbr + language), RDF.type, wiki.Q315))
+                        g.add((URIRef(dbr + language), RDF.type, schema.Language))
 
                     # Creates triples of the date and shows that it is possible to manipulate data to find more exact triples. (can be expanded to day/month names and more)
                     g.add((URIRef(ex + subject), schema.datePublished, Literal(thread['published'], datatype=XSD.dateTime)))
