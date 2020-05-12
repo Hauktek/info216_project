@@ -2,7 +2,7 @@ from SPARQLWrapper import SPARQLWrapper, POST, DIGEST, RDFXML, JSON
 
 #java -server -Xmx4g -jar blazegraph.jar
 
-namespace = "test"
+namespace = "kb"
 sparql = SPARQLWrapper("http://10.0.0.6:9999/blazegraph/namespace/"+ namespace + "/sparql")
 
 prefixSchema = "PREFIX schema: <http://schema.org/> "
