@@ -5,7 +5,6 @@ import json
 import pycountry
 import urllib
 import requests
-import time
 from time_finder import Finder
 from text_analyzer import Analyzer
 from enrich_data import enrich_data
@@ -70,10 +69,13 @@ def makeTriples(data):
                         entities.append(ent[1])
                         results = enrich_data(ent[1])
                         for result in results["results"]["bindings"]:
-                            g.add((URIRef(dbr + obj), RDFS.label, Literal(result["label"]["value"], datatype=XSD.string)))
-                            g.add((URIRef(dbr + obj), RDFS.comment, Literal(result["comment"]["value"], datatype=XSD.string)))
-                            g.add((URIRef(dbr + obj), dct.description, Literal(result["description"]["value"], datatype=XSD.string)))
-
+                            if 'label' in result:
+                                g.add((URIRef(dbr + obj), RDFS.label, Literal(result["label"]["value"], datatype=XSD.string)))
+                            if 'comment' in result:
+                                g.add((URIRef(dbr + obj), RDFS.comment, Literal(result["comment"]["value"], datatype=XSD.string)))
+                            if 'description' in result:
+                                g.add((URIRef(dbr + obj), dct.description, Literal(result["description"]["value"], datatype=XSD.string)))
+            
 
                     # Iterates through types and creates triples based on the type of types. 
                     types = res["@types"].split(',')

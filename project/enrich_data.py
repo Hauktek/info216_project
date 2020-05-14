@@ -14,21 +14,16 @@ def enrich_data(entity):
     ent = ent.replace(".","%2E")
 
     sparqlDB.setQuery("""
-    PREFIX dbr: <http://dbpedia.org/resource/>
-    PREFIX dbo: <http://dbpedia.org/ontology/>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX dct: <http://purl.org/dc/terms/>
-    SELECT ?label ?comment ?description
-    WHERE { dbr:""" 
-    + ent + 
-    """ rdfs:label ?label;
-    rdfs:comment ?comment;
-    dct:description ?description.
-    FILTER (langMatches(lang(?label),"en"))
-    FILTER (langMatches(lang(?description),"en"))
-    FILTER (langMatches(lang(?comment),"en"))
-    }
-    """)
+        PREFIX dbr: <http://dbpedia.org/resource/>
+        PREFIX dbo: <http://dbpedia.org/ontology/>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX dct: <http://purl.org/dc/terms/>
+        SELECT ?label ?comment ?description
+        WHERE { 
+        OPTIONAL {dbr:""" + ent + """ rdfs:label ?label. FILTER (langMatches(lang(?label),"en"))}
+        OPTIONAL {dbr:""" + ent + """ rdfs:comment ?comment. FILTER (langMatches(lang(?comment),"en"))}
+        OPTIONAL {dbr:""" + ent + """ dct:description ?description. FILTER (langMatches(lang(?description),"en"))}
+        }""")
 
     sparqlDB.setReturnFormat(JSON)
     results = sparqlDB.query().convert()
