@@ -9,7 +9,11 @@ prefixDCT = "PREFIX dct: <http://purl.org/dc/terms/> "
 prefixDBO = "PREFIX dbo: <http://dbpedia.org/ontology/> "
 prefixDBP = "PREFIX dbp: <http://dbpedia.org/property/>"
 
-def test():
+
+# Find article headline, author, country of origin and word count, filter to find those with over 500 words and display in ascending order. 
+def find_by_wordcount(wordcount):
+    
+
     sparql.setQuery("""
         PREFIX schema: <https://schema.org/>
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -19,7 +23,7 @@ def test():
                schema:headline ?headline;
                schema:author ?author;
                schema:countryOfOrigin ?country.
-        FILTER (?wordCount > "500"^^xsd:integer) 
+        FILTER (?wordCount > '""" + wordcount + """'^^xsd:integer) 
         SERVICE <http://dbpedia.org/sparql> {
             ?country rdfs:label ?countryOfOrigin.
             FILTER (langMatches(lang(?countryOfOrigin),"en"))}
@@ -49,7 +53,7 @@ def test2():
             ex:hasEntity ?entity.
         ?entity rdfs:label ?entityLabel;
                 OPTIONAL{?entity dct:description ?description.}
-        } ORDER BY ASC(?headline) LIMIT 10
+        } ORDER BY ASC(?headline) 
         """)
 
     sparql.setReturnFormat(JSON)
@@ -70,31 +74,15 @@ def test2():
         
 
 
-def test3():
-    sparql.setQuery("""
-        PREFIX schema: <https://schema.org/>
-        SELECT DISTINCT ?wordCount ?headline ?author ?countryOfOrigin 
-        WHERE {
-            ?s schema:wordCount ?wordCount;
-               schema:headline ?headline;
-               schema:author ?author;
-               schema:countryOfOrigin ?country.
-        FILTER (?wordCount > "500"^^xsd:integer) 
-        SERVICE <http://dbpedia.org/sparql> {
-            ?country rdfs:label ?countryOfOrigin.
-            FILTER (langMatches(lang(?countryOfOrigin),"en"))}
-        }ORDER BY ASC(?wordCount)""")
 
-    sparql.setReturnFormat(JSON)
-    results = sparql.query().convert()
 
-    for result in results["results"]["bindings"]:
-        print('------------------------------')
-        print("Number of words in article: " + result["wordCount"]["value"])
-        print("Headline: " + result["headline"]["value"])
-        print("Author: " + result["author"]["value"])
-        print("Country of origin: " + result["countryOfOrigin"]["value"])
-        print('------------------------------')
+
+
+
+
+
+
+
 
 
 
@@ -198,4 +186,3 @@ def test3():
 
 
 
-test2()

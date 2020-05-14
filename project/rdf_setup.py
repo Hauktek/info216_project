@@ -7,7 +7,8 @@ import urllib
 import requests
 from time_finder import Finder
 from text_analyzer import Analyzer
-from enrich import enrich_data, find_types
+from enrich_data import find_data
+from blaze_setup import blaze_uploader
 
 g = Graph()
 
@@ -38,12 +39,12 @@ def spotlightCall(text):
 
 # A fuction for creating triples from data and adding them to a graph
 # Takes one argument of data 
-def makeTriples(data):
+def graph_setup(data):
     g.add((ex.Entity, RDF.type, RDFS.Class))
     g.add((ex.hasEntity, RDFS.range, ex.Entity))
     g.add((ex.hasEntity, RDFS.domain, schema.NewsArticle))
 
-    entities = []
+    entityData = []
 
     # Iterates through each article data and set up time and text analyzers, and makes an API call to dbpedia spotlight
     for article in data['posts']:
@@ -59,28 +60,26 @@ def makeTriples(data):
             for res in response.json()["Resources"]:
                 # Checks if the resource have @types to find out if it is a valid resource
                 if res["@types"]:
-                    # Parses the dbpedia resource to a string with valid characters and adds it an object
+                    # Parses the dbpedia resource to a string with valid characters and adds it as an object
                     ent = res["@URI"].split('/resource/')
                     obj = urllib.parse.quote(ent[1])
                     g.add((URIRef(ex + subject), ex.hasEntity, URIRef(dbr + obj)))
 
-
-                    if ent[1] not in entities: 
-                        entities.append(ent[1])
-                        results = enrich_data(ent[1])
+                    # If entity-data not already added to the graph, "enrich_data.py" queries dbpedia and retrieves entity-types, label, comment and description.  
+                    if ent[1] not in entityData: 
+                        entityData.append(ent[1])
+                        results = find_data(ent[1])
                         for result in results["results"]["bindings"]:
+                            if 'http://dbpedia.org/ontology/' in result['type']['value']:
+                                dbType = result['type']['value'].split('http://dbpedia.org/ontology/')
+                                g.add((URIRef(dbr + obj), RDF.type, URIRef(dbr + dbType[1])))
                             if 'label' in result:
                                 g.add((URIRef(dbr + obj), RDFS.label, Literal(result["label"]["value"], datatype=XSD.string)))
                             if 'comment' in result:
                                 g.add((URIRef(dbr + obj), RDFS.comment, Literal(result["comment"]["value"], datatype=XSD.string)))
                             if 'description' in result:
                                 g.add((URIRef(dbr + obj), dct.description, Literal(result["description"]["value"], datatype=XSD.string)))
-
-                        res = find_types(ent[1])
-                        for resul in res["results"]["bindings"]:
-                            if 'http://dbpedia.org/ontology/' in resul['x']['value']:
-                                i = resul['x']['value'].split('http://dbpedia.org/ontology/')
-                                g.add((URIRef(dbr + obj), RDF.type, URIRef(dbr + i[1])))
+                        
             
 
                     # Iterates through types and creates triples based on the type of types. 
@@ -94,7 +93,8 @@ def makeTriples(data):
                     #     if t_split[0] == 'Schema':
                     #         g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(schema + t_split[1])))
 
-                    # Uses the metadata provided from webhose to create triples 
+
+                    # Uses the metadata provided from webhose to create triples
                     g.add((URIRef(ex + subject), RDF.type, schema.NewsArticle))
 
                     if thread['title_full'] != '':
@@ -151,11 +151,14 @@ def makeTriples(data):
 
 
 
-# Run the function to make triples from json data
-makeTriples(data)
+# Run the function to set up the graph with triples from json data
+graph_setup(data)
 
 # Prints the graph in turtle format
 print(g.serialize(format="turtle").decode())
 
 # Write the graph to a file in turtle format 
 g.serialize(destination="triples.ttl", format="turtle")   
+
+# Upload the turtle file to blazegraph
+blaze_uploader()
