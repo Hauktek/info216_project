@@ -4,12 +4,6 @@ import urllib
 def enrich_data(entity):
     sparqlDB = SPARQLWrapper("http://dbpedia.org/sparql")
 
-    prefixDBR = "PREFIX dbr: <http://dbpedia.org/resource/> "
-    prefixRDFS = "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "
-    prefixDCT = "PREFIX dct: <http://purl.org/dc/terms/> "
-    prefixDBO = "PREFIX dbo: <http://dbpedia.org/ontology/> "
-    prefixDBP = "PREFIX dbp: <http://dbpedia.org/property/>"
-
     ent = urllib.parse.quote(entity)
     ent = ent.replace(".","%2E")
 
@@ -31,3 +25,24 @@ def enrich_data(entity):
     return results
 
 
+
+def find_types(entity):
+    sparqlDB = SPARQLWrapper("http://dbpedia.org/sparql")
+
+    ent = urllib.parse.quote(entity)
+    ent = ent.replace(".","%2E")
+
+    sparqlDB.setQuery("""
+        PREFIX dbr: <http://dbpedia.org/resource/>
+        PREFIX dbo: <http://dbpedia.org/ontology/>
+        PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+        PREFIX dct: <http://purl.org/dc/terms/>
+        SELECT ?x
+        WHERE { dbr:""" + ent + """ a ?x.
+        
+        }""")
+
+    sparqlDB.setReturnFormat(JSON)
+    results = sparqlDB.query().convert()
+
+    return results

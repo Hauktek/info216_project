@@ -7,7 +7,7 @@ import urllib
 import requests
 from time_finder import Finder
 from text_analyzer import Analyzer
-from enrich_data import enrich_data
+from enrich import enrich_data, find_types
 
 g = Graph()
 
@@ -75,18 +75,24 @@ def makeTriples(data):
                                 g.add((URIRef(dbr + obj), RDFS.comment, Literal(result["comment"]["value"], datatype=XSD.string)))
                             if 'description' in result:
                                 g.add((URIRef(dbr + obj), dct.description, Literal(result["description"]["value"], datatype=XSD.string)))
+
+                        res = find_types(ent[1])
+                        for resul in res["results"]["bindings"]:
+                            if 'http://dbpedia.org/ontology/' in resul['x']['value']:
+                                i = resul['x']['value'].split('http://dbpedia.org/ontology/')
+                                g.add((URIRef(dbr + obj), RDF.type, URIRef(dbr + i[1])))
             
 
                     # Iterates through types and creates triples based on the type of types. 
-                    types = res["@types"].split(',')
-                    for t in types:
-                        t_split = t.split(':')
-                        if t_split[0] == 'DBpedia':
-                            g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(dbr + t_split[1])))
-                        if t_split[0] == 'Wikidata':
-                            g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(wiki + t_split[1])))
-                        if t_split[0] == 'Schema':
-                            g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(schema + t_split[1])))
+                    # types = res["@types"].split(',')
+                    # for t in types:
+                    #     t_split = t.split(':')
+                    #     if t_split[0] == 'DBpedia':
+                    #         g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(dbr + t_split[1])))
+                    #     if t_split[0] == 'Wikidata':
+                    #         g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(wiki + t_split[1])))
+                    #     if t_split[0] == 'Schema':
+                    #         g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(schema + t_split[1])))
 
                     # Uses the metadata provided from webhose to create triples 
                     g.add((URIRef(ex + subject), RDF.type, schema.NewsArticle))
