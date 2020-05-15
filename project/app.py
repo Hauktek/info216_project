@@ -1,4 +1,4 @@
-from queries import test2, find_by_wordcount
+from queries import find_article_entities, find_by_wordcount, find_person_gender
 
 
 def app():
@@ -16,7 +16,7 @@ def app():
 
     if(user_input == "1"):
         print("Running program 1")
-        test2()
+        find_article_entities()
 
     if(user_input == "2"):
         print("Running program 2")
@@ -28,7 +28,7 @@ def app():
 
     if(user_input == "3"):
         print("Running program 3")
-
+        find_person_gender()
     if(user_input == "4"):
         print("Running program 4")
 

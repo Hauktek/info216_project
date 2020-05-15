@@ -1,5 +1,5 @@
 from rdflib import Graph, Namespace, Literal, URIRef, BNode
-from rdflib.namespace import RDF, FOAF, XSD, RDFS
+from rdflib.namespace import RDF, XSD, RDFS
 from rdflib.collection import Collection
 import json
 import pycountry
@@ -17,11 +17,12 @@ schema = Namespace('https://schema.org/')
 dbr = Namespace('http://dbpedia.org/resource/')
 wiki = Namespace('https://www.wikidata.org/wiki/')
 dct = Namespace('http://purl.org/dc/terms/')
+foaf = Namespace('http://xmlns.com/foaf/0.1/')
 
 g.bind('ex', ex)
 g.bind('schema', schema)
 g.bind('dbr', dbr)
-g.bind('foaf', FOAF)
+g.bind('foaf', foaf)
 g.bind('wiki', wiki)
 g.bind('dct', dct)
 
@@ -73,6 +74,9 @@ def graph_setup(data):
                             if 'http://dbpedia.org/ontology/' in result['type']['value']:
                                 dbType = result['type']['value'].split('http://dbpedia.org/ontology/')
                                 g.add((URIRef(dbr + obj), RDF.type, URIRef(dbr + dbType[1])))
+                            if 'http://xmlns.com/foaf/0.1/' in result['type']['value']:
+                                foafType = result['type']['value'].split('http://xmlns.com/foaf/0.1/')
+                                g.add((URIRef(dbr + obj), RDF.type, URIRef(foaf + foafType[1])))
                             if 'label' in result:
                                 g.add((URIRef(dbr + obj), RDFS.label, Literal(result["label"]["value"], datatype=XSD.string)))
                             if 'comment' in result:
