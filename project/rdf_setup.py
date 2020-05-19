@@ -1,17 +1,16 @@
-from rdflib import Graph, Namespace, Literal, URIRef, BNode
+from rdflib import Graph, Namespace, Literal, URIRef
 from rdflib.namespace import RDF, XSD, RDFS
 from rdflib.collection import Collection
 import json
 import pycountry
 import urllib
 import requests
-from time_finder import Finder
-from text_analyzer import Analyzer
 from enrich_data import find_data
 from blaze_setup import blaze_uploader
 
 g = Graph()
 
+# Declaration of namespaces
 ex = Namespace('http://example.org/')
 schema = Namespace('https://schema.org/')
 dbr = Namespace('http://dbpedia.org/resource/')
@@ -19,13 +18,13 @@ wiki = Namespace('https://www.wikidata.org/wiki/')
 dct = Namespace('http://purl.org/dc/terms/')
 foaf = Namespace('http://xmlns.com/foaf/0.1/')
 
+# Binding of namespaces to prefixes
 g.bind('ex', ex)
 g.bind('schema', schema)
 g.bind('dbr', dbr)
 g.bind('foaf', foaf)
 g.bind('wiki', wiki)
 g.bind('dct', dct)
-
 
 # Load the json data from webhose and put it in a variable 
 with open('webhoseData.json', encoding="utf8") as json_file:
@@ -47,13 +46,11 @@ def graph_setup(data):
 
     entityData = []
 
-    # Iterates through each article data and set up time and text analyzers, and makes an API call to dbpedia spotlight
+    # Iterates through each article data, makes an API call to dbpedia spotlight for entity extraction and creates triples from the metadata and entities.
     for article in data['posts']:
         thread = article['thread']
         subject = article['uuid']
 
-        timeFinder = Finder(thread['published'])
-        textAnalyzer = Analyzer(article['text'])
         response = spotlightCall(article['text'])
         
         # If the API request is ok, then it makes triples out of entities and metadata
@@ -84,40 +81,23 @@ def graph_setup(data):
                             if 'description' in result:
                                 g.add((URIRef(dbr + obj), dct.description, Literal(result["description"]["value"], datatype=XSD.string)))
                         
-            
-
-                    # Iterates through types and creates triples based on the type of types. 
-                    # types = res["@types"].split(',')
-                    # for t in types:
-                    #     t_split = t.split(':')
-                    #     if t_split[0] == 'DBpedia':
-                    #         g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(dbr + t_split[1])))
-                    #     if t_split[0] == 'Wikidata':
-                    #         g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(wiki + t_split[1])))
-                    #     if t_split[0] == 'Schema':
-                    #         g.add((URIRef(dbr + str(ent[1])), RDF.type, URIRef(schema + t_split[1])))
-
-
                     # Uses the metadata provided from webhose to create triples
                     g.add((URIRef(ex + subject), RDF.type, schema.NewsArticle))
 
-                    if thread['title_full'] != '':
-                        g.add((URIRef(ex + subject), RDFS.label, Literal(thread['title_full'], datatype=XSD.string)))
-            
-                    g.add((URIRef(ex + subject), schema.url, Literal(thread['url'], datatype=XSD.anyURI)))
+                    g.add((URIRef(ex + subject), RDFS.label, Literal(thread['title_full'], datatype=XSD.string)))
 
-                    if article['author'] != '':
-                        g.add((URIRef(ex + subject), schema.author, Literal(article['author'], datatype=XSD.string)))
-                    
-                    if thread['title_full'] != '':
-                        g.add((URIRef(ex + subject), schema.headline, Literal(thread['title_full'], datatype=XSD.string)))
+                    g.add((URIRef(ex + subject), schema.headline, Literal(thread['title_full'], datatype=XSD.string)))     
+
+                    g.add((URIRef(ex + subject), schema.url, Literal(thread['url'], datatype=XSD.anyURI)))                  
 
                     g.add((URIRef(ex + subject), schema.articleBody, Literal(article['text'], datatype=XSD.string)))
 
-                    for category in thread['site_categories']:
-                        g.add((URIRef(ex + subject), ex.siteCategory, Literal(category)))
-                    
-                    g.add((URIRef(ex + subject), ex.sectionTitle, Literal(thread['section_title'], datatype=XSD.string)))
+                    g.add((URIRef(ex + subject), schema.datePublished, Literal(thread['published'], datatype=XSD.dateTime)))
+
+                    g.add((URIRef(ex + subject), schema.wordCount, Literal(len(article['text'].split()), datatype=XSD.integer)))
+
+                    if article['author'] != '':
+                        g.add((URIRef(ex + subject), schema.author, Literal(article['author'], datatype=XSD.string))) 
                     
                     # Creates triples with dbpedia resource out of country and language metadata by manipulating the data.
                     # This wont always create a valid resource. 
@@ -140,19 +120,7 @@ def graph_setup(data):
                         g.add((URIRef(ex + subject), schema.inLanguage, URIRef(dbr + language)))    
                         g.add((URIRef(dbr + language), RDF.type, wiki.Q34770))
                         g.add((URIRef(dbr + language), RDF.type, wiki.Q315))
-                        g.add((URIRef(dbr + language), RDF.type, schema.Language))
-
-                    # Creates triples of the date and shows that it is possible to manipulate data to find more exact triples. (can be expanded to day/month names and more)
-                    g.add((URIRef(ex + subject), schema.datePublished, Literal(thread['published'], datatype=XSD.dateTime)))
-                    g.add((URIRef(ex + subject), ex.yearPublished, Literal(timeFinder.findYear(), datatype=XSD.gYear)))
-                    g.add((URIRef(ex + subject), ex.monthPublished, Literal(timeFinder.findMonth(), datatype=XSD.gMonth)))
-                    g.add((URIRef(ex + subject), ex.dayPublished, Literal(timeFinder.findDay(), datatype=XSD.gDay)))
-
-                    # Creates triples from manipulation of the text tokens. Shows the possibility of creation of extra data. (can be expanded to other lexical properties)
-                    g.add((URIRef(ex + subject), schema.wordCount, Literal(textAnalyzer.findWordCount(), datatype=XSD.integer)))
-                    g.add((URIRef(ex + subject), ex.uniqueTypes, Literal(textAnalyzer.findUniqueTypes(), datatype=XSD.integer)))
-                    g.add((URIRef(ex + subject), ex.typeTokenRatio, Literal(textAnalyzer.findTypeTokenRatio(), datatype=XSD.float)))
-
+                        g.add((URIRef(dbr + language), RDF.type, schema.Language))     
 
 
 # Run the function to set up the graph with triples from json data
